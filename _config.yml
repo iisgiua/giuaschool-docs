@@ -1,1 +1,14 @@
 remote_theme: pmarsceill/just-the-docs
+title: giua@school
+description: "Il Registro Elettronico open source dell'I.I.S. Michele Giua"
+lang: it
+url: "https://trinko.github.io" 
+baseurl: "/giuaschool-docs"
+
+
+logo: "/assets/images/just-the-docs.png"
+aux_links:
+  "Just the Docs on GitHub":
+    - "//github.com/pmarsceill/just-the-docs"
+aux_links_new_tab: false
+
