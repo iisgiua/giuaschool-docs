@@ -11,4 +11,7 @@ testo
 
 {% comment %}
   personalizzare template, codice, altro
+  spid
+  google e provisioning
+  cron per notifiche
 {% endcomment %}
