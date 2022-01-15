@@ -8,3 +8,11 @@ nav_order: 1
 {: .text-center .fw-400}
 
 testo
+
+{% comment %}
+    presentazione
+    link a versione e build
+    link a issue e discussion e pull
+    link regole
+    disclaimer
+{% endcomment %}
