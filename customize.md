@@ -10,5 +10,7 @@ nav_order: 5
 testo
 
 {% comment %}
+  config da amministratore
+  caricare dati csv
   personalizzare template, codice, altro
 {% endcomment %}
