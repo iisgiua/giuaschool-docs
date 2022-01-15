@@ -4,6 +4,6 @@ nav_order: 1
 ---
 
 # titolo
-{: .text-center .fs-400}
+{: .text-center .fw-400}
 
 testo
