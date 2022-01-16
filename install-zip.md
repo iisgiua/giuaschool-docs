@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Installazione
-nav_order: 3
-has_children: true
+title: Archivio zip
+parent: Installazione
+nav_order: 1
 ---
 
-# titolo
+# Installazione dall'archivio compresso con ZIP
 {: .text-center .fw-400}
 
 testo
@@ -15,7 +15,5 @@ testo
   procedura zip (anche su produzione)
     install-zip.md
 
-    procedura docker (anche su produzione)
-      install-docker.md
 
 {% endcomment %}
