@@ -10,5 +10,5 @@ aux_links:
     - "https://github.com/trinko/giuaschool"
 aux_links_new_tab: true
 back_to_top: true
-has_toc: false
+back_to_top_text: "Vai a inizio pagina"
 exclude: ["README.md"]
