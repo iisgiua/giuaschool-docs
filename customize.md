@@ -7,7 +7,7 @@ nav_order: 5
 # titolo
 {: .text-center .fw-400}
 
-testo
+testo 2
 
 {% comment %}
   config da amministratore
