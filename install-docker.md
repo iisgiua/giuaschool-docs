@@ -59,12 +59,12 @@ docker run -d --rm --name gs_test -p 8443:443 ghcr.io/trinko/giuaschool:latest
 ## Uso dell'applicazione
 
 Una volta avviato il server, usare l'indirizzo seguente nel proprio browser per visualizzare la pagina di accesso:
-  - [https://localhost](https://localhost)
+  - **https://localhost**
 
 Nel caso sia stato modificato il numero della porta di comunicazione, è necessario specificarlo
 nell'indirizzo.
 Ad esempio, se è stata impostata la porta 8443, l'indirizzo da utilizzare sarà:
-  - [https://localhost:8443](https://localhost:8443)
+  - **https://localhost:8443
 
 A questo punto si può accedere all'applicazione utilizzando le seguenti credenziali per l'utente amministratore:
   - nome utente: **admin**
@@ -72,6 +72,7 @@ A questo punto si può accedere all'applicazione utilizzando le seguenti credenz
 
 Le pagine di amministrazione consentono di impostare tutto quanto è necessario per il funzionamento del
 registro elettronico.
+
 Una volta caricati i dati, è possibile utilizzare la funzione *Alias* (menu **SISTEMA -> ALIAS**), che
 permette all'amministratore di impersonare un altro utente, senza necessità di inserire password.
 
