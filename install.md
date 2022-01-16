@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Installazione
-nav_order: 2
+nav_order: 3
 ---
 
 # titolo
@@ -12,5 +12,5 @@ testo
 {% comment %}
   procedura docker (anche su produzione)
   procedura zip (anche su produzione)
-  
+
 {% endcomment %}
