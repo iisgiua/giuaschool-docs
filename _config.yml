@@ -9,4 +9,6 @@ aux_links:
   "Codice sorgente su GitHub":
     - "https://github.com/trinko/giuaschool"
 aux_links_new_tab: true
+back_to_top: true
+has_toc: false
 exclude: ["README.md"]
