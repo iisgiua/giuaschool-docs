@@ -7,10 +7,11 @@ nav_order: 11
 # Ultima modifica
 {: .text-center .fw-400}
 
-Data e ora dell'ultima modifica: 01/15/22 20:44:36
+Data e ora dell'ultima modifica: 16/01/Y 18:55
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [a11ba9f2](http://github.com/trinko/giuaschool/commit/a11ba9f24065157ef2f13dcd977febfa5544b12c) - Fix: errore di visualizzazione se nessuna circolare è presente
 - [0aeb237c](http://github.com/trinko/giuaschool/commit/0aeb237ca305356ae644ba97406e23a4cde27eff) - Update GitHub action
 - [9f4bbd3c](http://github.com/trinko/giuaschool/commit/9f4bbd3c32ff89fb6e4a2dc1cb45ac49cb540ad5) - Update GitHub action
 - [adb1c172](http://github.com/trinko/giuaschool/commit/adb1c1725a8f1d53e9d104efdaacbb677e030775) - Merge branch 'master' of github.com:trinko/giuaschool
@@ -26,3 +27,4 @@ Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.ve
 - [e53d4222](http://github.com/trinko/giuaschool/commit/e53d4222882bfa8ca89d5b0f83dd1bfb6bf1a50a) - Update build.yml
 - [b23d3f12](http://github.com/trinko/giuaschool/commit/b23d3f120ec0ff029d4d894d748a036eca139a0b) - Update build.yml
 - [aa82e424](http://github.com/trinko/giuaschool/commit/aa82e424a6bb13c8c95744733381e2d7d366303c) - Fix: errore su lettore di versione in installazione
+
