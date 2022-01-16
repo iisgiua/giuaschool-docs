@@ -5,37 +5,43 @@ parent: Installazione
 nav_order: 2
 ---
 
-# Installazione tramite l'uso dei docker
+# Installazione tramite contenitore Docker
 {: .text-center .fw-400}
 
-## INSTALLAZIONE CON I CONTENITORI DOCKER
+L'installazione tramite contenitore *Docker* ([cosa è un contenitore Docker?](https://it.wikipedia.org/wiki/Docker))
+è consigliata per provare il registro elettronico direttamente sul proprio computer.
 
-### 1. Uso dei docker
+L'uso dei contenitori *Docker* semplifica notevolmente la gestione delle dipendenze
+richieste dai diversi componenti dell'applicazione, creando un ambiente virtuale,
+completo di tutto quanto necessario, in cui eseguire l'applicazione.
 
-Per provare *giua@school* si consiglia l'installazione in locale, tramite l'uso di un contenitore *docker*
-([cosa sono i docker?](https://it.wikipedia.org/wiki/Docker)).
-L'uso dei *docker* semplifica notevolmente la gestione delle dipendenze richieste dai diversi componenti
-dell'applicazione, creando un ambiente virtuale in cui eseguire l'installazione completa di tutto
-quanto necessario.
-
-Se non è già presente la gestione dei *docker* nel proprio computer, è necessario procedere alla sua installazione:
+Se non è già presente la gestione dei *Docker* nel proprio computer, è necessario procedere alla sua installazione:
   - [installazione per Windows](https://docs.docker.com/docker-for-windows/install/)
   - [installazione per MacOs](https://docs.docker.com/docker-for-mac/install/)
   - [installazione per Linux Ubuntu](https://docs.docker.com/engine/install/ubuntu/)
   - [installazione per Linux Debian](https://docs.docker.com/engine/install/debian/)
 
-Esistono in rete diverse guide in italiano che forniscono maggiori dettagli sull'installazion e sull'uso dei *docker*,
-come, ad esempio, quella di [HTML.IT](https://www.html.it/guide/docker/).
+Esistono in rete diverse guide in italiano che forniscono maggiori dettagli sull'installazion e
+sull'uso dei contenitori *Docker*, come, ad esempio, quella di [HTML.IT](https://www.html.it/guide/docker/).
 
-### 2. Avvio del server
+## 1. Avvio del server
 
-Il comando seguente scarica l'immagine dell'applicazione ed avvia il server in un contenitore *docker*:
+Anzi tutto, per evitare di utilizzare un'immagine dell'applicazione scaricata in precedenza e
+non aggiornata alle ultime modifiche, si consiglia di cancellarla dalla memoria
+con il comando seguente:
+```
+docker rmi ghcr.io/trinko/giuaschool:latest
+```
+
+Per avviare il server nell'ambiente virtuale del *Docker*,
+si dovrà utilizzare il comando seguente, che scarica l'immagine dell'applicazione
+e manda in esecuzione il contenitore:
 ```
 docker run -d --rm --name gs_test -p 443:443 ghcr.io/trinko/giuaschool:latest
 ```
 
-L'immagine verrà scaricata dal repository di *GitHub*, ma se si preferisce usare *Docker Hub*, allora
-si può modificare il comando nel modo seguente:
+L'immagine dell'applicazione verrà scaricata dal repository di *GitHub*, ma se si preferisce
+usare *Docker Hub*, si può modificare il comando nel modo seguente:
 ```
 docker run -d --rm --name gs_test -p 443:443 trinkodok/giuaschool:latest
 ```
@@ -47,6 +53,11 @@ Si può quindi impostare una porta differente, ad esempio 8443, modificando il c
 ```
 docker run -d --rm --name gs_test -p 8443:443 ghcr.io/trinko/giuaschool:latest
 ```
+
+
+
+
+---
 
 ### 3. Uso dell'applicazione
 
