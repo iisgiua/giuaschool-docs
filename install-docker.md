@@ -21,8 +21,9 @@ Se non è già presente la gestione dei *Docker* nel proprio computer, è necess
   - [installazione per Linux Ubuntu](https://docs.docker.com/engine/install/ubuntu/){:target="_blank"}
   - [installazione per Linux Debian](https://docs.docker.com/engine/install/debian/){:target="_blank"}
 
-Esistono in rete diverse guide in italiano che forniscono maggiori dettagli sull'installazion e
+Esistono in rete diverse guide in italiano che forniscono maggiori dettagli sull'installazione e
 sull'uso dei contenitori *Docker*, come, ad esempio, quella di [HTML.IT](https://www.html.it/guide/docker/){:target="_blank"}.
+
 
 ## Avvio del server
 
@@ -55,34 +56,30 @@ docker run -d --rm --name gs_test -p 8443:443 ghcr.io/trinko/giuaschool:latest
 ```
 
 
-
-
----
-
-### 3. Uso dell'applicazione
+## Uso dell'applicazione
 
 Una volta avviato il server, usare l'indirizzo seguente nel proprio browser per visualizzare la pagina di accesso:
   - [https://localhost](https://localhost)
 
-Nel caso sia stato modificato il numero di porta, è necessario specificarlo nell'indirizzo.
+Nel caso sia stato modificato il numero della porta di comunicazione, è necessario specificarlo
+nell'indirizzo.
 Ad esempio, se è stata impostata la porta 8443, l'indirizzo da utilizzare sarà:
   - [https://localhost:8443](https://localhost:8443)
 
-Accedere all'applicazione utilizzando le seguenti credenziali per l'utente amministratore:
+A questo punto si può accedere all'applicazione utilizzando le seguenti credenziali per l'utente amministratore:
   - nome utente: **admin**
   - password: **admin**
 
-Se si desidera accedere all'applicazione con un altro utente, è necessario anzi tutto
-visualizzare il nome utente del profilo desiderato: la password predefinita sarà identica al nome utente.
-Si può, quindi, uscire dall'applicazione (pulsante ESCI in alto a destra) ed effettuare l'accesso con le
-credenziali del nuovo utente.
-
-In alternativa, si può utilizzare la funzione Alias (menu SISTEMA -> ALIAS), che
+Le pagine di amministrazione consentono di impostare tutto quanto è necessario per il funzionamento del
+registro elettronico.
+Una volta caricati i dati, è possibile utilizzare la funzione *Alias* (menu **SISTEMA -> ALIAS**), che
 permette all'amministratore di impersonare un altro utente, senza necessità di inserire password.
 
-### 4. Chiusura del server
 
-Per chiudere il server e liberare le risorse occupate, eseguire i comandi seguenti:
+## Chiusura del server
+
+Al termine dell'utilizzo, per chiudere il server e liberare la memoria utilizzata,
+eseguire il comando seguente:
 ```
 docker container stop gs_test
 ```
