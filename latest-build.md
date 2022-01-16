@@ -1,7 +1,7 @@
 ---
 layout: default
-title: 'Ultima modifica'
-nav_order: 91
+title: Ultima modifica
+nav_order: 11
 ---
 
 # Ultima modifica
@@ -26,4 +26,3 @@ Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.ve
 - [e53d4222](http://github.com/trinko/giuaschool/commit/e53d4222882bfa8ca89d5b0f83dd1bfb6bf1a50a) - Update build.yml
 - [b23d3f12](http://github.com/trinko/giuaschool/commit/b23d3f120ec0ff029d4d894d748a036eca139a0b) - Update build.yml
 - [aa82e424](http://github.com/trinko/giuaschool/commit/aa82e424a6bb13c8c95744733381e2d7d366303c) - Fix: errore su lettore di versione in installazione
-
