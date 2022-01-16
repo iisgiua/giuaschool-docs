@@ -5,10 +5,10 @@ parent: Installazione
 nav_order: 2
 ---
 
-# Installazione tramite contenitore Docker
+# Installazione tramite Docker
 {: .text-center .fw-400}
 
-L'installazione tramite contenitore *Docker* ([cosa è un contenitore Docker?](https://it.wikipedia.org/wiki/Docker))
+L'installazione tramite contenitore *Docker* ([cosa è un contenitore Docker?](https://it.wikipedia.org/wiki/Docker){:target="_blank"})
 è consigliata per provare il registro elettronico direttamente sul proprio computer.
 
 L'uso dei contenitori *Docker* semplifica notevolmente la gestione delle dipendenze
@@ -16,15 +16,15 @@ richieste dai diversi componenti dell'applicazione, creando un ambiente virtuale
 completo di tutto quanto necessario, in cui eseguire l'applicazione.
 
 Se non è già presente la gestione dei *Docker* nel proprio computer, è necessario procedere alla sua installazione:
-  - [installazione per Windows](https://docs.docker.com/docker-for-windows/install/)
-  - [installazione per MacOs](https://docs.docker.com/docker-for-mac/install/)
-  - [installazione per Linux Ubuntu](https://docs.docker.com/engine/install/ubuntu/)
-  - [installazione per Linux Debian](https://docs.docker.com/engine/install/debian/)
+  - [installazione per Windows](https://docs.docker.com/docker-for-windows/install/){:target="_blank"}
+  - [installazione per MacOs](https://docs.docker.com/docker-for-mac/install/){:target="_blank"}
+  - [installazione per Linux Ubuntu](https://docs.docker.com/engine/install/ubuntu/){:target="_blank"}
+  - [installazione per Linux Debian](https://docs.docker.com/engine/install/debian/){:target="_blank"}
 
 Esistono in rete diverse guide in italiano che forniscono maggiori dettagli sull'installazion e
-sull'uso dei contenitori *Docker*, come, ad esempio, quella di [HTML.IT](https://www.html.it/guide/docker/).
+sull'uso dei contenitori *Docker*, come, ad esempio, quella di [HTML.IT](https://www.html.it/guide/docker/){:target="_blank"}.
 
-## 1. Avvio del server
+## Avvio del server
 
 Anzi tutto, per evitare di utilizzare un'immagine dell'applicazione scaricata in precedenza e
 non aggiornata alle ultime modifiche, si consiglia di cancellarla dalla memoria
