@@ -84,3 +84,13 @@ eseguire il comando seguente:
 ```
 docker container stop gs_test
 ```
+
+
+## Docker su server di produzione
+
+L'immagine dell'applicazione può anche essere utilizzata su un servizio di *hosting* basato
+sulla piattaforma *Docker*, che permette la gestione di server virtuali in modo semplice ed efficace.
+
+Si tenga presente, però, che l'immagine è progettata per essere utilizzata per un ambiente di prova:
+se si desidera utilizzarla in produzione, si dovrà modificarne le impostazioni a riguardo degli
+aspetti della sicurezza e delle prestazioni.

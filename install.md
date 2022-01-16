@@ -15,7 +15,5 @@ testo
   procedura zip (anche su produzione)
     install-zip.md
 
-    procedura docker (anche su produzione)
-      install-docker.md
 
 {% endcomment %}
