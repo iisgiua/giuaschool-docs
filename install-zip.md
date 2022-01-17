@@ -41,7 +41,7 @@ rispettare i seguenti requisiti fondamentali:
   - **PHP 7.4** o superiore.
 
 Durante la procedura di installazione saranno verificati ulteriori requisiti di sistema,
-evidenziando le criticità.
+evidenziandone le criticità.
 
 
 ## Scaricare l'archivio ZIP
@@ -81,7 +81,7 @@ Per prima cosa, rinominare il file **.env-dist** in **.env**.
 Quindi inserire la password di installazione: questa verrà
 richiesta dalla procedura per evitare che possa essere eseguita da altre persone.
 
-Il file .env dovrà contenere la seguente riga con la nuova password:
+Il file **.env** dovrà pertanto contenere la seguente riga con la nuova password:
 ```
 INSTALLATION_PSW='password_non_banale'
 ```
@@ -91,17 +91,17 @@ Per eseguire la procedura di installazione andare alla pagina seguente:
   - **http://nome_sito/install/index.php** o **https://nome_sito/install/index.php**
 
 
+## Installazione su server di produzione
 
+Nel momento in cui si decide di usare il registro elettronico per l'uso scolastico quotidiano,
+sarà opportuno fare ulteriori controlli di sicurezza.
+In particolare, si controlli che i file al di fuori della cartella **public/** siano inaccessibili.
 
-## Controlli
+_E' fondamentale che il file **.env** non possa mai essere visualizzato dal web._
 
-
-Si controlli quindi che i file al di fuori della cartella **public/** siano inaccessibili. In particolare,
-è bene assicurarsi che il file **.env** non possa mai essere visualizzato dal web.
-Per fare questo, andare all'indirizzo seguente
-e verificare che sia mostrato un messaggio di errore:
+Per controllarlo, andare all'indirizzo seguente e verificare che sia mostrato un messaggio di errore:
   - **http://nome_sito/.env** o **https://nome_sito/.env**
 
-  **ATTENZIONE**:
-  _se si dovessero esporre pubblicamente sul web i file al di fuori della cartella **public/**,
-  ci saranno gravi problemi di sicurezza._
+**ATTENZIONE**:
+_se si dovessero esporre pubblicamente sul web i file al di fuori della cartella **public/**,
+ci saranno gravi conseguenze dal punto di vista della sicurezza._
