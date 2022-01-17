@@ -94,10 +94,13 @@ Per eseguire la procedura di installazione andare alla pagina seguente:
 ## Installazione su server di produzione
 
 Nel momento in cui si decide di usare il registro elettronico per l'uso scolastico quotidiano,
-sarà opportuno fare ulteriori controlli di sicurezza.
-In particolare, si controlli che i file al di fuori della cartella **public/** siano inaccessibili.
+è opportuno rafforzare la sicurezza del sistema utilizzato.
 
-_E' fondamentale che il file **.env** non possa mai essere visualizzato dal web._
+_Per prima cosa, è indispensabile che il registro elettronico utilizzi il protocollo HTTPS._
+
+Inoltre, si controlli che i file al di fuori della cartella **public/** siano inaccessibili.
+
+In particolare, _è fondamentale che il file **.env** non possa mai essere visualizzato dal web_.
 
 Per controllarlo, andare all'indirizzo seguente e verificare che sia mostrato un messaggio di errore:
   - **http://nome_sito/.env** o **https://nome_sito/.env**
