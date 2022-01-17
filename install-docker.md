@@ -5,16 +5,16 @@ parent: Installazione
 nav_order: 2
 ---
 
-<details open markdown="block">
+# Installazione tramite Docker
+{: .no_toc .text-center .fw-400}
+
+<details markdown="block">
   <summary>Indice dei contenuti</summary>
-  {: .text-delta }
+  {: .text-delta .text-center}
 1. TOC
 {:toc}
 </details>
-
-
-# Installazione tramite Docker
-{: .no_toc .text-center .fw-400}
+{: .my-5 .px-4 style="background-color:#efefef;border:1px solid #cccccc"}
 
 L'installazione tramite contenitore *Docker* ([cosa è un contenitore Docker?](https://it.wikipedia.org/wiki/Docker){:target="_blank"})
 è consigliata per provare il registro elettronico direttamente sul proprio computer.
@@ -22,6 +22,9 @@ L'installazione tramite contenitore *Docker* ([cosa è un contenitore Docker?](h
 L'uso dei contenitori *Docker* semplifica notevolmente la gestione delle dipendenze
 richieste dai diversi componenti dell'applicazione, creando un ambiente virtuale,
 completo di tutto quanto necessario, in cui eseguire l'applicazione.
+
+
+## Installazione del gestore Docker
 
 Se non è già presente la gestione dei *Docker* nel proprio computer, è necessario procedere alla sua installazione:
   - [installazione per Windows](https://docs.docker.com/docker-for-windows/install/){:target="_blank"}
