@@ -3,11 +3,13 @@ layout: default
 title: Installazione
 nav_order: 3
 has_children: true
-has_toc: false
+has_toc: true
 ---
 
-# titolo
+# Installazione
 {: .text-center .fw-400}
+
+
 
 DA COMPLETARE
 
