@@ -7,7 +7,7 @@ nav_order: 2
 # Il progetto
 {: .text-center .fw-400}
 
-Il progetto nasce dalla volontà di utilizzare un Registro Elettronico *open source* per le attività scolastiche
+Il progetto nasce dalla volontà di utilizzare un Registro Elettronico _open source_ per le attività scolastiche
 dell'**Istituto di Istruzione Superiore "Michele Giua"**.
 
 Il primo candidato è stato l'ottimo [Lampschool](http://www.lampschool.it/),
@@ -29,7 +29,7 @@ Successivamente, poiché le modifiche stavano diventando sempre più numerose, s
 gestione di un codice ormai troppo complesso.
 
 Nasce così **giua@school** che, sebbene sia stato riscritto da zero, può essere
-considerato una *fork* di [Lampschool](http://www.lampschool.it/), perché
+considerato una _fork_ di [Lampschool](http://www.lampschool.it/), perché
 riprende da questo diverse soluzioni algoritmiche e l'importante esperienza
 maturata con il suo uso.
 
@@ -40,6 +40,6 @@ di mantenerlo semplice e intuitivo per l'utente finale.
 Il progetto **giua@school** è basato sull'uso di:
   - [Symfony](https://symfony.com/) per la gestione generale del sistema e in particolare della sicurezza;
   - [Doctrine](http://www.doctrine-project.org/) per la gestione del livello di astrazione del database;
-  - [Twig](https://twig.symfony.com/) per la gestione dei *template*;
+  - [Twig](https://twig.symfony.com/) per la gestione dei _template_;
   - [Jquery](https://jquery.com/), [Bootstrap](https://getbootstrap.com/)
     e [Bootstrap Italia](https://italia.github.io/bootstrap-italia/) per l'interfaccia grafica.

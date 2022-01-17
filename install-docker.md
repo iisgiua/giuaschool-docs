@@ -16,24 +16,27 @@ nav_order: 2
 </details>
 {: .my-5 .px-4 style="background-color:#efefef;border:1px solid #cccccc"}
 
-L'installazione tramite contenitore *Docker* ([cosa è un contenitore Docker?](https://it.wikipedia.org/wiki/Docker){:target="_blank"})
+
+## Perché usare le immagini Docker
+
+L'installazione tramite immagini _Docker_ ([cosa è un'immagine Docker?](https://it.wikipedia.org/wiki/Docker){:target="_blank"})
 è consigliata per provare il registro elettronico direttamente sul proprio computer.
 
-L'uso dei contenitori *Docker* semplifica notevolmente la gestione delle dipendenze
+L'uso delle immagini _Docker_ semplifica notevolmente la gestione delle dipendenze
 richieste dai diversi componenti dell'applicazione, creando un ambiente virtuale,
 completo di tutto quanto necessario, in cui eseguire l'applicazione.
 
 
 ## Installazione del gestore Docker
 
-Se non è già presente la gestione dei *Docker* nel proprio computer, è necessario procedere alla sua installazione:
+Se non è già presente il gestore _Docker_ nel proprio computer, è necessario procedere alla sua installazione:
   - [installazione per Windows](https://docs.docker.com/docker-for-windows/install/){:target="_blank"}
   - [installazione per MacOs](https://docs.docker.com/docker-for-mac/install/){:target="_blank"}
   - [installazione per Linux Ubuntu](https://docs.docker.com/engine/install/ubuntu/){:target="_blank"}
   - [installazione per Linux Debian](https://docs.docker.com/engine/install/debian/){:target="_blank"}
 
 Esistono in rete diverse guide in italiano che forniscono maggiori dettagli sull'installazione e
-sull'uso dei contenitori *Docker*, come, ad esempio, quella di [HTML.IT](https://www.html.it/guide/docker/){:target="_blank"}.
+sull'uso dei contenitori _Docker_, come, ad esempio, quella di [HTML.IT](https://www.html.it/guide/docker/){:target="_blank"}.
 
 
 ## Avvio del server
@@ -45,21 +48,21 @@ con il comando seguente:
 docker rmi ghcr.io/trinko/giuaschool:latest
 ```
 
-Per avviare il server nell'ambiente virtuale del *Docker*,
+Per avviare il server nell'ambiente virtuale del _Docker_,
 si dovrà utilizzare il comando seguente, che scarica l'immagine dell'applicazione
 e manda in esecuzione il contenitore:
 ```
 docker run -d --rm --name gs_test -p 443:443 ghcr.io/trinko/giuaschool:latest
 ```
 
-L'immagine dell'applicazione verrà scaricata dal repository di *GitHub*, ma se si preferisce
-usare *Docker Hub*, si può modificare il comando nel modo seguente:
+L'immagine dell'applicazione verrà scaricata dal repository di _GitHub_, ma se si preferisce
+usare _Docker Hub_, si può modificare il comando nel modo seguente:
 ```
 docker run -d --rm --name gs_test -p 443:443 trinkodok/giuaschool:latest
 ```
 
 Nel caso il comando riporti un errore di rete del tipo
-*"listen tcp4 0.0.0.0:443: bind: address already in use"*,
+**"listen tcp4 0.0.0.0:443: bind: address already in use"**,
 significa che la porta 443 è già utilizzata da un altro servizio del proprio computer.
 Si può quindi impostare una porta differente, ad esempio 8443, modificando il comando come indicato di seguito:
 ```
@@ -84,7 +87,7 @@ A questo punto si può accedere all'applicazione utilizzando le seguenti credenz
 Le pagine di amministrazione consentono di impostare tutto quanto è necessario per il funzionamento del
 registro elettronico.
 
-Una volta caricati i dati, è possibile utilizzare la funzione *Alias* (menu **SISTEMA > ALIAS**), che
+Una volta caricati i dati, è possibile utilizzare la funzione _Alias_ (menu **SISTEMA > ALIAS**), che
 permette all'amministratore di impersonare un altro utente, senza necessità di inserire password.
 
 
@@ -99,8 +102,8 @@ docker container stop gs_test
 
 ## Docker su server di produzione
 
-L'immagine dell'applicazione può anche essere utilizzata su un servizio di *hosting* basato
-sulla piattaforma *Docker*, che permette la gestione di server virtuali in modo semplice ed efficace.
+L'immagine dell'applicazione può anche essere utilizzata su un servizio di _hosting_ basato
+sulla piattaforma _Docker_, che permette la gestione di server virtuali in modo semplice ed efficace.
 
 Si tenga presente, però, che l'immagine è progettata per essere utilizzata per un ambiente di prova:
 se si desidera utilizzarla in produzione, si dovrà modificare le impostazioni di sistema a riguardo degli
