@@ -9,14 +9,5 @@ has_toc: true
 # Installazione
 {: .text-center .fw-400}
 
-
-
-DA COMPLETARE
-
-{% comment %}
-
-  procedura zip (anche su produzione)
-    install-zip.md
-
-
-{% endcomment %}
+L'installazione può essere eseguita in due modalità differenti: utilizzando
+l'archivio ZIP o tramite Docker.
