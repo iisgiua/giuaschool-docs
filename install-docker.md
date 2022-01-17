@@ -5,12 +5,16 @@ parent: Installazione
 nav_order: 2
 ---
 
-- Indice dei contenuti
+<details open markdown="block">
+  <summary>Indice dei contenuti</summary>
+  {: .text-delta }
+1. TOC
 {:toc}
+</details>
 
 
 # Installazione tramite Docker
-{: .text-center .fw-400}
+{: .no_toc .text-center .fw-400}
 
 L'installazione tramite contenitore *Docker* ([cosa è un contenitore Docker?](https://it.wikipedia.org/wiki/Docker){:target="_blank"})
 è consigliata per provare il registro elettronico direttamente sul proprio computer.
