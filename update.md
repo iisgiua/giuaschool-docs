@@ -4,10 +4,10 @@ title: Aggiornamento
 nav_order: 4
 ---
 
-# titolo
+# Aggiornamento
 {: .text-center .fw-400}
 
-testo
+DA COMPLETARE
 
 {% comment %}
     aggiornamento procedura

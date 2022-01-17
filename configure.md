@@ -4,10 +4,10 @@ title: Configurazione
 nav_order: 5
 ---
 
-# titolo
+# Configurazione
 {: .text-center .fw-400}
 
-testo
+DA COMPLETARE
 
 {% comment %}
     configurazione

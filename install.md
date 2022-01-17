@@ -9,7 +9,7 @@ has_toc: false
 # titolo
 {: .text-center .fw-400}
 
-testo
+DA COMPLETARE
 
 {% comment %}
 

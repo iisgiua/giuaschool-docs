@@ -4,10 +4,10 @@ title: Personalizzazione
 nav_order: 6
 ---
 
-# titolo
+# Personalizzazione
 {: .text-center .fw-400}
 
-testo 2
+DA COMPLETARE
 
 {% comment %}
   config da amministratore
