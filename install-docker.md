@@ -5,6 +5,10 @@ parent: Installazione
 nav_order: 2
 ---
 
+- Indice dei contenuti
+{:toc}
+
+
 # Installazione tramite Docker
 {: .text-center .fw-400}
 
