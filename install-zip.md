@@ -1,35 +1,50 @@
 ---
 layout: default
-title: Archivio zip
+title: Archivio ZIP
 parent: Installazione
 nav_order: 1
 ---
 
-# Installazione dall'archivio compresso con ZIP
-{: .text-center .fw-400}
+# Installazione tramite archivio ZIP
+{: .no_toc .text-center .fw-400}
 
-ewtt
+<details markdown="block">
+  <summary>Indice dei contenuti</summary>
+  {: .text-delta .text-center}
+1. TOC
+{:toc}
+</details>
+{: .my-5 .px-4 style="background-color:#efefef;border:1px solid #cccccc"}
 
 
-## INSTALLAZIONE SEMPLIFICATA
+## Perché usare l'archivio ZIP
 
-## REQUISITI DI SISTEMA
+L'uso dell'archivio _ZIP_ ([che cosa è un archivio ZIP?](https://it.wikipedia.org/wiki/ZIP_(formato_di_file)))
+permette di semplificare la procedura di installazione, nel caso si utilizzi un apposito
+servizio di hosting.
 
-I requisiti minimi per l'installazione sono:
+E' anche possibile usare questa installazione per provare il registro elettronico sul proprio computer,
+ma si dovrà installare anche il web server _Apache_ e il database server _MySql_.
+Si consiglia pertanto di utilizzare, in alternativa, l'installazione tramite [Docker](/install-docker.md).
+
+Si tenga presente che questa modalità non permette l'installazione di applicazioni esterne, necessarie per alcune
+funzionalità non essenziali del registro elettronico:
+**non è pertanto operativa la conversione automatica in PDF dei documenti**.
+
+
+## Requisiti di sistema
+
+I requisiti fondamentali per l'installazione sono:
   - web server **Apache 2.x** o superiore;
   - database server **MySQL 5.5** o superiore, o versioni equivalenti di **MariaDB**;
-  - **PHP 7.4**;
-  - framework **Symfony 4.4**.
+  - **PHP 7.4**-
 
 Ci sono ulteriori requisiti minori che sono richiesti dal framework *Symfony*.
 
 
 
 
-### 1. Cosa contiene una release
-Nel file compresso della versione dell'applicazione sono presenti tutti i file necessari.
-Questa versione non permette l'installazione di applicazioni esterne, necessarie per alcune particolari funzionalità del registro elettronico:
-non è pertanto operativa la conversione automatica in PDF dei documenti caricati.
+
 
 ### 1. Scaricare il codice dell'applicazione
 Scaricare il codice dell'applicazione e decomprimere la cartella di installazione.

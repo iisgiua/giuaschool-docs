@@ -105,6 +105,6 @@ docker container stop gs_test
 L'immagine dell'applicazione può anche essere utilizzata su un servizio di _hosting_ basato
 sulla piattaforma _Docker_, che permette la gestione di server virtuali in modo semplice ed efficace.
 
-Si tenga presente, però, che l'immagine è progettata per essere utilizzata per un ambiente di prova:
+Si tenga presente, però, che l'immagine è progettata per essere utilizzata in un ambiente di prova:
 se si desidera utilizzarla in produzione, si dovrà modificare le impostazioni di sistema a riguardo degli
 aspetti della sicurezza e delle prestazioni.
