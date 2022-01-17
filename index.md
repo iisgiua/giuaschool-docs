@@ -15,4 +15,6 @@ testo
     link a issue e discussion e pull
     link regole
     disclaimer
+
+    log...
 {% endcomment %}
