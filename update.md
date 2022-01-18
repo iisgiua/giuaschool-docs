@@ -18,7 +18,7 @@ nav_order: 4
 
 ## Scaricare l'archivio ZIP
 
-In modo analogo all'installazione, come prima cosa bisogna scaricare l'archivio ZIP
+Come prima cosa bisogna scaricare l'archivio ZIP
 della nuova versione dell'applicazione, oppure quello contenente anche le ultime modifiche
 ancora in fase di revisione:
 
@@ -40,15 +40,13 @@ Si suggerisce, per evitare problemi, di creare sempre una copia dei file persona
 utilizzando un suffisso del tipo **.modificato**: ad esempio, se si personalizza il template della
 pagina di accesso al registro, chiamato **form.html.twig**, se ne può creare una copia
 con il nome **form.html.twig.modificato**. In questo modo si evita il rischio di perdere
-le proprie personalizzazioni, andando poi a decidere successivamente quali modifiche riportare nella
-nuova versione dei file.
+le proprie personalizzazioni durante gli aggiornamenti, andando poi a decidere
+quali modifiche riportare nella nuova versione dei file.
 
 
-## Eseguire la procedura di installazione
+## Eseguire la procedura di aggiornamento
 
-Bisogna ora eseguire la procedura di installazione, seguendo le istruzioni riportate a video.
-La procedura si accorgerà che si tratta di un aggiornamento e non di una nuova installazione,
-applicando solo le modifiche necessarie.
+Bisogna ora eseguire la procedura di aggiornamento, seguendo le istruzioni riportate a video.
 
-Per eseguire la procedura di installazione andare alla pagina seguente:
+Per eseguire la procedura di aggiornamento andare alla pagina seguente:
   - **http://nome_sito/install/index.php** o **https://nome_sito/install/index.php**
