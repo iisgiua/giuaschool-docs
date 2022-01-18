@@ -11,3 +11,8 @@ has_toc: true
 
 L'installazione può essere eseguita in due modalità differenti: utilizzando
 l'archivio ZIP o tramite Docker.
+
+---
+
+  - [Installazione tramite archivio ZIP](/install-zip.md)
+  - [Installazione tramite Docker](/install-docker.md)
