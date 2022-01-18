@@ -19,7 +19,5 @@ DA COMPLETARE
     link regole
     disclaimer
 
-    materie sostegno ed civica
-
-    log...
+    uso log per issue ...
 {% endcomment %}

@@ -11,6 +11,10 @@ DA COMPLETARE
 
 {% comment %}
     configurazione
+
+    materie sostegno ed civica, ecc.
+
+
     spid
     google, provisioning
     cron
