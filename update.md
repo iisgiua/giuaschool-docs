@@ -5,7 +5,7 @@ nav_order: 4
 ---
 
 # Aggiornamento dell'applicazione
-{: .no_toc .text-center .fw-400}
+{: .no_toc .text-center .fw-400 .pb-5}
 
 <details markdown="block">
   <summary>Indice dei contenuti</summary>

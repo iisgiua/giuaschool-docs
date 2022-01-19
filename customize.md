@@ -5,7 +5,7 @@ nav_order: 6
 ---
 
 # Personalizzazione
-{: .text-center .fw-400}
+{: .text-center .fw-400 .pb-5}
 
 DA COMPLETARE
 

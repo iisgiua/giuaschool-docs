@@ -5,7 +5,7 @@ nav_order: 2
 ---
 
 # Il progetto
-{: .text-center .fw-400}
+{: .text-center .fw-400 .pb-5}
 
 Il progetto nasce dalla volontà di utilizzare un Registro Elettronico _open source_ per le attività scolastiche
 dell'**Istituto di Istruzione Superiore "Michele Giua"**.

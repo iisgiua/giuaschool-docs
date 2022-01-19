@@ -7,7 +7,7 @@ has_toc: false
 ---
 
 # Installazione
-{: .text-center .fw-400}
+{: .text-center .fw-400 .pb-5}
 
 L'installazione può essere eseguita in due modalità differenti: utilizzando
 l'archivio ZIP o tramite Docker.

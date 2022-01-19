@@ -6,7 +6,7 @@ nav_order: 1
 ---
 
 # Installazione tramite archivio ZIP
-{: .no_toc .text-center .fw-400}
+{: .no_toc .text-center .fw-400 .pb-5}
 
 <details markdown="block">
   <summary>Indice dei contenuti</summary>
