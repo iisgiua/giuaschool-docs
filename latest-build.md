@@ -7,10 +7,11 @@ nav_order: 11
 # Ultima modifica
 {: .text-center .fw-400}
 
-Data e ora dell'ultima modifica: 16/01/Y 18:55
+Data e ora dell'ultima modifica: 19/01/2022 18:27
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [1a245a73](http://github.com/trinko/giuaschool/commit/1a245a73a424c678dc018753e3a7b4117f25f65b) - Update GitHub action
 - [a11ba9f2](http://github.com/trinko/giuaschool/commit/a11ba9f24065157ef2f13dcd977febfa5544b12c) - Fix: errore di visualizzazione se nessuna circolare è presente
 - [0aeb237c](http://github.com/trinko/giuaschool/commit/0aeb237ca305356ae644ba97406e23a4cde27eff) - Update GitHub action
 - [9f4bbd3c](http://github.com/trinko/giuaschool/commit/9f4bbd3c32ff89fb6e4a2dc1cb45ac49cb540ad5) - Update GitHub action
