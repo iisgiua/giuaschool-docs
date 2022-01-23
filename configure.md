@@ -5,7 +5,7 @@ nav_order: 5
 ---
 
 # Configurazione
-{: .text-center .fw-400 .pb-5}
+{: .no_toc .text-center .fw-400 .pb-5}
 
 <details markdown="block">
   <summary>Indice dei contenuti</summary>
@@ -38,7 +38,7 @@ Dal menu **SCUOLA**, invece, è possibile inserire o modificare:
 - la scansione oraria settimanale;
 - i dati di gestione degli scrutini.
 
-Per il corretto funzionamento del registro, dovranno essere obbligatoriamente inseriti:
+**Per il corretto funzionamento del registro, dovranno essere obbligatoriamente inseriti**:
 - un utente amministratore;
 - un utente Dirigente Scolastico;
 - i dati dell'istituto;
@@ -73,4 +73,4 @@ Come esempio, vengono forniti i file di importazione con alcuni dati di prova:
   - [importazione utenti DOCENTI](/assets/docs/IMPORTA_DOCENTI.csv)
   - [importazione cattedre DOCENTI](/assets/docs/IMPORTA_CATTEDRE.csv)
   - [importazione colloqui DOCENTI](/assets/docs/IMPORTA_COLLOQUI.csv)
-  - [importazione utenti ALUNNI e GENITORI](/assets/docs/IMPORTA_DOCENTI.csv)
+  - [importazione utenti ALUNNI e GENITORI](/assets/docs/IMPORTA_ALUNNI_GENITORI.csv)
