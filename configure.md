@@ -68,6 +68,10 @@ I file di importazione sono nel formato CSV, cioè dei file di testo dove viene 
 separatore dei dati. Il file deve contenere la prima riga con tutte le intestazioni previste,
 anche se non bisogna necessariamente inserire i valori non obbligatori.
 
+Se si utilizzano lettere accentate all'interno dei file (ad es. _Nicolò_), si faccia
+attenzione a salvare i file con la codifica **UNICODE (UTF-8)**: in caso contrario
+durante l'importazione verrà generato un errore che terminerà la procedura.
+
 Come esempio, vengono forniti i file di importazione con alcuni dati di prova:
   - [importazione utenti ATA](/assets/docs/IMPORTA_ATA.csv)
   - [importazione utenti DOCENTI](/assets/docs/IMPORTA_DOCENTI.csv)
