@@ -5,12 +5,17 @@ nav_order: 11
 ---
 
 # Ultima modifica
-{: .text-center .fw-400}
+{: .text-center .fw-400 .pb-5}
 
-Data e ora dell'ultima modifica: 20/01/2022 01:02
+Data e ora dell'ultima modifica: 04/02/2022 00:51
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [76809f99](http://github.com/trinko/giuaschool/commit/76809f99e408682c868b4c4aa53373961f3ef9eb) - Update GitHub Actions
+- [2c78f021](http://github.com/trinko/giuaschool/commit/2c78f021bb3cf79b357b6ed77c92a0515cf3cf04) - Fix: gestione scrutinio, elenco docenti
+- [d7ea86c1](http://github.com/trinko/giuaschool/commit/d7ea86c13d4676373c9eb810b1c14a3b2d49d58a) - Fix: vulnerabilità XSS sulle textarea
+- [7f4d720b](http://github.com/trinko/giuaschool/commit/7f4d720bc86ffd125641edf0054cb47e7d795f8e) - Fix: gestione scutinio primo quadrimestre
+- [80c11b1e](http://github.com/trinko/giuaschool/commit/80c11b1ec199b16c9da9a8afbee8cb19b0fb37f0) - Fix: filtro data in circolari genitori/alunni
 - [bce937f9](http://github.com/trinko/giuaschool/commit/bce937f927909b2acd3e294a476c019ccd92c1ce) - Update README.md
 - [4dd1de95](http://github.com/trinko/giuaschool/commit/4dd1de959a74d08fc9ca35f0077aade865138a9e) - Update GitHub configuration
 - [1ee80e1f](http://github.com/trinko/giuaschool/commit/1ee80e1f0956a1adbe375bb3d3c024e87cf24c67) - Update GitHub configuration
