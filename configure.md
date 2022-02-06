@@ -69,7 +69,7 @@ separatore dei dati. Il file deve contenere la prima riga con tutte le intestazi
 anche se non bisogna necessariamente inserire i valori non obbligatori.
 
 Se si utilizzano lettere accentate all'interno dei file (ad es. _Nicolò_), si faccia
-attenzione a salvare i file con la codifica **UNICODE (UTF-8)**: in caso contrario
+attenzione a salvare i file con la codifica **UNICODE (UTF-8)**: in caso contrario,
 durante l'importazione verrà generato un errore che terminerà la procedura.
 
 Come esempio, vengono forniti i file di importazione con alcuni dati di prova:
@@ -78,3 +78,23 @@ Come esempio, vengono forniti i file di importazione con alcuni dati di prova:
   - [importazione cattedre DOCENTI](/assets/docs/IMPORTA_CATTEDRE.csv)
   - [importazione colloqui DOCENTI](/assets/docs/IMPORTA_COLLOQUI.csv)
   - [importazione utenti ALUNNI e GENITORI](/assets/docs/IMPORTA_ALUNNI_GENITORI.csv)
+
+
+## Formato standard delle username
+
+Attualmente, per gli studenti e i relativi genitori è utilizzato un formato ben definito per i nomi utente:
+**se non si rispetta questo formato ci saranno dei malfunzionamenti nella gestione del registro**.
+
+Per gli studenti, la username deve terminare con **.sX**, dove la _X_ indica una cifra
+(normalmente 1, ma cambia in caso di studenti omonimi). Ad esempio:
+  - _mario.rossi.s1_
+  - _mario.rossi.s2_
+
+Per i genitori, si usa la stessa username dello studente, facendola però terminare per
+**.fX** (primo genitore) e per **.gX** (secondo genitore). Ad esempio, i genitori degli studenti
+indicati in precedenza saranno indicati come segue:
+  - _mario.rossi.f1_ e _mario.rossi.g1_, genitori di _mario.rossi.s1_
+  - _mario.rossi.f2_ e _mario.rossi.g2_, genitori di _mario.rossi.s2_
+
+Nella fase di importazione degli utenti, si consiglia di lasciare in bianco i dati delle username:
+in questo modo saranno generate sempre in modo corretto.
