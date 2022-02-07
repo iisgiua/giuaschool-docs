@@ -25,7 +25,7 @@ ancora in fase di revisione:
   - [Scarica la versione {{ site.data.version.tag }}](https://github.com/trinko/giuaschool/releases/latest/download/giuaschool-release-latest.zip)
     - [Visualizza i dettagli](/latest-release.md)
 
-  - [Scarica l'ultima modifica](https://github.com/trinko/giuaschool/raw/builds/builds/giuaschool-build-latest.zip)
+  - [Scarica l'ultima modifica](https://github.com/trinko/giuaschool/releases/download/latest-build/giuaschool-build-latest.zip)
     - [Visualizza i dettagli](/latest-build.md)
 
 
