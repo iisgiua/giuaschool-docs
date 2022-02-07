@@ -7,10 +7,11 @@ nav_order: 11
 # Ultima modifica
 {: .text-center .fw-400 .pb-5}
 
-Data e ora dell'ultima modifica: 07/02/2022 00:53
+Data e ora dell'ultima modifica: 07/02/2022 08:49
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [6715922f](http://github.com/trinko/giuaschool/commit/6715922f96e86b4a11074230098efbaa907ca130) - Update GitHub actions
 - [27198eb6](http://github.com/trinko/giuaschool/commit/27198eb6a6f28504d80732c064903a208ce04e3e) - Update GitHub actions
 - [3ff34026](http://github.com/trinko/giuaschool/commit/3ff3402628a83674892456b977edaa2122ea7d14) - Update GitHub Actions
 - [0e6ad510](http://github.com/trinko/giuaschool/commit/0e6ad510ec99af8aa6b7edcdd7a8887b0492d3b0) - Fix: annotazioni non sono bloccate
