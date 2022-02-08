@@ -55,12 +55,6 @@ e manda in esecuzione il contenitore:
 docker run -d --rm --name gs_test -p 443:443 ghcr.io/trinko/giuaschool:latest
 ```
 
-L'immagine dell'applicazione verrà scaricata dal repository di _GitHub_, ma se si preferisce
-usare _Docker Hub_, si può modificare il comando nel modo seguente:
-```
-docker run -d --rm --name gs_test -p 443:443 trinkodok/giuaschool:latest
-```
-
 Nel caso il comando riporti un errore di rete del tipo
 **"listen tcp4 0.0.0.0:443: bind: address already in use"**,
 significa che la porta 443 è già utilizzata da un altro servizio del proprio computer.
@@ -108,3 +102,12 @@ sulla piattaforma _Docker_, che permette la gestione di server virtuali in modo 
 Si tenga presente, però, che l'immagine è progettata per essere utilizzata in un ambiente di prova:
 se si desidera utilizzarla in produzione, si dovrà modificare le impostazioni di sistema a riguardo degli
 aspetti della sicurezza e delle prestazioni.
+
+
+## Immagini Docker per lo sviluppo e i test
+
+Su GitHub sono anche presenti le immagini:
+  - **giuaschool-dev**, che contiene l'installazione per lo sviluppo dell'applicazione;
+  - **giuaschool-test**, che contiene l'installazione per l'esecuzione automatica dei test.
+
+Per utilizzarle, è sufficiente cambiare il nome dell'immagine nei comandi illustrati in precedenza.
