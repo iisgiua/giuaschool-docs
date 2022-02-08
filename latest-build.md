@@ -7,10 +7,11 @@ nav_order: 11
 # Ultima modifica
 {: .text-center .fw-400 .pb-5}
 
-Data e ora dell'ultima modifica: 08/02/2022 00:37
+Data e ora dell'ultima modifica: 08/02/2022 09:41
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [b1c21747](http://github.com/trinko/giuaschool/commit/b1c217470d5c4f049fcd20f6523a2a545d3920bc) - Update GitHub actions
 - [74c14700](http://github.com/trinko/giuaschool/commit/74c1470099da6dba6a63ec455cf9e2ffc48f2a61) - Update ENV.TEST
 - [5269d793](http://github.com/trinko/giuaschool/commit/5269d793390e2ea62061d5ed4c2959d721986097) - Update GitHub actions
 - [32de4dc9](http://github.com/trinko/giuaschool/commit/32de4dc98b49f8400a45d7566c3103b46a6cdb08) - Update GitHub actions
