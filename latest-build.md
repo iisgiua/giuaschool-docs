@@ -7,10 +7,15 @@ nav_order: 11
 # Ultima modifica
 {: .text-center .fw-400 .pb-5}
 
-Data e ora dell'ultima modifica: 08/02/2022 21:15
+Data e ora dell'ultima modifica: 24/02/2022 17:45
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [28383ed1](http://github.com/trinko/giuaschool/commit/28383ed173d43bb47ba06c225872def7a6715c84) - Fix: gestione materia alternativa
+- [411824d7](http://github.com/trinko/giuaschool/commit/411824d7842e8be062c083cfad1a15824ea09fce) - Nuova funzionalità: estrazione log errori da menu SISTEMA > MANUTENZIONE
+- [21ddc869](http://github.com/trinko/giuaschool/commit/21ddc869dd6497348deabe07921b2a68baf3f65f) - Nuova funzionalità: logout utenti da menu SISTEMA > MANUTENZIONE
+- [99250855](http://github.com/trinko/giuaschool/commit/99250855519842855488d9a9623a4e1d066b9b15) - Nuova funzionalità: svuota cache da menu SISTEMA > MANUTENZIONE
+- [e70035c2](http://github.com/trinko/giuaschool/commit/e70035c293acf73c279d0c625db39c17abdbaf2c) - Fix: assenze in Ed.Civica su pagelle primo periodo
 - [4ada3662](http://github.com/trinko/giuaschool/commit/4ada3662578119eef00ffdbb609ca9394a642a97) - Update readme
 - [77d464f1](http://github.com/trinko/giuaschool/commit/77d464f1f0b64e0a86df271e534f21a7ca2ceb87) - Update GitHub actions
 - [80a2f07e](http://github.com/trinko/giuaschool/commit/80a2f07e67087e252ff1d6f2b15cf1d1a801f4fd) - Update GitHub actions
