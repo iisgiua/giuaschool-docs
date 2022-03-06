@@ -7,10 +7,11 @@ nav_order: 11
 # Ultima modifica
 {: .text-center .fw-400 .pb-5}
 
-Data e ora dell'ultima modifica: 05/03/2022 18:40
+Data e ora dell'ultima modifica: 06/03/2022 10:07
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [d23fbaaa](http://github.com/trinko/giuaschool/commit/d23fbaaafb753755e85c4f4c2507fd0fef1ce1fd) - Eliminazione del nome della sede Cagliari da template principali
 - [fd8dd338](http://github.com/trinko/giuaschool/commit/fd8dd338c33b2ede39ac5a51b54f883662857b2e) - Fix: gestione errori in installer
 - [7d0f7a37](http://github.com/trinko/giuaschool/commit/7d0f7a37c0b22ac9178163e5a3858668b1a24df8) - Modifica: procedura di installazione, gestione SPID
 - [28383ed1](http://github.com/trinko/giuaschool/commit/28383ed173d43bb47ba06c225872def7a6715c84) - Fix: gestione materia alternativa
