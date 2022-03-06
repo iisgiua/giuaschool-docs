@@ -7,10 +7,11 @@ nav_order: 11
 # Ultima modifica
 {: .text-center .fw-400 .pb-5}
 
-Data e ora dell'ultima modifica: 06/03/2022 12:06
+Data e ora dell'ultima modifica: 06/03/2022 20:13
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [af84ddab](http://github.com/trinko/giuaschool/commit/af84ddab2cdd03381c46ef9fd3919fedf329e974) - Rimosso vincolo su formato username genitori
 - [e76a7f3f](http://github.com/trinko/giuaschool/commit/e76a7f3f0ab939689ff7ec6a16b0e4d31d10be10) - Fix: eliminazione di dati del Giua dai template
 - [d23fbaaa](http://github.com/trinko/giuaschool/commit/d23fbaaafb753755e85c4f4c2507fd0fef1ce1fd) - Eliminazione del nome della sede Cagliari da template principali
 - [fd8dd338](http://github.com/trinko/giuaschool/commit/fd8dd338c33b2ede39ac5a51b54f883662857b2e) - Fix: gestione errori in installer
