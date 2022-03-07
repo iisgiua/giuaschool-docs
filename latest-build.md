@@ -7,10 +7,11 @@ nav_order: 11
 # Ultima modifica
 {: .text-center .fw-400 .pb-5}
 
-Data e ora dell'ultima modifica: 06/03/2022 21:06
+Data e ora dell'ultima modifica: 08/03/2022 00:46
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [ea69a664](http://github.com/trinko/giuaschool/commit/ea69a6641d0b288ccf72d4ba01038eab685a8b68) - Gestione modalità debug su log e fix su installazione
 - [07cfdee5](http://github.com/trinko/giuaschool/commit/07cfdee5ff40694ade043ac62d0274dc1e214830) - Fix: errore nell'ablitazione dell'utente Dirigente Scolastico
 - [39b02447](http://github.com/trinko/giuaschool/commit/39b024477167aa0a166191a39acb49694cc62bb3) - Fix: errore da non mostrare in installer
 - [af84ddab](http://github.com/trinko/giuaschool/commit/af84ddab2cdd03381c46ef9fd3919fedf329e974) - Rimosso vincolo su formato username genitori
