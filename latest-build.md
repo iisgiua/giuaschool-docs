@@ -7,10 +7,11 @@ nav_order: 11
 # Ultima modifica
 {: .text-center .fw-400 .pb-5}
 
-Data e ora dell'ultima modifica: 08/03/2022 20:43
+Data e ora dell'ultima modifica: 09/03/2022 00:43
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [80bba883](http://github.com/trinko/giuaschool/commit/80bba883fb314db21f55f502968f4418768e6e06) - Update docker
 - [7434e832](http://github.com/trinko/giuaschool/commit/7434e8326db24b7b3a8c617fd7cbafe27dd3cc96) - Modifica docker e fix installazione
 - [e414fd47](http://github.com/trinko/giuaschool/commit/e414fd47aea62da811b9ce838a0efd7b0e1e500c) - Fix: sintassi commenti per MYSQL
 - [ea69a664](http://github.com/trinko/giuaschool/commit/ea69a6641d0b288ccf72d4ba01038eab685a8b68) - Gestione modalità debug su log e fix su installazione
