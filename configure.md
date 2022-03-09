@@ -80,21 +80,30 @@ Come esempio, vengono forniti i file di importazione con alcuni dati di prova:
   - [importazione utenti ALUNNI e GENITORI](/assets/docs/IMPORTA_ALUNNI_GENITORI.csv)
 
 
-## Formato standard delle username
+## Configurazione del server email
 
-Attualmente, per gli studenti e i relativi genitori è utilizzato un formato ben definito per i nomi utente:
-**se non si rispetta questo formato ci saranno dei malfunzionamenti nella gestione del registro**.
+Durante la procedura di installazione è possibile configurare il server per la spedizione delle email.
 
-Per gli studenti, la username deve terminare con **.sX**, dove la _X_ indica una cifra
-(normalmente 1, ma cambia in caso di studenti omonimi). Ad esempio:
-  - _mario.rossi.s1_
-  - _mario.rossi.s2_
+**Si tenga presente che la spedizione delle email può essere bloccata o limitata dal servizio
+di _hosting_ che si utilizza.**
 
-Per i genitori, si usa la stessa username dello studente, facendola però terminare per
-**.fX** (primo genitore) e per **.gX** (secondo genitore). Ad esempio, i genitori degli studenti
-indicati in precedenza saranno indicati come segue:
-  - _mario.rossi.f1_ e _mario.rossi.g1_, genitori di _mario.rossi.s1_
-  - _mario.rossi.f2_ e _mario.rossi.g2_, genitori di _mario.rossi.s2_
+E' possibile scegliere tra tre modalità per la configurazione:
+  - **GMAIL**: verrà utilizzato un utente GMAIL esistente; dalle impostazioni di sicurezza dell'utente GMAIL,
+    si dovrà concedere il permesso di utilizzo delle _"app meno sicure"_
+    ([vedi la documentazione Google](https://support.google.com/accounts/answer/6010255))
 
-Nella fase di importazione degli utenti, si consiglia di lasciare in bianco i dati delle username:
-in questo modo saranno generate sempre in modo corretto.
+  - **SMTP**: verrà utilizzato un server esterno tramite protocollo SMTP;
+    questa modalità richiede i parametri del server di posta forniti dal servizio di _hosting_.
+
+  - **SENDMAIL**: verrà utilizzato un apposito servizio di spedizione (SENDMAIL) presente sul
+    server dell'applicazione.
+
+Per poter utilizzare la modalità **SMTP** o **SENDMAIL** è necessario che questa sia prevista
+dal proprio servizio di _hosting_.
+In alternativa la modalità **GMAIL** dovrebbe funzionare, ma dipende sempre dalle
+scelte dell'_hosting_ utilizzato.
+
+
+## Configurazione dello SPID
+
+[DA COMPLETARE]
