@@ -106,4 +106,19 @@ scelte dell'_hosting_ utilizzato.
 
 ## Configurazione dello SPID
 
-[DA COMPLETARE]
+Durante la procedura di installazione è possibile configurare l'accesso tramite SPID:
+verrà configurato un accesso per lo SPID di livello 1, per le pubbliche amministrazioni.
+
+Per l'attivazione dello SPID bisogna fare riferimento alle indicazioni dell'AgID per
+diventare fornitori di servizi:
+  - [SPID - Diventa forntore di servizi](https://www.spid.gov.it/cos-e-spid/diventa-fornitore-di-servizi/)
+
+L'AgID prevede una procedura tecnica ed una amministrativa per l'attivazione dello SPID:
+la configurazione predisposta risponde ai requisiti tecnici richiesti.
+Restano a carico dell'utilizzatore:
+  - la verifica di collaudo tramite lo **SPID Validator**;
+  - l'invio della richiesta di attivazione all'AgID;
+  - la procedura amministrativa.
+
+Nel caso di prima attivazione dello SPID, durante la configurazione si dovrà attivare la
+modalità di validazione, in modo da poter eseguire il collaudo.
