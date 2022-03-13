@@ -49,7 +49,7 @@ quali modifiche riportare nella nuova versione dei file.
 Bisogna ora eseguire la procedura di aggiornamento, seguendo le istruzioni riportate a video.
 
 Per eseguire la procedura di aggiornamento andare alla pagina seguente:
-  - **http://nome_sito/install/index.php** o **https://nome_sito/install/index.php**
+  - **https://nome_sito/install/index.php**
 
 Al termine della procedura, il file PHP viene rinominato con suffisso **.txt**, in modo
 da impedirne una nuova esecuzione.

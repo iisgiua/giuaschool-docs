@@ -72,7 +72,7 @@ Altri servizi di _hosting_, invece, hanno una cartella predefinita da usare per 
 della cartella **public/** all'interno di quella di pubblicazione.
 
 A questo punto, la pagina principale del registro elettronico dovrebbe essere visibile andando all'indirizzo:
-  - **http://nome_sito** o **https://nome_sito**
+  - **https://nome_sito**
 
 
 ## Eseguire la procedura di installazione
@@ -88,7 +88,7 @@ INSTALLATION_PSW='password_non_banale'
 
 Bisogna ora eseguire la procedura di installazione, seguendo le istruzioni riportate a video.
 Per eseguire la procedura di installazione andare alla pagina seguente:
-  - **http://nome_sito/install/index.php** o **https://nome_sito/install/index.php**
+  - **https://nome_sito/install/index.php**
 
 Al termine della procedura, il file PHP viene rinominato con suffisso **.txt**, in modo
 da impedirne una nuova esecuzione.
@@ -106,7 +106,7 @@ Inoltre, si controlli che i file al di fuori della cartella **public/** siano in
 In particolare, _è fondamentale che il file **.env** non possa mai essere visualizzato dal web_.
 
 Per controllarlo, andare all'indirizzo seguente e verificare che sia mostrato un messaggio di errore:
-  - **http://nome_sito/.env** o **https://nome_sito/.env**
+  - **https://nome_sito/.env**
 
 **ATTENZIONE**:
 _se si dovessero esporre pubblicamente sul web i file al di fuori della cartella **public/**,
