@@ -1,16 +1,17 @@
 ---
 layout: default
-title: Ultima modifica
+title: Ultimo aggiornamento
 nav_order: 11
 ---
 
-# Ultima modifica
+# Ultimo aggiornamento
 {: .text-center .fw-400 .pb-5}
 
-Data e ora dell'ultima modifica: 14/03/2022 18:12
+Data e ora dell'ultima modifica: 14/03/2022 18:27
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [73b41df5](http://github.com/trinko/giuaschool/commit/73b41df5515412865934d7747f2e3b00f784ad40) - Update Github actions
 - [98b9caf3](http://github.com/trinko/giuaschool/commit/98b9caf3a05fada445a8431a07c1eb28b6ea1f23) - Aggiornamento versione 1.4.3
 - [38d8cb30](http://github.com/trinko/giuaschool/commit/38d8cb30f0c3102809b0a1a2ddc4a91735a817fa) - Fix: installer, configurazione SPID
 - [94c1d53f](http://github.com/trinko/giuaschool/commit/94c1d53fc128e8ef97bffa92a5ddc6df00d9db49) - Fix installer: impostazioni SMTP
