@@ -82,18 +82,21 @@ Come esempio, vengono forniti i file di importazione con alcuni dati di prova:
 
 ## Configurazione del server email
 
-Durante la procedura di installazione è possibile configurare il server per la spedizione delle email.
+Durante la procedura di installazione o aggiornamento è possibile configurare il server
+per la spedizione delle email.
 
 **Si tenga presente che la spedizione delle email può essere bloccata o limitata dal servizio
 di _hosting_ che si utilizza.**
 
 E' possibile scegliere tra tre modalità per la configurazione:
-  - **GMAIL**: verrà utilizzato un utente GMAIL esistente; dalle impostazioni di sicurezza dell'utente GMAIL,
+  - **GMAIL**: verrà utilizzato un utente GMAIL esistente;
     si dovrà concedere il permesso di utilizzo delle _"app meno sicure"_
+    dalle impostazioni di sicurezza dell'utente GMAIL
     ([vedi la documentazione Google](https://support.google.com/accounts/answer/6010255))
 
   - **SMTP**: verrà utilizzato un server esterno tramite protocollo SMTP;
-    questa modalità richiede i parametri del server di posta forniti dal servizio di _hosting_.
+    questa modalità richiede i parametri di connessione al server di posta,
+    forniti dal servizio di _hosting_.
 
   - **SENDMAIL**: verrà utilizzato un apposito servizio di spedizione (SENDMAIL) presente sul
     server dell'applicazione.
@@ -106,19 +109,26 @@ scelte dell'_hosting_ utilizzato.
 
 ## Configurazione dello SPID
 
-Durante la procedura di installazione è possibile configurare l'accesso tramite SPID:
+Durante la procedura di installazione o aggiornamento è possibile configurare lo SPID:
 verrà configurato un accesso per lo SPID di livello 1, per le pubbliche amministrazioni.
 
-Per l'attivazione dello SPID bisogna fare riferimento alle indicazioni dell'AgID per
+Per l'attivazione dello SPID bisogna fare riferimento alle indicazioni dell'_AgID_ per
 diventare fornitori di servizi:
   - [SPID - Diventa forntore di servizi](https://www.spid.gov.it/cos-e-spid/diventa-fornitore-di-servizi/)
 
 L'AgID prevede una procedura tecnica ed una amministrativa per l'attivazione dello SPID:
-la configurazione predisposta risponde ai requisiti tecnici richiesti.
+la configurazione predisposta per il registro _giua@school_ risponde ai requisiti tecnici richiesti.
 Restano a carico dell'utilizzatore:
   - la verifica di collaudo tramite lo **SPID Validator**;
   - l'invio della richiesta di attivazione all'AgID;
   - la procedura amministrativa.
 
 Nel caso di prima attivazione dello SPID, durante la configurazione si dovrà attivare la
-modalità di validazione, in modo da poter eseguire il collaudo.
+modalità di validazione: in questo modo, nel pulsante SPID sarà presente anche
+la voce SPID VALIDATOR che permette di eseguire il collaudo.
+
+Per scaricare i _metadata_, che corrisponde a un documento XML con il certificato e altre informazioni,
+necessario per il collaudo e per la richiesta di attivazione, è
+sufficiente, una volta terminata la procedura di installazione o aggiornamento,
+andare al seguente indirizzo:
+  - **https://nome_sito/metadata**
