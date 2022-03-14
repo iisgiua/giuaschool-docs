@@ -127,7 +127,7 @@ Nel caso di prima attivazione dello SPID, durante la configurazione si dovrà at
 modalità di validazione: in questo modo, nel pulsante SPID sarà presente anche
 la voce SPID VALIDATOR che permette di eseguire il collaudo.
 
-Per scaricare i _metadata_, che corrisponde a un documento XML con il certificato e altre informazioni,
+Per scaricare il file dei _metadata_, che corrisponde a un documento XML con il certificato e altre informazioni,
 necessario per il collaudo e per la richiesta di attivazione, è
 sufficiente, una volta terminata la procedura di installazione o aggiornamento,
 andare al seguente indirizzo:
