@@ -7,10 +7,11 @@ nav_order: 11
 # Ultima modifica
 {: .text-center .fw-400 .pb-5}
 
-Data e ora dell'ultima modifica: 13/03/2022 12:20
+Data e ora dell'ultima modifica: 14/03/2022 12:17
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [38d8cb30](http://github.com/trinko/giuaschool/commit/38d8cb30f0c3102809b0a1a2ddc4a91735a817fa) - Fix: installer, configurazione SPID
 - [94c1d53f](http://github.com/trinko/giuaschool/commit/94c1d53fc128e8ef97bffa92a5ddc6df00d9db49) - Fix installer: impostazioni SMTP
 - [80bba883](http://github.com/trinko/giuaschool/commit/80bba883fb314db21f55f502968f4418768e6e06) - Update docker
 - [7434e832](http://github.com/trinko/giuaschool/commit/7434e8326db24b7b3a8c617fd7cbafe27dd3cc96) - Modifica docker e fix installazione
