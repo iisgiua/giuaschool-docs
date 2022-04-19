@@ -7,10 +7,11 @@ nav_order: 11
 # Ultimo aggiornamento
 {: .text-center .fw-400 .pb-5}
 
-Data e ora dell'ultima modifica: 19/04/2022 00:11
+Data e ora dell'ultima modifica: 19/04/2022 08:34
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [e7147ed4](http://github.com/trinko/giuaschool/commit/e7147ed4a029ce17fc1e6151378334ce98440ca6) - Update docker
 - [94a2c1ca](http://github.com/trinko/giuaschool/commit/94a2c1cabf7581d90176f7edfa4384f2411cd36b) - Update docker e gitHub action
 - [aeb0e0d8](http://github.com/trinko/giuaschool/commit/aeb0e0d88e134a410a35242acfa126f742ba3258) - Aggiornamento fixtures e installer
 - [36c3d5ed](http://github.com/trinko/giuaschool/commit/36c3d5ed5f94bbed608df6f141f28e6437faf497) - Fix: giustificazione vuota per assente dello stesso giorno
