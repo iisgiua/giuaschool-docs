@@ -7,10 +7,12 @@ nav_order: 11
 # Ultimo aggiornamento
 {: .text-center .fw-400 .pb-5}
 
-Data e ora dell'ultima modifica: 28/04/2022 19:11
+Data e ora dell'ultima modifica: 02/05/2022 20:51
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [c3155217](http://github.com/trinko/giuaschool/commit/c31552172876e4f4e37ffc7979ea67696c029c07) - Gestione proposte di voto: correzioni varie
+- [f19a8f25](http://github.com/trinko/giuaschool/commit/f19a8f250834146f5922d6b6e654a0ccf154b2cd) - Fix: date colloqui nel mese finale
 - [e88c5cd2](http://github.com/trinko/giuaschool/commit/e88c5cd2e8a00fbccb715e059ab8de13cc4a73d9) - Aggiornamento di versione bootstrap-slider
 - [e7147ed4](http://github.com/trinko/giuaschool/commit/e7147ed4a029ce17fc1e6151378334ce98440ca6) - Update docker
 - [94a2c1ca](http://github.com/trinko/giuaschool/commit/94a2c1cabf7581d90176f7edfa4384f2411cd36b) - Update docker e gitHub action
