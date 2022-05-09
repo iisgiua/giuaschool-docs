@@ -7,10 +7,12 @@ nav_order: 11
 # Ultimo aggiornamento
 {: .text-center .fw-400 .pb-5}
 
-Data e ora dell'ultima modifica: 09/05/2022 09:36
+Data e ora dell'ultima modifica: 09/05/2022 20:03
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [e6fe0c98](http://github.com/trinko/giuaschool/commit/e6fe0c9827682e84ef876f167cdefbfe38555abf) - Merge pull request #241 from zerai/entity-doc-block
+- [1f4a2682](http://github.com/trinko/giuaschool/commit/1f4a2682fa75bb26c7dc0b455c6238cb41490ed8) - Fix return type in entity RichiestaColloquio.
 - [0425a71d](http://github.com/trinko/giuaschool/commit/0425a71d1abd70771a3e253d0769d2cbc0e1c272) - Merge pull request #240 from zerai/entity-doc-block
 - [39d80a41](http://github.com/trinko/giuaschool/commit/39d80a4182a2b8e5b498e0d1e5151b0209879adb) - Fix DocBlock, type hints.
 - [3cddacd8](http://github.com/trinko/giuaschool/commit/3cddacd88f14265aeb7dc5c53c4042df5a8ae458) - Gestione proposte di voto: test
