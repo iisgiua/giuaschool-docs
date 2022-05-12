@@ -7,10 +7,12 @@ nav_order: 11
 # Ultimo aggiornamento
 {: .text-center .fw-400 .pb-5}
 
-Data e ora dell'ultima modifica: 10/05/2022 23:56
+Data e ora dell'ultima modifica: 12/05/2022 10:57
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [7a6adbfc](http://github.com/trinko/giuaschool/commit/7a6adbfcd8cada8b934897d7df0cb80a5ef2c4f5) - Merge pull request #242 from zerai/entity-doc-block
+- [b8d32d36](http://github.com/trinko/giuaschool/commit/b8d32d3674f5fef2aba50c76da9bfce7cdea2a10) - Fix type hints in entity RichiestaColloquio.
 - [5fb30cef](http://github.com/trinko/giuaschool/commit/5fb30cefde150fd3ac0b87329c4efab6864ca8e7) - Update GHA
 - [6e213252](http://github.com/trinko/giuaschool/commit/6e21325224c2f3e6d5b634ad043e246a4478a3a9) - Update GHA
 - [e6fe0c98](http://github.com/trinko/giuaschool/commit/e6fe0c9827682e84ef876f167cdefbfe38555abf) - Merge pull request #241 from zerai/entity-doc-block
