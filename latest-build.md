@@ -7,11 +7,21 @@ nav_order: 11
 # Ultimo aggiornamento
 {: .text-center .fw-400 .pb-5}
 
-Data e ora dell'ultima modifica: 12/05/2022 10:57
+Data e ora dell'ultima modifica: 15/05/2022 17:17
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [41ff8527](http://github.com/trinko/giuaschool/commit/41ff8527ae50721182721ba7df31df53792d243c) - Merge pull request #243 from zerai/ci-performance-001
+- [8cb31b72](http://github.com/trinko/giuaschool/commit/8cb31b72c49b34c366d69bb468ec32a7459be13c) - Update test-PR.yml
+- [45826cd8](http://github.com/trinko/giuaschool/commit/45826cd839773b5ca96e4ba4353f9da7823ed7f6) - Update test-PR.yml
+- [e42710e7](http://github.com/trinko/giuaschool/commit/e42710e74e0a28140eb0826ad5c4995194d44651) - Update behat.yml
+- [22b04539](http://github.com/trinko/giuaschool/commit/22b04539d589e383b5f4b78c7de73740cea8146b) - Update entrypoint-test-behat.sh
+- [7c0f1652](http://github.com/trinko/giuaschool/commit/7c0f16526250c868496e3a0c250c92d84a7ee22a) - Update entrypoint-test-behat.sh
+- [75266631](http://github.com/trinko/giuaschool/commit/752666312b43bcb3015d360194a1809c7eacaa7a) - Update test-PR.yml
+- [71114e9c](http://github.com/trinko/giuaschool/commit/71114e9c57a0a1580d7ff7c7bde0db5a603c42c8) - Fix typo in workflow file.
+- [77e2e400](http://github.com/trinko/giuaschool/commit/77e2e4007451605302d79aaafab5dd9f9ea7cffd) - Update GHA workflow (test-PR.yml).
 - [7a6adbfc](http://github.com/trinko/giuaschool/commit/7a6adbfcd8cada8b934897d7df0cb80a5ef2c4f5) - Merge pull request #242 from zerai/entity-doc-block
+- [97929d54](http://github.com/trinko/giuaschool/commit/97929d545ec605e80c499ef4588164b12b4fb9ab) - CI performance:job paralleli (phpunit|behat). Configurazione behat suites. Aggiunti singoli (docker) entrypoint per phpunit e behat. Update GHA workflow file.
 - [b8d32d36](http://github.com/trinko/giuaschool/commit/b8d32d3674f5fef2aba50c76da9bfce7cdea2a10) - Fix type hints in entity RichiestaColloquio.
 - [5fb30cef](http://github.com/trinko/giuaschool/commit/5fb30cefde150fd3ac0b87329c4efab6864ca8e7) - Update GHA
 - [6e213252](http://github.com/trinko/giuaschool/commit/6e21325224c2f3e6d5b634ad043e246a4478a3a9) - Update GHA
