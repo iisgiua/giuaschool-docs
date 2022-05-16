@@ -7,10 +7,25 @@ nav_order: 11
 # Ultimo aggiornamento
 {: .text-center .fw-400 .pb-5}
 
-Data e ora dell'ultima modifica: 15/05/2022 17:17
+Data e ora dell'ultima modifica: 16/05/2022 12:52
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [41ffbbb5](http://github.com/trinko/giuaschool/commit/41ffbbb5fa35029be8c8bcc47aae29e47e7f0869) - Update Github wokflows
+- [ee58d7f7](http://github.com/trinko/giuaschool/commit/ee58d7f7b48062746ad23a5e9876be60ec65fd3b) - Update Github action
+- [47e73215](http://github.com/trinko/giuaschool/commit/47e732155a845c917c6eb3ec6f6675f52508632b) - Update Github workflow
+- [05121cda](http://github.com/trinko/giuaschool/commit/05121cda2f1fb3327be5a09c75babd651f92d63c) - Update Github actions
+- [6ce1f943](http://github.com/trinko/giuaschool/commit/6ce1f9434a2ba6545ac2a456ef6b76fe1e94910f) - Update Github actions
+- [6e4d8a6e](http://github.com/trinko/giuaschool/commit/6e4d8a6e7ab799443b337337784d7a7acdc56d8d) - Update Github action
+- [750304d7](http://github.com/trinko/giuaschool/commit/750304d7b44e692024ea4bf5ac680058d053f773) - Update GitHub Action
+- [629228bd](http://github.com/trinko/giuaschool/commit/629228bda051b7ce3daea6c682562c1ae46419f5) - Update GitHub
+- [abd3e9e2](http://github.com/trinko/giuaschool/commit/abd3e9e2967c6000a00ed900677789db6090a818) - Update Github
+- [f2816c40](http://github.com/trinko/giuaschool/commit/f2816c405372ebd7c37480d483df413fbeb341f2) - Update Github Action
+- [5364fb41](http://github.com/trinko/giuaschool/commit/5364fb41ce75f3ab89f7b8eb2cc3ddd3696c06a1) - Update Github Action
+- [33670ba7](http://github.com/trinko/giuaschool/commit/33670ba7ad4c911b030280b75b49d9fe3e3e931f) - Update Github Actions
+- [611af5ac](http://github.com/trinko/giuaschool/commit/611af5acecd88794c6097e43e9a76924ae8086bd) - Update test.yml
+- [d592602e](http://github.com/trinko/giuaschool/commit/d592602ec5e09d13956cad5659dab03d01c9050e) - Update Github Actions
+- [81f3affd](http://github.com/trinko/giuaschool/commit/81f3affd8c540893790a4e01004e411d54e90d51) - Create test2.yml
 - [41ff8527](http://github.com/trinko/giuaschool/commit/41ff8527ae50721182721ba7df31df53792d243c) - Merge pull request #243 from zerai/ci-performance-001
 - [8cb31b72](http://github.com/trinko/giuaschool/commit/8cb31b72c49b34c366d69bb468ec32a7459be13c) - Update test-PR.yml
 - [45826cd8](http://github.com/trinko/giuaschool/commit/45826cd839773b5ca96e4ba4353f9da7823ed7f6) - Update test-PR.yml
