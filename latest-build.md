@@ -7,12 +7,14 @@ nav_order: 11
 # Ultimo aggiornamento
 {: .text-center .fw-400 .pb-5}
 
-Data e ora dell'ultima modifica: 16/05/2022 12:52
+Data e ora dell'ultima modifica: 16/05/2022 16:30
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [57af4a5f](http://github.com/trinko/giuaschool/commit/57af4a5f2639b7decda8be340f016c76a2822519) - Merge pull request #248 from zerai/entity-app
 - [41ffbbb5](http://github.com/trinko/giuaschool/commit/41ffbbb5fa35029be8c8bcc47aae29e47e7f0869) - Update Github wokflows
 - [ee58d7f7](http://github.com/trinko/giuaschool/commit/ee58d7f7b48062746ad23a5e9876be60ec65fd3b) - Update Github action
+- [d929fe22](http://github.com/trinko/giuaschool/commit/d929fe22590f2390d502e39f479c9022520e451f) - Fix docBlock, type hints.
 - [47e73215](http://github.com/trinko/giuaschool/commit/47e732155a845c917c6eb3ec6f6675f52508632b) - Update Github workflow
 - [05121cda](http://github.com/trinko/giuaschool/commit/05121cda2f1fb3327be5a09c75babd651f92d63c) - Update Github actions
 - [6ce1f943](http://github.com/trinko/giuaschool/commit/6ce1f9434a2ba6545ac2a456ef6b76fe1e94910f) - Update Github actions
