@@ -7,10 +7,11 @@ nav_order: 11
 # Ultimo aggiornamento
 {: .text-center .fw-400 .pb-5}
 
-Data e ora dell'ultima modifica: 16/05/2022 17:35
+Data e ora dell'ultima modifica: 18/05/2022 19:15
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [1fd4b8ab](http://github.com/trinko/giuaschool/commit/1fd4b8abdba5cc3576b29a1416fbd34af7f6b8fb) - Update README.md
 - [d47db927](http://github.com/trinko/giuaschool/commit/d47db927723fa3bacd5c8f78862abd38dce53dcb) - Merge pull request #247 from zerai/entity-annotazione
 - [57af4a5f](http://github.com/trinko/giuaschool/commit/57af4a5f2639b7decda8be340f016c76a2822519) - Merge pull request #248 from zerai/entity-app
 - [5fcda4b2](http://github.com/trinko/giuaschool/commit/5fcda4b27ba913835354ec7a69f6a31bcd1b0d57) - Update Annotazione.php
