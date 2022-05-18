@@ -7,10 +7,11 @@ nav_order: 11
 # Ultimo aggiornamento
 {: .text-center .fw-400 .pb-5}
 
-Data e ora dell'ultima modifica: 18/05/2022 22:05
+Data e ora dell'ultima modifica: 19/05/2022 00:51
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [f48d86bd](http://github.com/trinko/giuaschool/commit/f48d86bd2737f16e47aeafeb44ea2cfeb35e6800) - Update Github workflow
 - [410f2c6d](http://github.com/trinko/giuaschool/commit/410f2c6de390af042b9fa2ff5d6f666155de4901) - Update Github workflow
 - [dd85358f](http://github.com/trinko/giuaschool/commit/dd85358feb4586c31c40499f86730ff9af2a0aba) - Update github workflow
 - [1fd4b8ab](http://github.com/trinko/giuaschool/commit/1fd4b8abdba5cc3576b29a1416fbd34af7f6b8fb) - Update README.md
