@@ -7,10 +7,12 @@ nav_order: 11
 # Ultimo aggiornamento
 {: .text-center .fw-400 .pb-5}
 
-Data e ora dell'ultima modifica: 19/05/2022 12:36
+Data e ora dell'ultima modifica: 20/05/2022 20:21
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [d6bd1774](http://github.com/trinko/giuaschool/commit/d6bd17747accdcffd5a66b35bd3676000fcfd335) - Merge pull request #250 from bfabio/publiccode_yml
+- [49c99f29](http://github.com/trinko/giuaschool/commit/49c99f299da0275120892629401b2acef971c840) - Add publiccode.yml
 - [2d41a803](http://github.com/trinko/giuaschool/commit/2d41a803759ee2ebd7c9a119418cacc9eacdb8a0) - Updare Githup workflow
 - [f48d86bd](http://github.com/trinko/giuaschool/commit/f48d86bd2737f16e47aeafeb44ea2cfeb35e6800) - Update Github workflow
 - [410f2c6d](http://github.com/trinko/giuaschool/commit/410f2c6de390af042b9fa2ff5d6f666155de4901) - Update Github workflow
