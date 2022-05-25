@@ -7,10 +7,11 @@ nav_order: 11
 # Ultimo aggiornamento
 {: .text-center .fw-400 .pb-5}
 
-Data e ora dell'ultima modifica: 21/05/2022 00:33
+Data e ora dell'ultima modifica: 25/05/2022 13:21
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [ed59400e](http://github.com/trinko/giuaschool/commit/ed59400ed3d871aeb1712d092cd0f2f72ba0e5f7) - Fix: errore su creazione nuova annotazione
 - [2fd7bcab](http://github.com/trinko/giuaschool/commit/2fd7bcabbbb74321d2af47fd4c0ab69a3a82f2f2) - Fix: scheda voti in proposta di voto non visualizzata correttamente quando si usano i trimestri
 - [d6bd1774](http://github.com/trinko/giuaschool/commit/d6bd17747accdcffd5a66b35bd3676000fcfd335) - Merge pull request #250 from bfabio/publiccode_yml
 - [49c99f29](http://github.com/trinko/giuaschool/commit/49c99f299da0275120892629401b2acef971c840) - Add publiccode.yml
