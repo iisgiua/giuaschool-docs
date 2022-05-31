@@ -7,10 +7,11 @@ nav_order: 11
 # Ultimo aggiornamento
 {: .text-center .fw-400 .pb-5}
 
-Data e ora dell'ultima modifica: 31/05/2022 20:21
+Data e ora dell'ultima modifica: 31/05/2022 21:22
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [51c141a1](http://github.com/trinko/giuaschool/commit/51c141a1c8c5a2002a33b6e3b5c7a71f61462e80) - Update README.md
 - [bbdd4dec](http://github.com/trinko/giuaschool/commit/bbdd4dec969ec952c92f6f6fd30afa8fc5043581) - Modifica: gestione scrutini finali
 - [c30af811](http://github.com/trinko/giuaschool/commit/c30af811401f0e930b190d3293d4f241f470b257) - Merge pull request #256 from bfabio/publiccode_yml
 - [3c4a1b65](http://github.com/trinko/giuaschool/commit/3c4a1b6504743b89d330cf60749d5b6a710a56a8) - Add codiceIPA to publiccode.yml
