@@ -47,8 +47,38 @@ Anche questi messaggi sono facilmente modificabili e si trovano all'interno dell
 cartella **translations**.
 
 
-## Personalizzazione dei documenti prodotti
-DA COMPLETARE
+## Personalizzazione dei documenti degli scrutini
+
+Anche i documenti degli scrutini sono generati attraverso l'uso di _template_, come indicato
+in precedenza.
+Tutti i modelli per i documenti degli scrutini si trovano nella cartella **templates/coordinatore/documenti**.
+
+In particolare, sono sicuramente da personalizzare i seguenti modelli:
+  - **scrutinio_verbale_P.html.twig**: verbale dello scrutinio intermedio del primo periodo (Primo Trimestre/Quadrimestre/Pentamestre);
+  - **scrutinio_verbale_S.html.twig**: verbale dello scrutinio intermedio del secondo periodo (Secondo Trimestre);
+  - **scrutinio_verbale_F.html.twig**: verbale dello scrutinio finale;
+  - **scrutinio_verbale_E.html.twig**: verbale dello scrutinio per gli esami della sospensione del giudizio;
+  - **scrutinio_verbale_X.html.twig**: verbale dello scrutinio rinviato;
+  - **scrutinio_debiti_P.html.twig**: comunicazione dei debiti per lo scrutinio intermedio del primo periodo (Primo Trimestre/Quadrimestre/Pentamestre);
+  - **scrutinio_debiti_S.html.twig**: comunicazione dei debiti per lo scrutinio intermedio del secondo periodo (Secondo Trimestre);
+  - **scrutinio_debiti_F.html.twig**: comunicazione dei debiti per lo scrutinio finale.
+
+Non dovrebbero avere necessità di modifica, invece, i seguenti modelli:
+  - file che iniziano con **scrutinio_pagella_**: comunicazione dei voti dello scrutinio relativo al periodo indicato;
+  - file che iniziano con **scrutinio_non_ammesso_**: comunicazione di non ammissione relativa al periodo indicato;
+  - file che iniziano con **scrutinio_carenze_**: comunicazione delle carenze con recupero autonomo relative al periodo indicato;
+  - file che iniziano con **scrutinio_riepilogo_**: quadro di riepilogo dei voti allegato al verbale dello scrutinio del periodo indicato;
+  - file che iniziano con **scrutinio_tabellone_**: tabellone degli esiti della classe, relativo allo scrutinio del periodo indicato;
+  - file che iniziano con **scrutinio_firme_**: foglio firme per il registro generale dei voti, relativo allo scrutinio del periodo indicato;
+  - **scrutinio_certificazioni.html.twig**: certificazione delle competenze per le classi seconde;
+  - **intestazione.html.twig**: intestazione per i documenti;
+  - **firma.html.twig**: firma finale per i documenti.
+
+
+
+
+
+
 
 ## Passi da eseguire per le personalizzazioni
 DA COMPLETARE
