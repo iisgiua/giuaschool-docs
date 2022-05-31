@@ -46,8 +46,8 @@ si usa un'etichetta che li identifica e ne permette l'utilizzo nei _template_.
 Anche questi messaggi sono facilmente modificabili e si trovano all'interno della
 cartella **translations**.
 
-
 ## Personalizzazione dei documenti degli scrutini
+
 
 Anche i documenti degli scrutini sono generati attraverso l'uso di _template_, come indicato
 in precedenza.
@@ -74,11 +74,24 @@ Non dovrebbero avere necessità di modifica, invece, i seguenti modelli:
   - **intestazione.html.twig**: intestazione per i documenti;
   - **firma.html.twig**: firma finale per i documenti.
 
-
-
-
-
+Sono inoltre da personalizzare i criteri per il voto di condotta, che vengono riportati a verbale.
+Si trovano nel file **translations/messages+intl-icu.it.yml**.
+I criteri della condotta sono indicati con le etichette seguenti (corrispondenti ai possibili voti):
+  - **message.giudizio_condotta_NC**
+  - **message.giudizio_condotta_5**
+  - **message.giudizio_condotta_6**
+  - **message.giudizio_condotta_7**
+  - **message.giudizio_condotta_8**
+  - **message.giudizio_condotta_9**
+  - **message.giudizio_condotta_10**
 
 
 ## Passi da eseguire per le personalizzazioni
-DA COMPLETARE
+
+Una volta effettuata la modifica di un _template_ o del file dei messaggi, è sempre necessario cancellare
+la _cache_. Per fare questo, come utente amministratore, andare alla pagina **SISTEMA > MANUTENZIONE**
+e poi cliccare sul pulsante **SVUOTA CACHE**.
+
+Nel caso di modifica dei documenti dello scrutinio, se sono già stati creati in precedenza i
+documenti da modificare, sarà anche necessario riaprire lo scrutinio e poi chiuderlo di nuovo, in modo
+da cancellare le vecchie versioni di tali documenti.
