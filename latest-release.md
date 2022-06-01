@@ -9,10 +9,11 @@ nav_order: 10
 
 Versione: {{ site.data.version.tag }}
 
-Data e ora di rilascio: 01/06/2022 20:41
+Data e ora di rilascio: 01/06/2022 21:36
 
 Lista delle modifiche incluse nella nuova versione:
 
+- [d800cfb2](http://github.com/trinko/giuaschool/commit/d800cfb2dab97ba7c6c3c81257dbe082e8ba7be8) - Fix installer
 - [17a4b906](http://github.com/trinko/giuaschool/commit/17a4b906ecf53d32610aedcd2f66d7958d507899) - Update publiccode
 - [7d780ffa](http://github.com/trinko/giuaschool/commit/7d780ffa1a7521cb595deb078cfa0c2c0f86b4ba) - Aggiornamento versione su publiccode
 - [13bde481](http://github.com/trinko/giuaschool/commit/13bde4814dc3f9a34ca009ed6d0907ee9e563496) - Fix installer
