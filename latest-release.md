@@ -9,7 +9,7 @@ nav_order: 10
 
 Versione: {{ site.data.version.tag }}
 
-Data e ora di rilascio: 01/06/2022 17:43
+Data e ora di rilascio: 01/06/2022 17:58
 
 Lista delle modifiche incluse nella nuova versione:
 
