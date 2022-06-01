@@ -7,10 +7,11 @@ nav_order: 11
 # Ultimo aggiornamento
 {: .text-center .fw-400 .pb-5}
 
-Data e ora dell'ultima modifica: 01/06/2022 09:38
+Data e ora dell'ultima modifica: 01/06/2022 15:26
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [13bde481](http://github.com/trinko/giuaschool/commit/13bde4814dc3f9a34ca009ed6d0907ee9e563496) - Fix installer
 - [4b236590](http://github.com/trinko/giuaschool/commit/4b236590b78fbf1829112f20842aea3fc9724cb0) - Fix installer
 - [c076affe](http://github.com/trinko/giuaschool/commit/c076affe88956e26aa5201e1d7a6e592c26d9ec5) - Aggiorna installer
 - [51c141a1](http://github.com/trinko/giuaschool/commit/51c141a1c8c5a2002a33b6e3b5c7a71f61462e80) - Update README.md
