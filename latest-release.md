@@ -9,10 +9,13 @@ nav_order: 10
 
 Versione: {{ site.data.version.tag }}
 
-Data e ora di rilascio: 31/05/2022 23:59
+Data e ora di rilascio: 01/06/2022 17:43
 
 Lista delle modifiche incluse nella nuova versione:
 
+- [13bde481](http://github.com/trinko/giuaschool/commit/13bde4814dc3f9a34ca009ed6d0907ee9e563496) - Fix installer
+- [4b236590](http://github.com/trinko/giuaschool/commit/4b236590b78fbf1829112f20842aea3fc9724cb0) - Fix installer
+- [c076affe](http://github.com/trinko/giuaschool/commit/c076affe88956e26aa5201e1d7a6e592c26d9ec5) - Aggiorna installer
 - [51c141a1](http://github.com/trinko/giuaschool/commit/51c141a1c8c5a2002a33b6e3b5c7a71f61462e80) - Update README.md
 - [bbdd4dec](http://github.com/trinko/giuaschool/commit/bbdd4dec969ec952c92f6f6fd30afa8fc5043581) - Modifica: gestione scrutini finali
 - [c30af811](http://github.com/trinko/giuaschool/commit/c30af811401f0e930b190d3293d4f241f470b257) - Merge pull request #256 from bfabio/publiccode_yml
