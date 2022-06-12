@@ -7,7 +7,8 @@ nav_order: 10
 # Ultima versione
 {: .text-center .fw-400 .pb-5}
 
-Versione: {{ site.data.version.tag }}
+
+[Scarica la Versione {{ site.data.version.tag }}](https://github.com/trinko/giuaschool/releases/latest/download/giuaschool-release-latest.zip){:target="_blank"}{: .text-center .fw-400 .pb-5}
 
 Data e ora di rilascio: 01/06/2022 21:36
 
@@ -83,4 +84,3 @@ Lista delle modifiche incluse nella nuova versione:
 - [ddc08043](http://github.com/trinko/giuaschool/commit/ddc0804333ff303d41d8d1ccc02456bf2f1df32e) - Update README
 - [47caa076](http://github.com/trinko/giuaschool/commit/47caa0760032b037b36bf08cf004c13f339788b7) - Update README
 - [890defde](http://github.com/trinko/giuaschool/commit/890defdef6b0af5895d4660d5a9af73eab5e7415) - Fix: gestione scrutinio secondo periodo
-
