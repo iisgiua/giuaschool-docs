@@ -8,7 +8,8 @@ nav_order: 10
 {: .text-center .fw-400 .pb-5}
 
 
-[Scarica la Versione {{ site.data.version.tag }}](https://github.com/trinko/giuaschool/releases/latest/download/giuaschool-release-latest.zip){:target="_blank"}{: .text-center .fw-400 .pb-5}
+[**Scarica la Versione {{ site.data.version.tag }}**](https://github.com/trinko/giuaschool/releases/latest/download/giuaschool-release-latest.zip)
+{: .text-center .pb-5}
 
 Data e ora di rilascio: 01/06/2022 21:36
 
