@@ -10,10 +10,11 @@ nav_order: 10
 [**Scarica la Versione {{ site.data.version.tag }}**](https://github.com/trinko/giuaschool/releases/download/v{{ site.data.version.tag }}/giuaschool-release-{{ site.data.version.tag }}.zip)
 {: .text-center .pb-5}
 
-Data e ora di rilascio: 12/06/2022 12:35
+Data e ora di rilascio: 12/06/2022 13:15
 
 Lista delle modifiche incluse nella nuova versione:
 
+- [98accf6b](http://github.com/trinko/giuaschool/commit/98accf6b2298a65523320fe5ad348552e249d469) - Update gitHub action
 - [a841df6f](http://github.com/trinko/giuaschool/commit/a841df6ff902886f1168c17358c8be445925a2c1) - Update
 - [9abaeadb](http://github.com/trinko/giuaschool/commit/9abaeadb0c088bef77d513115ba991f0239a24cb) - Update Github action
 - [b7a977c9](http://github.com/trinko/giuaschool/commit/b7a977c97dcb3c75a17035dbbf02bc6a8c5c70a3) - Fix: colonne dei crediti invertite
