@@ -10,10 +10,13 @@ nav_order: 11
 [**Scarica l'ultimo aggiornamento**](https://github.com/trinko/giuaschool/releases/download/update-v1.4.4/giuaschool-update-v1.4.4.zip)
 {: .text-center .pb-5}
 
-Data e ora dell'ultimo aggiornamento: 14/06/2022 09:44
+Data e ora dell'ultimo aggiornamento: 14/06/2022 18:30
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [6498deae](http://github.com/trinko/giuaschool/commit/6498deae07fb4e52333564933329a004f3359995) - Update github action
+- [703836f1](http://github.com/trinko/giuaschool/commit/703836f17c302b45b926b70dfebbfafc45374465) - Update github action
+- [50e05a99](http://github.com/trinko/giuaschool/commit/50e05a998d73796cde768c0a7e3dabef8e693ed2) - Update github action
 - [ba3270d9](http://github.com/trinko/giuaschool/commit/ba3270d96d4a4757dfd96b70f85cd1d26124da33) - Update github action
 - [d90744ef](http://github.com/trinko/giuaschool/commit/d90744ef15cabffe1cb4f1ec2d3e279da4588885) - Update github action
 - [e84756f8](http://github.com/trinko/giuaschool/commit/e84756f8aef02df34f18a266092c7b18d07d9d13) - Update github action
