@@ -7,7 +7,7 @@ nav_order: 10
 # Ultima versione
 {: .text-center .fw-400 .pb-5}
 
-[**Scarica la Versione {{ site.data.version.tag }}**](https://github.com/trinko/giuaschool/releases/download/v{{ site.data.version.tag }}/giuaschool-release-{{ site.data.version.tag }}.zip)
+[**Scarica la Versione {{ site.data.version.tag }}**](https://github.com/trinko/giuaschool/releases/download/v{{ site.data.version.tag }}/giuaschool-release-v{{ site.data.version.tag }}.zip)
 {: .text-center .pb-5}
 
 Data e ora di rilascio: 01/06/2022 21:36
