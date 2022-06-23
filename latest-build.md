@@ -10,10 +10,11 @@ nav_order: 11
 [**Scarica l'ultimo aggiornamento**](https://github.com/trinko/giuaschool/releases/download/update-v1.4.4/giuaschool-update-v1.4.4.zip)
 {: .text-center .pb-5}
 
-Data e ora dell'ultimo aggiornamento: 23/06/2022 21:12
+Data e ora dell'ultimo aggiornamento: 23/06/2022 23:54
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [868debf6](http://github.com/trinko/giuaschool/commit/868debf6f4e5f6e46f8e61dab972b7ff13e37156) - Fix: impostazione crediti in scrutinio per sospensione giudizio
 - [f25df9e3](http://github.com/trinko/giuaschool/commit/f25df9e30da949aa015aeb94e9a417ffd6e407d1) - Modifica gestione scrutinio di sospensione del giudizio
 - [25575229](http://github.com/trinko/giuaschool/commit/255752292d2ffc2bebb15ead40941d06f16bc14f) - Update ignore file list
 - [6498deae](http://github.com/trinko/giuaschool/commit/6498deae07fb4e52333564933329a004f3359995) - Update github action
