@@ -10,10 +10,11 @@ nav_order: 11
 [**Scarica l'ultimo aggiornamento**](https://github.com/trinko/giuaschool/releases/download/update-v1.4.4/giuaschool-update-v1.4.4.zip)
 {: .text-center .pb-5}
 
-Data e ora dell'ultimo aggiornamento: 29/06/2022 15:32
+Data e ora dell'ultimo aggiornamento: 30/06/2022 17:52
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [579da5a2](http://github.com/trinko/giuaschool/commit/579da5a23134ddc176f0870d5b65151d8a939192) - Fix: inserimento utente preside
 - [b07ba3ef](http://github.com/trinko/giuaschool/commit/b07ba3ef4b79c8d1645816a2108bc3885e86e6cd) - Fix: impostazione scansione oraria, pulsante aggiungi
 - [d6897871](http://github.com/trinko/giuaschool/commit/d689787193bff9e3141716f8fe05874ab082c13c) - Modifica gestione scrutinio rinviato (sessione supplettiva)
 - [868debf6](http://github.com/trinko/giuaschool/commit/868debf6f4e5f6e46f8e61dab972b7ff13e37156) - Fix: impostazione crediti in scrutinio per sospensione giudizio
