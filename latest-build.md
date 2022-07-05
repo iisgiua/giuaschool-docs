@@ -10,10 +10,16 @@ nav_order: 11
 [**Scarica l'ultimo aggiornamento**](https://github.com/trinko/giuaschool/releases/download/update-v1.4.4/giuaschool-update-v1.4.4.zip)
 {: .text-center .pb-5}
 
-Data e ora dell'ultimo aggiornamento: 03/07/2022 00:05
+Data e ora dell'ultimo aggiornamento: 05/07/2022 20:14
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [66a0cdfe](http://github.com/trinko/giuaschool/commit/66a0cdfe4d3232bc639bf8b871da84b7a909ded7) - Update GHA
+- [4fe8d11e](http://github.com/trinko/giuaschool/commit/4fe8d11e63965c8e38898755f919bb857da10b03) - update GHA
+- [a97cb48c](http://github.com/trinko/giuaschool/commit/a97cb48c70a8d91d2d0c5b724ba2060b1b89c8a8) - update GHA
+- [020d10c8](http://github.com/trinko/giuaschool/commit/020d10c83b697ec00c0e5777ccda14940d04e31e) - update GHA
+- [7bc6a1db](http://github.com/trinko/giuaschool/commit/7bc6a1db2712b4e29c21472f1006de4b90415456) - Update GHA
+- [cecfcfd6](http://github.com/trinko/giuaschool/commit/cecfcfd67d60ad684af71905537108ac210418a2) - Update GHA
 - [72abec3b](http://github.com/trinko/giuaschool/commit/72abec3b9f2ac0699475a73f1913aaf64b16ebe3) - Modifica gestione archiviazione
 - [579da5a2](http://github.com/trinko/giuaschool/commit/579da5a23134ddc176f0870d5b65151d8a939192) - Fix: inserimento utente preside
 - [b07ba3ef](http://github.com/trinko/giuaschool/commit/b07ba3ef4b79c8d1645816a2108bc3885e86e6cd) - Fix: impostazione scansione oraria, pulsante aggiungi
