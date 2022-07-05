@@ -10,7 +10,7 @@ nav_order: 11
 [**Scarica l'ultimo aggiornamento**](https://github.com/trinko/giuaschool/releases/download/update-v1.4.4/giuaschool-update-v1.4.4.zip)
 {: .text-center .pb-5}
 
-Data e ora dell'ultimo aggiornamento: 05/07/2022 20:14
+Data e ora dell'ultimo aggiornamento: 05/07/2022 20:38
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
