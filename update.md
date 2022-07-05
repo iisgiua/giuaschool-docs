@@ -18,15 +18,12 @@ nav_order: 4
 
 ## Scaricare l'archivio ZIP
 
-Come prima cosa bisogna scaricare l'archivio ZIP
-della nuova versione dell'applicazione, oppure quello contenente anche le ultime modifiche
-ancora in fase di revisione:
+Come prima cosa bisogna scaricare l'archivio ZIP della nuova versione dell'applicazione.
+- [Scarica la versione {{ site.data.version.tag }}](/latest-release.md)
 
-  - [Scarica la versione {{ site.data.version.tag }}](https://github.com/trinko/giuaschool/releases/latest/download/giuaschool-release-latest.zip)
-    - [Visualizza i dettagli](/latest-release.md)
-
-  - [Scarica l'ultimo aggiornamento](https://github.com/trinko/giuaschool/releases/download/latest-build/giuaschool-build-latest.zip)
-    - [Visualizza i dettagli](/latest-build.md)
+Se si sta già utilizzando la versione {{ site.data.version.tag }}, si può anche scaricare l'ultimo aggiornamento,
+che contiene solo i file modificati dal rilascio dell'ultima versione.
+- [Scarica l'ultimo aggiornamento](latest-build.md)
 
 
 ## Copiare il codice nella cartella di destinazione
