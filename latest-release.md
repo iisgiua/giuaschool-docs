@@ -10,77 +10,48 @@ nav_order: 10
 [**Scarica la Versione {{ site.data.version.tag }}**](https://github.com/trinko/giuaschool/releases/download/v{{ site.data.version.tag }}/giuaschool-release-v{{ site.data.version.tag }}.zip)
 {: .text-center .pb-5}
 
-Data e ora di rilascio: 01/06/2022 21:36
+Data e ora di rilascio: 07/07/2022 13:03
 
 Lista delle modifiche incluse nella nuova versione:
 
-- [d800cfb2](http://github.com/trinko/giuaschool/commit/d800cfb2dab97ba7c6c3c81257dbe082e8ba7be8) - Fix installer
-- [17a4b906](http://github.com/trinko/giuaschool/commit/17a4b906ecf53d32610aedcd2f66d7958d507899) - Update publiccode
-- [7d780ffa](http://github.com/trinko/giuaschool/commit/7d780ffa1a7521cb595deb078cfa0c2c0f86b4ba) - Aggiornamento versione su publiccode
-- [13bde481](http://github.com/trinko/giuaschool/commit/13bde4814dc3f9a34ca009ed6d0907ee9e563496) - Fix installer
-- [4b236590](http://github.com/trinko/giuaschool/commit/4b236590b78fbf1829112f20842aea3fc9724cb0) - Fix installer
-- [c076affe](http://github.com/trinko/giuaschool/commit/c076affe88956e26aa5201e1d7a6e592c26d9ec5) - Aggiorna installer
-- [51c141a1](http://github.com/trinko/giuaschool/commit/51c141a1c8c5a2002a33b6e3b5c7a71f61462e80) - Update README.md
-- [bbdd4dec](http://github.com/trinko/giuaschool/commit/bbdd4dec969ec952c92f6f6fd30afa8fc5043581) - Modifica: gestione scrutini finali
-- [c30af811](http://github.com/trinko/giuaschool/commit/c30af811401f0e930b190d3293d4f241f470b257) - Merge pull request #256 from bfabio/publiccode_yml
-- [3c4a1b65](http://github.com/trinko/giuaschool/commit/3c4a1b6504743b89d330cf60749d5b6a710a56a8) - Add codiceIPA to publiccode.yml
-- [ed59400e](http://github.com/trinko/giuaschool/commit/ed59400ed3d871aeb1712d092cd0f2f72ba0e5f7) - Fix: errore su creazione nuova annotazione
-- [2fd7bcab](http://github.com/trinko/giuaschool/commit/2fd7bcabbbb74321d2af47fd4c0ab69a3a82f2f2) - Fix: scheda voti in proposta di voto non visualizzata correttamente quando si usano i trimestri
-- [d6bd1774](http://github.com/trinko/giuaschool/commit/d6bd17747accdcffd5a66b35bd3676000fcfd335) - Merge pull request #250 from bfabio/publiccode_yml
-- [49c99f29](http://github.com/trinko/giuaschool/commit/49c99f299da0275120892629401b2acef971c840) - Add publiccode.yml
-- [2d41a803](http://github.com/trinko/giuaschool/commit/2d41a803759ee2ebd7c9a119418cacc9eacdb8a0) - Updare Githup workflow
-- [f48d86bd](http://github.com/trinko/giuaschool/commit/f48d86bd2737f16e47aeafeb44ea2cfeb35e6800) - Update Github workflow
-- [410f2c6d](http://github.com/trinko/giuaschool/commit/410f2c6de390af042b9fa2ff5d6f666155de4901) - Update Github workflow
-- [dd85358f](http://github.com/trinko/giuaschool/commit/dd85358feb4586c31c40499f86730ff9af2a0aba) - Update github workflow
-- [1fd4b8ab](http://github.com/trinko/giuaschool/commit/1fd4b8abdba5cc3576b29a1416fbd34af7f6b8fb) - Update README.md
-- [d47db927](http://github.com/trinko/giuaschool/commit/d47db927723fa3bacd5c8f78862abd38dce53dcb) - Merge pull request #247 from zerai/entity-annotazione
-- [57af4a5f](http://github.com/trinko/giuaschool/commit/57af4a5f2639b7decda8be340f016c76a2822519) - Merge pull request #248 from zerai/entity-app
-- [5fcda4b2](http://github.com/trinko/giuaschool/commit/5fcda4b27ba913835354ec7a69f6a31bcd1b0d57) - Update Annotazione.php
-- [41ffbbb5](http://github.com/trinko/giuaschool/commit/41ffbbb5fa35029be8c8bcc47aae29e47e7f0869) - Update Github wokflows
-- [ee58d7f7](http://github.com/trinko/giuaschool/commit/ee58d7f7b48062746ad23a5e9876be60ec65fd3b) - Update Github action
-- [d929fe22](http://github.com/trinko/giuaschool/commit/d929fe22590f2390d502e39f479c9022520e451f) - Fix docBlock, type hints.
-- [47e73215](http://github.com/trinko/giuaschool/commit/47e732155a845c917c6eb3ec6f6675f52508632b) - Update Github workflow
-- [d99584a8](http://github.com/trinko/giuaschool/commit/d99584a89c81797115754d7c6d1cf5bc1d7e0dc9) - Fix docBlock aggiunto type hints.
-- [05121cda](http://github.com/trinko/giuaschool/commit/05121cda2f1fb3327be5a09c75babd651f92d63c) - Update Github actions
-- [6ce1f943](http://github.com/trinko/giuaschool/commit/6ce1f9434a2ba6545ac2a456ef6b76fe1e94910f) - Update Github actions
-- [6e4d8a6e](http://github.com/trinko/giuaschool/commit/6e4d8a6e7ab799443b337337784d7a7acdc56d8d) - Update Github action
-- [750304d7](http://github.com/trinko/giuaschool/commit/750304d7b44e692024ea4bf5ac680058d053f773) - Update GitHub Action
-- [629228bd](http://github.com/trinko/giuaschool/commit/629228bda051b7ce3daea6c682562c1ae46419f5) - Update GitHub
-- [abd3e9e2](http://github.com/trinko/giuaschool/commit/abd3e9e2967c6000a00ed900677789db6090a818) - Update Github
-- [f2816c40](http://github.com/trinko/giuaschool/commit/f2816c405372ebd7c37480d483df413fbeb341f2) - Update Github Action
-- [5364fb41](http://github.com/trinko/giuaschool/commit/5364fb41ce75f3ab89f7b8eb2cc3ddd3696c06a1) - Update Github Action
-- [33670ba7](http://github.com/trinko/giuaschool/commit/33670ba7ad4c911b030280b75b49d9fe3e3e931f) - Update Github Actions
-- [611af5ac](http://github.com/trinko/giuaschool/commit/611af5acecd88794c6097e43e9a76924ae8086bd) - Update test.yml
-- [d592602e](http://github.com/trinko/giuaschool/commit/d592602ec5e09d13956cad5659dab03d01c9050e) - Update Github Actions
-- [81f3affd](http://github.com/trinko/giuaschool/commit/81f3affd8c540893790a4e01004e411d54e90d51) - Create test2.yml
-- [41ff8527](http://github.com/trinko/giuaschool/commit/41ff8527ae50721182721ba7df31df53792d243c) - Merge pull request #243 from zerai/ci-performance-001
-- [8cb31b72](http://github.com/trinko/giuaschool/commit/8cb31b72c49b34c366d69bb468ec32a7459be13c) - Update test-PR.yml
-- [45826cd8](http://github.com/trinko/giuaschool/commit/45826cd839773b5ca96e4ba4353f9da7823ed7f6) - Update test-PR.yml
-- [e42710e7](http://github.com/trinko/giuaschool/commit/e42710e74e0a28140eb0826ad5c4995194d44651) - Update behat.yml
-- [22b04539](http://github.com/trinko/giuaschool/commit/22b04539d589e383b5f4b78c7de73740cea8146b) - Update entrypoint-test-behat.sh
-- [7c0f1652](http://github.com/trinko/giuaschool/commit/7c0f16526250c868496e3a0c250c92d84a7ee22a) - Update entrypoint-test-behat.sh
-- [75266631](http://github.com/trinko/giuaschool/commit/752666312b43bcb3015d360194a1809c7eacaa7a) - Update test-PR.yml
-- [71114e9c](http://github.com/trinko/giuaschool/commit/71114e9c57a0a1580d7ff7c7bde0db5a603c42c8) - Fix typo in workflow file.
-- [77e2e400](http://github.com/trinko/giuaschool/commit/77e2e4007451605302d79aaafab5dd9f9ea7cffd) - Update GHA workflow (test-PR.yml).
-- [7a6adbfc](http://github.com/trinko/giuaschool/commit/7a6adbfcd8cada8b934897d7df0cb80a5ef2c4f5) - Merge pull request #242 from zerai/entity-doc-block
-- [97929d54](http://github.com/trinko/giuaschool/commit/97929d545ec605e80c499ef4588164b12b4fb9ab) - CI performance:job paralleli (phpunit|behat). Configurazione behat suites. Aggiunti singoli (docker) entrypoint per phpunit e behat. Update GHA workflow file.
-- [b8d32d36](http://github.com/trinko/giuaschool/commit/b8d32d3674f5fef2aba50c76da9bfce7cdea2a10) - Fix type hints in entity RichiestaColloquio.
-- [5fb30cef](http://github.com/trinko/giuaschool/commit/5fb30cefde150fd3ac0b87329c4efab6864ca8e7) - Update GHA
-- [6e213252](http://github.com/trinko/giuaschool/commit/6e21325224c2f3e6d5b634ad043e246a4478a3a9) - Update GHA
-- [e6fe0c98](http://github.com/trinko/giuaschool/commit/e6fe0c9827682e84ef876f167cdefbfe38555abf) - Merge pull request #241 from zerai/entity-doc-block
-- [1f4a2682](http://github.com/trinko/giuaschool/commit/1f4a2682fa75bb26c7dc0b455c6238cb41490ed8) - Fix return type in entity RichiestaColloquio.
-- [0425a71d](http://github.com/trinko/giuaschool/commit/0425a71d1abd70771a3e253d0769d2cbc0e1c272) - Merge pull request #240 from zerai/entity-doc-block
-- [39d80a41](http://github.com/trinko/giuaschool/commit/39d80a4182a2b8e5b498e0d1e5151b0209879adb) - Fix DocBlock, type hints.
-- [3cddacd8](http://github.com/trinko/giuaschool/commit/3cddacd88f14265aeb7dc5c53c4042df5a8ae458) - Gestione proposte di voto: test
-- [c3155217](http://github.com/trinko/giuaschool/commit/c31552172876e4f4e37ffc7979ea67696c029c07) - Gestione proposte di voto: correzioni varie
-- [f19a8f25](http://github.com/trinko/giuaschool/commit/f19a8f250834146f5922d6b6e654a0ccf154b2cd) - Fix: date colloqui nel mese finale
-- [e88c5cd2](http://github.com/trinko/giuaschool/commit/e88c5cd2e8a00fbccb715e059ab8de13cc4a73d9) - Aggiornamento di versione bootstrap-slider
-- [e7147ed4](http://github.com/trinko/giuaschool/commit/e7147ed4a029ce17fc1e6151378334ce98440ca6) - Update docker
-- [94a2c1ca](http://github.com/trinko/giuaschool/commit/94a2c1cabf7581d90176f7edfa4384f2411cd36b) - Update docker e gitHub action
-- [aeb0e0d8](http://github.com/trinko/giuaschool/commit/aeb0e0d88e134a410a35242acfa126f742ba3258) - Aggiornamento fixtures e installer
-- [36c3d5ed](http://github.com/trinko/giuaschool/commit/36c3d5ed5f94bbed608df6f141f28e6437faf497) - Fix: giustificazione vuota per assente dello stesso giorno
-- [ed20bafa](http://github.com/trinko/giuaschool/commit/ed20bafad5f8a8065d1f7c8ff9a21cf6ba679cd7) - Fix: visualizzazione doppia di alunni in agenda quando selezionati compiti/verifiche
-- [37fbb0c1](http://github.com/trinko/giuaschool/commit/37fbb0c1666205ae67ed46efb602980591898702) - Fix: parametro LOG_LEVEL mancante per l'aggiornamento
-- [ddc08043](http://github.com/trinko/giuaschool/commit/ddc0804333ff303d41d8d1ccc02456bf2f1df32e) - Update README
-- [47caa076](http://github.com/trinko/giuaschool/commit/47caa0760032b037b36bf08cf004c13f339788b7) - Update README
-- [890defde](http://github.com/trinko/giuaschool/commit/890defdef6b0af5895d4660d5a9af73eab5e7415) - Fix: gestione scrutinio secondo periodo
+- [f6eea026](http://github.com/trinko/giuaschool/commit/f6eea0260f88b39f9a4d2cd33f931eedd133259a) - Fix docker
+- [d84f8321](http://github.com/trinko/giuaschool/commit/d84f8321e75247e8402841658121971db1da91dd) - Fix installer
+- [6caf8780](http://github.com/trinko/giuaschool/commit/6caf8780e8c388487dea2afc02da78af4fa3ae0e) - Fix installer
+- [6d0dfdbf](http://github.com/trinko/giuaschool/commit/6d0dfdbf7f1a02ee9f343f8bfd0e93d7b79e0ca4) - Modifica installer
+- [66a0cdfe](http://github.com/trinko/giuaschool/commit/66a0cdfe4d3232bc639bf8b871da84b7a909ded7) - Update GHA
+- [4fe8d11e](http://github.com/trinko/giuaschool/commit/4fe8d11e63965c8e38898755f919bb857da10b03) - update GHA
+- [a97cb48c](http://github.com/trinko/giuaschool/commit/a97cb48c70a8d91d2d0c5b724ba2060b1b89c8a8) - update GHA
+- [020d10c8](http://github.com/trinko/giuaschool/commit/020d10c83b697ec00c0e5777ccda14940d04e31e) - update GHA
+- [7bc6a1db](http://github.com/trinko/giuaschool/commit/7bc6a1db2712b4e29c21472f1006de4b90415456) - Update GHA
+- [cecfcfd6](http://github.com/trinko/giuaschool/commit/cecfcfd67d60ad684af71905537108ac210418a2) - Update GHA
+- [72abec3b](http://github.com/trinko/giuaschool/commit/72abec3b9f2ac0699475a73f1913aaf64b16ebe3) - Modifica gestione archiviazione
+- [579da5a2](http://github.com/trinko/giuaschool/commit/579da5a23134ddc176f0870d5b65151d8a939192) - Fix: inserimento utente preside
+- [b07ba3ef](http://github.com/trinko/giuaschool/commit/b07ba3ef4b79c8d1645816a2108bc3885e86e6cd) - Fix: impostazione scansione oraria, pulsante aggiungi
+- [d6897871](http://github.com/trinko/giuaschool/commit/d689787193bff9e3141716f8fe05874ab082c13c) - Modifica gestione scrutinio rinviato (sessione supplettiva)
+- [868debf6](http://github.com/trinko/giuaschool/commit/868debf6f4e5f6e46f8e61dab972b7ff13e37156) - Fix: impostazione crediti in scrutinio per sospensione giudizio
+- [f25df9e3](http://github.com/trinko/giuaschool/commit/f25df9e30da949aa015aeb94e9a417ffd6e407d1) - Modifica gestione scrutinio di sospensione del giudizio
+- [25575229](http://github.com/trinko/giuaschool/commit/255752292d2ffc2bebb15ead40941d06f16bc14f) - Update ignore file list
+- [6498deae](http://github.com/trinko/giuaschool/commit/6498deae07fb4e52333564933329a004f3359995) - Update github action
+- [703836f1](http://github.com/trinko/giuaschool/commit/703836f17c302b45b926b70dfebbfafc45374465) - Update github action
+- [50e05a99](http://github.com/trinko/giuaschool/commit/50e05a998d73796cde768c0a7e3dabef8e693ed2) - Update github action
+- [ba3270d9](http://github.com/trinko/giuaschool/commit/ba3270d96d4a4757dfd96b70f85cd1d26124da33) - Update github action
+- [d90744ef](http://github.com/trinko/giuaschool/commit/d90744ef15cabffe1cb4f1ec2d3e279da4588885) - Update github action
+- [e84756f8](http://github.com/trinko/giuaschool/commit/e84756f8aef02df34f18a266092c7b18d07d9d13) - Update github action
+- [83f14f13](http://github.com/trinko/giuaschool/commit/83f14f13169f563b0d2e414226228217badcefab) - Update github action
+- [3bc46c57](http://github.com/trinko/giuaschool/commit/3bc46c57049d319aba30e2e3a4c1ee51f1f7302e) - Update github action
+- [3722d7b6](http://github.com/trinko/giuaschool/commit/3722d7b660e419196e43f4d864939ef0f0f335d6) - Update github action
+- [376dfd42](http://github.com/trinko/giuaschool/commit/376dfd425f908387c7ab49eb35fcb5b30e0a35b6) - Update github action
+- [f64c6f3c](http://github.com/trinko/giuaschool/commit/f64c6f3c526172838f3455c7209a5cf69c2bbc46) - Update github action
+- [568d7f96](http://github.com/trinko/giuaschool/commit/568d7f96de9c83fae3e94bc35fe2f7e45f62be4a) - Update github action
+- [718b63b7](http://github.com/trinko/giuaschool/commit/718b63b72d83d1627c4540520509d1449b002813) - Update README.md
+- [65feae51](http://github.com/trinko/giuaschool/commit/65feae511c2c5b755471ae55f79a69497cdd9c5e) - Update github action
+- [1f492aea](http://github.com/trinko/giuaschool/commit/1f492aeaf048d1742c4f35fd264b7fa5070c3d1d) - Update github action
+- [98accf6b](http://github.com/trinko/giuaschool/commit/98accf6b2298a65523320fe5ad348552e249d469) - Update gitHub action
+- [a841df6f](http://github.com/trinko/giuaschool/commit/a841df6ff902886f1168c17358c8be445925a2c1) - Update
+- [9abaeadb](http://github.com/trinko/giuaschool/commit/9abaeadb0c088bef77d513115ba991f0239a24cb) - Update Github action
+- [b7a977c9](http://github.com/trinko/giuaschool/commit/b7a977c97dcb3c75a17035dbbf02bc6a8c5c70a3) - Fix: colonne dei crediti invertite
+- [df0f18f5](http://github.com/trinko/giuaschool/commit/df0f18f5be600db44cb776fc109c8e0a50745789) - Fix: impostazione verbale finale
+- [79da46e2](http://github.com/trinko/giuaschool/commit/79da46e2277fa5424718b218d970fbf8036f1b74) - Fix: tabellone primo periodo
+- [88febf16](http://github.com/trinko/giuaschool/commit/88febf167223958f7f134679123c6a2ff65b65a6) - Fix: logo in publiccode.yml
+- [32ca1db4](http://github.com/trinko/giuaschool/commit/32ca1db4b7e334c2b8e35307c23e05c27b256df9) - Fix: impostazione corretta per le pagine d'installazione
+
