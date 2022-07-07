@@ -10,10 +10,11 @@ nav_order: 11
 [**Scarica l'ultimo aggiornamento**](https://github.com/trinko/giuaschool/releases/download/update-v1.4.4/giuaschool-update-v1.4.4.zip)
 {: .text-center .pb-5}
 
-Data e ora dell'ultimo aggiornamento: 07/07/2022 10:49
+Data e ora dell'ultimo aggiornamento: 07/07/2022 12:16
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [f6eea026](http://github.com/trinko/giuaschool/commit/f6eea0260f88b39f9a4d2cd33f931eedd133259a) - Fix docker
 - [d84f8321](http://github.com/trinko/giuaschool/commit/d84f8321e75247e8402841658121971db1da91dd) - Fix installer
 - [6caf8780](http://github.com/trinko/giuaschool/commit/6caf8780e8c388487dea2afc02da78af4fa3ae0e) - Fix installer
 - [6d0dfdbf](http://github.com/trinko/giuaschool/commit/6d0dfdbf7f1a02ee9f343f8bfd0e93d7b79e0ca4) - Modifica installer
