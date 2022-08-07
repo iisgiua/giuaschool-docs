@@ -1,5 +1,5 @@
 Documentazione per il progetto giua@school
 
-- [Vai al progetto](https://github.com/trinko/giuaschool)
+- [Vai al progetto](https://github.com/iisgiua/giuaschool)
 
-- [Vai al sito di documentazione del progetto](https://trinko.github.io/giuaschool-docs/)
+- [Vai al sito di documentazione del progetto](https://iisgiua.github.io/giuaschool-docs/)

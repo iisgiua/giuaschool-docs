@@ -45,14 +45,14 @@ Anzi tutto, per evitare di utilizzare un'immagine dell'applicazione scaricata in
 non aggiornata alle ultime modifiche, si consiglia di cancellarla dalla memoria
 con il comando seguente:
 ```
-docker rmi ghcr.io/trinko/giuaschool:latest
+docker rmi ghcr.io/iisgiua/giuaschool:latest
 ```
 
 Per avviare il server nell'ambiente virtuale del _Docker_,
 si dovrà utilizzare il comando seguente, che scarica l'immagine dell'applicazione
 e manda in esecuzione il contenitore:
 ```
-docker run -d --rm --name gs_test -p 443:443 ghcr.io/trinko/giuaschool:latest
+docker run -d --rm --name gs_test -p 443:443 ghcr.io/iisgiua/giuaschool:latest
 ```
 
 Nel caso il comando riporti un errore di rete del tipo
@@ -60,7 +60,7 @@ Nel caso il comando riporti un errore di rete del tipo
 significa che la porta 443 è già utilizzata da un altro servizio del proprio computer.
 Si può quindi impostare una porta differente, ad esempio 8443, modificando il comando come indicato di seguito:
 ```
-docker run -d --rm --name gs_test -p 8443:443 ghcr.io/trinko/giuaschool:latest
+docker run -d --rm --name gs_test -p 8443:443 ghcr.io/iisgiua/giuaschool:latest
 ```
 
 

@@ -21,10 +21,10 @@ _**giua@school** è rilasciato come software open source con licenza AGPL-3.0 o 
 - [Vai alla DEMO](https://giuademo.x10.mx/){:target="_blank"}
   - [Richiedi le credenziali della DEMO](https://giuademo.x10.mx/richiesta-demo/){:target="_blank"}
 
-- [Visualizza gli annunci](https://github.com/trinko/giuaschool/discussions/categories/annunci){:target="_blank"}
+- [Visualizza gli annunci](https://github.com/iisgiua/giuaschool/discussions/categories/annunci){:target="_blank"}
 
-- [Segnala un errore](https://github.com/trinko/giuaschool/issues/new?assignees=&labels=Errore&template=bug-report.md&title=){:target="_blank"}
+- [Segnala un errore](https://github.com/iisgiua/giuaschool/issues/new?assignees=&labels=Errore&template=bug-report.md&title=){:target="_blank"}
 
-- [Chiedi aiuto agli utenti che seguono il progetto](https://github.com/trinko/giuaschool/discussions/new?category=richieste-di-aiuto){:target="_blank"}
+- [Chiedi aiuto agli utenti che seguono il progetto](https://github.com/iisgiua/giuaschool/discussions/new?category=richieste-di-aiuto){:target="_blank"}
 
-- [Proponi nuove funzionalità o miglioramenti per l'applicazione](https://github.com/trinko/giuaschool/discussions/new?category=idee-e-proposte){:target="_blank"}
+- [Proponi nuove funzionalità o miglioramenti per l'applicazione](https://github.com/iisgiua/giuaschool/discussions/new?category=idee-e-proposte){:target="_blank"}
