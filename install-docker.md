@@ -63,6 +63,12 @@ Si può quindi impostare una porta differente, ad esempio 8443, modificando il c
 docker run -d --rm --name gs_test -p 8443:443 ghcr.io/iisgiua/giuaschool:latest
 ```
 
+Se si sta utilizzando un sistema MacOs o altro computer con architettura ARM, è necessario modificare il
+comando nel modo seguente:
+```
+docker run -d --rm --name gs_test -p 443:443 ghcr.io/iisgiua/giuaschool:latest tests/docker/entrypoint_ARM.sh
+```
+
 
 ## Uso dell'applicazione
 
@@ -83,6 +89,11 @@ registro elettronico.
 
 Una volta caricati i dati, è possibile utilizzare la funzione _Alias_ (menu **SISTEMA > ALIAS**), che
 permette all'amministratore di impersonare un altro utente, senza necessità di inserire password.
+
+L'immagine contiene tutto il necessario per eseguire correttamente l'applicazione.
+Per utilizzare alcune funzioni particolari, come ad esempio l'invio delle email o l'accesso SPID, è però
+necessario eseguire la configurazione tramite la procedura di aggiornamento:
+  - **https://localhost/install/index.php**
 
 
 ## Chiusura del server

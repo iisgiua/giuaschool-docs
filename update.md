@@ -16,6 +16,22 @@ nav_order: 4
 {: .my-5 .px-4 style="background-color:#efefef;border:1px solid #cccccc"}
 
 
+## Effettuare il backup
+
+Sebbene la procedura di aggiornamento sia sempre controllata con attenzione, non si può escludere che
+un problema non previsto abbia come conseguenza la perdita di dati.
+Per evitare ogni possibile problema, è sempre opportuno effettuare un backup dei file e del database prima
+di eseguire l'aggiornamento, in modo che in caso di problemi si possa ripristinare la situazione iniziale.
+
+Per eseguire il backup dei file si consiglia un software come **Filezilla**,
+che si userà per scaricare sul proprio computer una copia di sicurezza dei file presenti nel server di _hosting_.
+
+Per eseguire il backup del database, si può utilizzare il software **phpMyAdmin**, che solitamente è reso disponibile
+dal proprio servizio di _hosting_. Con questa applicazione, si può esportare l'intero database in un file, che
+verrà scaricato sul proprio computer. In caso di necessità, la stessa applicazione permette di importare
+nel database il file creato in precedenza, ripristinando tutti i dati presenti.
+
+
 ## Scaricare l'archivio ZIP
 
 Come prima cosa bisogna scaricare l'archivio ZIP della nuova versione dell'applicazione.
