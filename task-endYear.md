@@ -25,7 +25,7 @@ L'applicazione prevede la generazione di documenti in formato PDF che dovranno p
 scaricati sul proprio computer e archiviati nella modalità più idonea.
 
 
-## Creazione dei documenti
+## Creare i documenti
 
 I documenti generati dall'applicazione sono i seguenti:
 - **Registro del docente**: corrisponde al classico registro personale del docente, con tutte le informazioni
@@ -50,7 +50,21 @@ comportare che il servizio di _hosting_ blocchi improvvisamente la procedura mos
 errore, o anche una pagina completamente bianca.
 In tal caso, per evitare problemi, si proceda selezionando solo un elemento alla volta.
 
+Nel registro sono presenti anche altri documenti che vengono caricati direttamente dai docenti attraverso le
+apposite funzionalità del menu **DOCUMENTI**: piani di lavoro, programmi e relazioni finali, documento del 15 maggio,
+documenti (cifrati) degli alunni BES.
 
 
+## Scaricare i documenti
 
-## scaricamento dei documenti e memorizzazione permanente
+I documenti sono generati sul server, per cui sarà necessario scaricarli sul proprio computer
+con un software come **Filezilla**.
+
+Tutti i documenti si trovano nella cartella: `FILES/archivio`.
+
+In particolare, la cartella è suddivisa nel modo seguente:
+- `circolari`: che contiene tutti documenti delle circolari;
+- `classi`: che, suddivisa a sua volta tra le classi esistenti, contiene i piani di lavoro, i programmi e
+    le relazioni finali, il documento del 15 maggio, i documenti (cifrati) degli alunni BES;
+- `registri`: che contiene, in tre cartelle separate, i registri dei docenti, di sostegno e delle classi;
+- `scrutini`: che, suddivisa per periodo e classe, contiene i documenti degli scrutini.
