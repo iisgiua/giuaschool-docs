@@ -43,11 +43,11 @@ Per generare i documenti, come utente _amministratore_, scegliere dal menu **SIS
 Nella pagina della procedura è possibile selezionare quali documenti generare e se crearli singolarmente
 (indicando il nome del docente o della classe) o tutti quanti assieme.
 
-Attenzione {: .label .label-yellow}
+Attenzione
+{: .label .label-yellow}
 La generazione dei documenti può richiedere parecchio tempo e necessita di molte risorse del server: questo può
 comportare che il servizio di _hosting_ blocchi improvvisamente la procedura mostrando un messaggio di
 errore, o anche una pagina completamente bianca.
-
 In tal caso, per evitare problemi, si proceda selezionando solo un elemento alla volta.
 
 
