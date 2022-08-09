@@ -63,7 +63,7 @@ Si può quindi impostare una porta differente, ad esempio 8443, modificando il c
 docker run -d --rm --name gs_test -p 8443:443 ghcr.io/iisgiua/giuaschool:latest
 ```
 
-Se si sta utilizzando un sistema MacOs o altro computer con architettura ARM, è necessario modificare il
+Se si sta utilizzando un **sistema MacOs** o altro computer con **architettura ARM**, è necessario modificare il
 comando nel modo seguente:
 ```
 docker run -d --rm --name gs_test -p 443:443 ghcr.io/iisgiua/giuaschool:latest tests/docker/entrypoint_ARM.sh
