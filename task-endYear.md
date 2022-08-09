@@ -44,7 +44,7 @@ Nella pagina della procedura è possibile selezionare quali documenti generare e
 (indicando il nome del docente o della classe) o tutti quanti assieme.
 
 Attenzione
-{: .label .label-yellow .d-inline-block}
+{: .label .label-yellow .d-inline}
 La generazione dei documenti può richiedere parecchio tempo e necessita di molte risorse del server: questo può
 comportare che il servizio di _hosting_ blocchi improvvisamente la procedura mostrando un messaggio di
 errore, o anche una pagina completamente bianca.
