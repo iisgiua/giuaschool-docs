@@ -10,10 +10,11 @@ nav_order: 11
 [**Scarica l'ultimo aggiornamento**](https://github.com/iisgiua/giuaschool/releases/download/update-v1.4.5/giuaschool-update-v1.4.5.zip)
 {: .text-center .pb-5}
 
-Data e ora dell'ultimo aggiornamento: 19/08/2022 13:13
+Data e ora dell'ultimo aggiornamento: 20/08/2022 16:56
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [94fe05bf](http://github.com/iisgiua/giuaschool/commit/94fe05bf472d45767310d0d552288796bb5b6fb9) - Modifica: sezione in esto libero (64 car.) Fix: import csv
 - [ed188e4a](http://github.com/iisgiua/giuaschool/commit/ed188e4a588a386e73582cee909513e821098421) - Fix tests
 - [d023bf47](http://github.com/iisgiua/giuaschool/commit/d023bf472c63bbf9744599577c3bb42b1a955f02) - Fix Behat
 - [810fd163](http://github.com/iisgiua/giuaschool/commit/810fd163564f2c0f2c3dc851968dd1eefee42659) - Fix Behat tests
