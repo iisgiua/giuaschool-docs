@@ -10,10 +10,12 @@ nav_order: 11
 [**Scarica l'ultimo aggiornamento**](https://github.com/iisgiua/giuaschool/releases/download/update-v1.4.5/giuaschool-update-v1.4.5.zip)
 {: .text-center .pb-5}
 
-Data e ora dell'ultimo aggiornamento: 20/08/2022 16:56
+Data e ora dell'ultimo aggiornamento: 26/08/2022 01:30
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [2ccd694f](http://github.com/iisgiua/giuaschool/commit/2ccd694f9d48a8d4b1eb6baf2bf2e345fc024b82) - Aggiunta: funzionalità di passaggio d'anno
+- [d405606f](http://github.com/iisgiua/giuaschool/commit/d405606f4b0545a60fa6ca8fe0cf1dd7fdbb06fd) - Fix: modifica lunghezza sezione e installer
 - [94fe05bf](http://github.com/iisgiua/giuaschool/commit/94fe05bf472d45767310d0d552288796bb5b6fb9) - Modifica: sezione in esto libero (64 car.) Fix: import csv
 - [ed188e4a](http://github.com/iisgiua/giuaschool/commit/ed188e4a588a386e73582cee909513e821098421) - Fix tests
 - [d023bf47](http://github.com/iisgiua/giuaschool/commit/d023bf472c63bbf9744599577c3bb42b1a955f02) - Fix Behat
