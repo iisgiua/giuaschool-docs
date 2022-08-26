@@ -10,47 +10,26 @@ nav_order: 10
 [**Scarica la Versione {{ site.data.version.tag }}**](https://github.com/iisgiua/giuaschool/releases/download/v{{ site.data.version.tag }}/giuaschool-release-v{{ site.data.version.tag }}.zip)
 {: .text-center .pb-5}
 
-Data e ora di rilascio: 07/07/2022 13:03
+Data e ora di rilascio: 27/08/2022 01:12
 
 Lista delle modifiche incluse nella nuova versione:
 
-- [f6eea026](http://github.com/iisgiua/giuaschool/commit/f6eea0260f88b39f9a4d2cd33f931eedd133259a) - Fix docker
-- [d84f8321](http://github.com/iisgiua/giuaschool/commit/d84f8321e75247e8402841658121971db1da91dd) - Fix installer
-- [6caf8780](http://github.com/iisgiua/giuaschool/commit/6caf8780e8c388487dea2afc02da78af4fa3ae0e) - Fix installer
-- [6d0dfdbf](http://github.com/iisgiua/giuaschool/commit/6d0dfdbf7f1a02ee9f343f8bfd0e93d7b79e0ca4) - Modifica installer
-- [66a0cdfe](http://github.com/iisgiua/giuaschool/commit/66a0cdfe4d3232bc639bf8b871da84b7a909ded7) - Update GHA
-- [4fe8d11e](http://github.com/iisgiua/giuaschool/commit/4fe8d11e63965c8e38898755f919bb857da10b03) - update GHA
-- [a97cb48c](http://github.com/iisgiua/giuaschool/commit/a97cb48c70a8d91d2d0c5b724ba2060b1b89c8a8) - update GHA
-- [020d10c8](http://github.com/iisgiua/giuaschool/commit/020d10c83b697ec00c0e5777ccda14940d04e31e) - update GHA
-- [7bc6a1db](http://github.com/iisgiua/giuaschool/commit/7bc6a1db2712b4e29c21472f1006de4b90415456) - Update GHA
-- [cecfcfd6](http://github.com/iisgiua/giuaschool/commit/cecfcfd67d60ad684af71905537108ac210418a2) - Update GHA
-- [72abec3b](http://github.com/iisgiua/giuaschool/commit/72abec3b9f2ac0699475a73f1913aaf64b16ebe3) - Modifica gestione archiviazione
-- [579da5a2](http://github.com/iisgiua/giuaschool/commit/579da5a23134ddc176f0870d5b65151d8a939192) - Fix: inserimento utente preside
-- [b07ba3ef](http://github.com/iisgiua/giuaschool/commit/b07ba3ef4b79c8d1645816a2108bc3885e86e6cd) - Fix: impostazione scansione oraria, pulsante aggiungi
-- [d6897871](http://github.com/iisgiua/giuaschool/commit/d689787193bff9e3141716f8fe05874ab082c13c) - Modifica gestione scrutinio rinviato (sessione supplettiva)
-- [868debf6](http://github.com/iisgiua/giuaschool/commit/868debf6f4e5f6e46f8e61dab972b7ff13e37156) - Fix: impostazione crediti in scrutinio per sospensione giudizio
-- [f25df9e3](http://github.com/iisgiua/giuaschool/commit/f25df9e30da949aa015aeb94e9a417ffd6e407d1) - Modifica gestione scrutinio di sospensione del giudizio
-- [25575229](http://github.com/iisgiua/giuaschool/commit/255752292d2ffc2bebb15ead40941d06f16bc14f) - Update ignore file list
-- [6498deae](http://github.com/iisgiua/giuaschool/commit/6498deae07fb4e52333564933329a004f3359995) - Update github action
-- [703836f1](http://github.com/iisgiua/giuaschool/commit/703836f17c302b45b926b70dfebbfafc45374465) - Update github action
-- [50e05a99](http://github.com/iisgiua/giuaschool/commit/50e05a998d73796cde768c0a7e3dabef8e693ed2) - Update github action
-- [ba3270d9](http://github.com/iisgiua/giuaschool/commit/ba3270d96d4a4757dfd96b70f85cd1d26124da33) - Update github action
-- [d90744ef](http://github.com/iisgiua/giuaschool/commit/d90744ef15cabffe1cb4f1ec2d3e279da4588885) - Update github action
-- [e84756f8](http://github.com/iisgiua/giuaschool/commit/e84756f8aef02df34f18a266092c7b18d07d9d13) - Update github action
-- [83f14f13](http://github.com/iisgiua/giuaschool/commit/83f14f13169f563b0d2e414226228217badcefab) - Update github action
-- [3bc46c57](http://github.com/iisgiua/giuaschool/commit/3bc46c57049d319aba30e2e3a4c1ee51f1f7302e) - Update github action
-- [3722d7b6](http://github.com/iisgiua/giuaschool/commit/3722d7b660e419196e43f4d864939ef0f0f335d6) - Update github action
-- [376dfd42](http://github.com/iisgiua/giuaschool/commit/376dfd425f908387c7ab49eb35fcb5b30e0a35b6) - Update github action
-- [f64c6f3c](http://github.com/iisgiua/giuaschool/commit/f64c6f3c526172838f3455c7209a5cf69c2bbc46) - Update github action
-- [568d7f96](http://github.com/iisgiua/giuaschool/commit/568d7f96de9c83fae3e94bc35fe2f7e45f62be4a) - Update github action
-- [718b63b7](http://github.com/iisgiua/giuaschool/commit/718b63b72d83d1627c4540520509d1449b002813) - Update README.md
-- [65feae51](http://github.com/iisgiua/giuaschool/commit/65feae511c2c5b755471ae55f79a69497cdd9c5e) - Update github action
-- [1f492aea](http://github.com/iisgiua/giuaschool/commit/1f492aeaf048d1742c4f35fd264b7fa5070c3d1d) - Update github action
-- [98accf6b](http://github.com/iisgiua/giuaschool/commit/98accf6b2298a65523320fe5ad348552e249d469) - Update gitHub action
-- [a841df6f](http://github.com/iisgiua/giuaschool/commit/a841df6ff902886f1168c17358c8be445925a2c1) - Update
-- [9abaeadb](http://github.com/iisgiua/giuaschool/commit/9abaeadb0c088bef77d513115ba991f0239a24cb) - Update Github action
-- [b7a977c9](http://github.com/iisgiua/giuaschool/commit/b7a977c97dcb3c75a17035dbbf02bc6a8c5c70a3) - Fix: colonne dei crediti invertite
-- [df0f18f5](http://github.com/iisgiua/giuaschool/commit/df0f18f5be600db44cb776fc109c8e0a50745789) - Fix: impostazione verbale finale
-- [79da46e2](http://github.com/iisgiua/giuaschool/commit/79da46e2277fa5424718b218d970fbf8036f1b74) - Fix: tabellone primo periodo
-- [88febf16](http://github.com/iisgiua/giuaschool/commit/88febf167223958f7f134679123c6a2ff65b65a6) - Fix: logo in publiccode.yml
-- [32ca1db4](http://github.com/iisgiua/giuaschool/commit/32ca1db4b7e334c2b8e35307c23e05c27b256df9) - Fix: impostazione corretta per le pagine d'installazione
+- [3f85abc7](http://github.com/iisgiua/giuaschool/commit/3f85abc715674cd2206d9ca4b46bbae555b33d1d) - Update publiccode.yml
+- [7a8b475a](http://github.com/iisgiua/giuaschool/commit/7a8b475a8c1ad5eb994eaa103d161d6401e4802d) - Fix: Installer
+- [52b366b7](http://github.com/iisgiua/giuaschool/commit/52b366b7237cecbf2c8246ef17f8a135c3a8dab9) - Fix: installer
+- [2ccd694f](http://github.com/iisgiua/giuaschool/commit/2ccd694f9d48a8d4b1eb6baf2bf2e345fc024b82) - Aggiunta: funzionalità di passaggio d'anno
+- [d405606f](http://github.com/iisgiua/giuaschool/commit/d405606f4b0545a60fa6ca8fe0cf1dd7fdbb06fd) - Fix: modifica lunghezza sezione e installer
+- [94fe05bf](http://github.com/iisgiua/giuaschool/commit/94fe05bf472d45767310d0d552288796bb5b6fb9) - Modifica: sezione in esto libero (64 car.) Fix: import csv
+- [ed188e4a](http://github.com/iisgiua/giuaschool/commit/ed188e4a588a386e73582cee909513e821098421) - Fix tests
+- [d023bf47](http://github.com/iisgiua/giuaschool/commit/d023bf472c63bbf9744599577c3bb42b1a955f02) - Fix Behat
+- [810fd163](http://github.com/iisgiua/giuaschool/commit/810fd163564f2c0f2c3dc851968dd1eefee42659) - Fix Behat tests
+- [4c36c69c](http://github.com/iisgiua/giuaschool/commit/4c36c69ccca2d5781925c5287562ac85912d2257) - Fix Behat tests
+- [24fe90d5](http://github.com/iisgiua/giuaschool/commit/24fe90d58275fe15cd5ebd19f445439674b814ff) - Fix Behat tests
+- [624abae4](http://github.com/iisgiua/giuaschool/commit/624abae495b0266e4940eab55387ebc3b7ca726e) - Update GHA
+- [45e812e5](http://github.com/iisgiua/giuaschool/commit/45e812e54bab37d11fd6dd3fc5f17d4d86ae4ea8) - Fix Behat tests
+- [3fd7fbaa](http://github.com/iisgiua/giuaschool/commit/3fd7fbaad07edbfc85d0af9681e4a518ef5e9b7c) - Update README
+- [fedd083a](http://github.com/iisgiua/giuaschool/commit/fedd083ad058240a7994a5fd619f7e07aa7af045) - Update README
+- [2ab01750](http://github.com/iisgiua/giuaschool/commit/2ab017509ab5a8024800c5909e9382f9f7d83fca) - Fix Unit tests
+- [226e013d](http://github.com/iisgiua/giuaschool/commit/226e013d7f96095405ab3a580b3d0288ca5cd74d) - Fix tests
+- [b67035df](http://github.com/iisgiua/giuaschool/commit/b67035dfd69d7cbeb40b5e82e555c16542015e64) - Symfony5: aggiornamento alla 5.4.11 (#304)
+
