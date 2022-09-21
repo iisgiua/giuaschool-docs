@@ -10,10 +10,11 @@ nav_order: 11
 [**Scarica l'ultimo aggiornamento**](https://github.com/iisgiua/giuaschool/releases/download/update-v1.5.0/giuaschool-update-v1.5.0.zip)
 {: .text-center .pb-5}
 
-Data e ora dell'ultimo aggiornamento: 21/09/2022 00:30
+Data e ora dell'ultimo aggiornamento: 21/09/2022 21:29
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [623285af](http://github.com/iisgiua/giuaschool/commit/623285af8fc53584a5d6a9868bb12be791967798) - Modifica: avviso comunicazioni alla classe meno invasivo
 - [e1fbd1eb](http://github.com/iisgiua/giuaschool/commit/e1fbd1ebcdef0577bc4f7bb48d970640304f7cc5) - FIx minori
 - [de90e1b7](http://github.com/iisgiua/giuaschool/commit/de90e1b7abb292d0ca4b1c58915eadc198910814) - Fix vari
 - [e0a4430a](http://github.com/iisgiua/giuaschool/commit/e0a4430a54d493347c6dae77f685eefe5ee1c795) - Fix: scrutinio rimandato e provisioning
