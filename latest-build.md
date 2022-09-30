@@ -10,10 +10,11 @@ nav_order: 11
 [**Scarica l'ultimo aggiornamento**](https://github.com/iisgiua/giuaschool/releases/download/update-v1.5.0/giuaschool-update-v1.5.0.zip)
 {: .text-center .pb-5}
 
-Data e ora dell'ultimo aggiornamento: 30/09/2022 20:12
+Data e ora dell'ultimo aggiornamento: 30/09/2022 20:35
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [ea54b943](http://github.com/iisgiua/giuaschool/commit/ea54b943cb86bf1532fa6ebf07e53dffbdbe0605) - Modifica: gestione uscite, template richieste
 - [90548e6e](http://github.com/iisgiua/giuaschool/commit/90548e6e518395e6a230803b5d323140197d6aaa) - Modifica: gestione uscite anticipata
 - [f0900458](http://github.com/iisgiua/giuaschool/commit/f090045871442588eab706ca76b6333e1364ab7a) - Modifiche alla gestione richieste e alla gestione uscite anticipate
 - [db105b82](http://github.com/iisgiua/giuaschool/commit/db105b821f03a2ab010312af535e778f8adc28fb) - Modifica: tabelle per gestione uscite e richieste
