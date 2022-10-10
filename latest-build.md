@@ -10,10 +10,11 @@ nav_order: 11
 [**Scarica l'ultimo aggiornamento**](https://github.com/iisgiua/giuaschool/releases/download/update-v1.5.0/giuaschool-update-v1.5.0.zip)
 {: .text-center .pb-5}
 
-Data e ora dell'ultimo aggiornamento: 10/10/2022 00:30
+Data e ora dell'ultimo aggiornamento: 11/10/2022 00:29
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [5243cd19](http://github.com/iisgiua/giuaschool/commit/5243cd191fb5d08f9ab8eacfb97f888ed1ef1bb5) - Modifica: filtro richieste lato staff
 - [f7b6c23a](http://github.com/iisgiua/giuaschool/commit/f7b6c23a5f69211fd98aa102bd4b0cc1956676cd) - Fix: gestione richieste
 - [a3814f6d](http://github.com/iisgiua/giuaschool/commit/a3814f6de5a1a8345e48e6b4630a76aade7de1b3) - Fix: gestione richieste
 - [b86c6c74](http://github.com/iisgiua/giuaschool/commit/b86c6c748028891f55dff755531ba3438f04d8c0) - Aggiornamento dati di test
