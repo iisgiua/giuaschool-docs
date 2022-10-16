@@ -10,10 +10,14 @@ nav_order: 11
 [**Scarica l'ultimo aggiornamento**](https://github.com/iisgiua/giuaschool/releases/download/update-v1.5.0/giuaschool-update-v1.5.0.zip)
 {: .text-center .pb-5}
 
-Data e ora dell'ultimo aggiornamento: 11/10/2022 00:29
+Data e ora dell'ultimo aggiornamento: 16/10/2022 16:23
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [bfc86f98](http://github.com/iisgiua/giuaschool/commit/bfc86f98ebfeaa37bb24a41d51cdbae2d2e2653d) - Fix: gestione richieste
+- [686ed6da](http://github.com/iisgiua/giuaschool/commit/686ed6daafe4e6427e5a9568e978da18a6c4d5a1) - Fix: colloqui
+- [97b6a419](http://github.com/iisgiua/giuaschool/commit/97b6a4191041f8862d9e7eac89d987abba39e483) - Test: fix
+- [4c5c7f6d](http://github.com/iisgiua/giuaschool/commit/4c5c7f6d722d4f5347f0cd199a3412a82a7851e2) - Modifica: nuova gestione colloqui
 - [5243cd19](http://github.com/iisgiua/giuaschool/commit/5243cd191fb5d08f9ab8eacfb97f888ed1ef1bb5) - Modifica: filtro richieste lato staff
 - [f7b6c23a](http://github.com/iisgiua/giuaschool/commit/f7b6c23a5f69211fd98aa102bd4b0cc1956676cd) - Fix: gestione richieste
 - [a3814f6d](http://github.com/iisgiua/giuaschool/commit/a3814f6de5a1a8345e48e6b4630a76aade7de1b3) - Fix: gestione richieste
