@@ -10,10 +10,12 @@ nav_order: 11
 [**Scarica l'ultimo aggiornamento**](https://github.com/iisgiua/giuaschool/releases/download/update-v1.5.0/giuaschool-update-v1.5.0.zip)
 {: .text-center .pb-5}
 
-Data e ora dell'ultimo aggiornamento: 16/10/2022 16:23
+Data e ora dell'ultimo aggiornamento: 17/10/2022 00:10
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [3f77d9d7](http://github.com/iisgiua/giuaschool/commit/3f77d9d75bf67652b535fe8ba663991caa938c0d) - Update README.md
+- [237ad945](http://github.com/iisgiua/giuaschool/commit/237ad945cb705ccef628dd234871967521b63bbe) - Fix: scheda informazioni alunno
 - [bfc86f98](http://github.com/iisgiua/giuaschool/commit/bfc86f98ebfeaa37bb24a41d51cdbae2d2e2653d) - Fix: gestione richieste
 - [686ed6da](http://github.com/iisgiua/giuaschool/commit/686ed6daafe4e6427e5a9568e978da18a6c4d5a1) - Fix: colloqui
 - [97b6a419](http://github.com/iisgiua/giuaschool/commit/97b6a4191041f8862d9e7eac89d987abba39e483) - Test: fix
