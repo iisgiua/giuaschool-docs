@@ -18,9 +18,6 @@ _**giua@school** è rilasciato come software open source con licenza AGPL-3.0 o 
 
 - [Scarica l'ultimo aggiornamento](latest-build.md)
 
-- [Vai alla DEMO](https://giuademo.x10.mx/){:target="_blank"}
-  - [Richiedi le credenziali della DEMO](https://giuademo.x10.mx/richiesta-demo/){:target="_blank"}
-
 - [Visualizza gli annunci](https://github.com/iisgiua/giuaschool/discussions/categories/annunci){:target="_blank"}
 
 - [Segnala un errore](https://github.com/iisgiua/giuaschool/issues/new?assignees=&labels=Errore&template=bug-report.md&title=){:target="_blank"}
