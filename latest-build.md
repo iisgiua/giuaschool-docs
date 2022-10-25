@@ -10,10 +10,13 @@ nav_order: 11
 [**Scarica l'ultimo aggiornamento**](https://github.com/iisgiua/giuaschool/releases/download/update-v1.5.0/giuaschool-update-v1.5.0.zip)
 {: .text-center .pb-5}
 
-Data e ora dell'ultimo aggiornamento: 17/10/2022 19:16
+Data e ora dell'ultimo aggiornamento: 25/10/2022 20:08
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [525b0e72](http://github.com/iisgiua/giuaschool/commit/525b0e722e967ab0b5329485011ef4f27090a42e) - Modifica: nuova funzione di aggiornamento automatico
+- [d7f436e1](http://github.com/iisgiua/giuaschool/commit/d7f436e12dffcc5db0445b9e9e389c5f68571e39) - Fix: docker files
+- [f516ec29](http://github.com/iisgiua/giuaschool/commit/f516ec2977a9ca0365d760a2fa361573f1e1f559) - Fix: gestione colloqui
 - [b66806c0](http://github.com/iisgiua/giuaschool/commit/b66806c0027adae5e68e7f4f2f61c8ddebdcacdf) - Fix: note di classe segnalate solo per i presenti
 - [3f77d9d7](http://github.com/iisgiua/giuaschool/commit/3f77d9d75bf67652b535fe8ba663991caa938c0d) - Update README.md
 - [237ad945](http://github.com/iisgiua/giuaschool/commit/237ad945cb705ccef628dd234871967521b63bbe) - Fix: scheda informazioni alunno
