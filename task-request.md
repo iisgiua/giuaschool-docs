@@ -193,8 +193,6 @@ inserire dei valori variabili, indicati da doppie parentesi graffe, e comandi
 racchiusi tra parentesi graffe e simbolo di percentuale.
 Ad esempio:
 ```
-{% if is_granted('ROLE_GENITORE') %}
-
 <p>Il/La sottoscritto/a <em>{{ app.user.nome }} {{ app.user.cognome }}</em>,
 genitore/tutore dell'alunno/a...</p>
 ```
