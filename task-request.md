@@ -202,9 +202,9 @@ Vengono di seguito riportati i modelli utilizzati negli esempi precedenti:
 Per una corretta personalizzazione dei modelli di esempio, si tenga presente che:
 - tutti i modelli sono divisi in due sezioni, per distinguere se l'utente collegato sia un genitore o
   un alunno;
-- le variabili del tipo **&lbrace;&lbrace; app.user.XXX &rbrace;&rbrace;** corrispondono ai dati dell'utente collegato, in modo
-  da inserire automaticamente i dati anagrafici nel modulo; queste variabili non sono obbligatorie
-  e si possono usare come si ritiene opportuno;
-- le variabili del tipo **&lbrace;&lbrace; form_widget(form.XXX) &rbrace;&rbrace;** corrispondono ai campi per l'inserimento
-  dei dati e sono obbligatorie; è fondamentale che siano presenti tutti i campi definiti nel
-  modulo e abbiamo esattamente gli stessi nomi.
+- le variabili del tipo **&#123;&#123; app.user.XXX &rbrace;&rbrace;** corrispondono
+  alle informazioni sull'utente collegato, in modo da inserire automaticamente i dati anagrafici
+  nel modulo; queste variabili non sono obbligatorie e si possono usare come si ritiene opportuno;
+- le variabili del tipo **&#123;&#123; form_widget(form.XXX) &rbrace;&rbrace;** corrispondono
+  ai campi per l'inserimento dei dati e sono obbligatorie; è fondamentale che siano presenti tutti
+  i campi definiti nel modulo e che abbiamo esattamente gli stessi nomi.

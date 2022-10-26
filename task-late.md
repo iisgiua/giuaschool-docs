@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Gestione ritardi e uscite
+title: Ritardi e uscite
 parent: Procedure
 nav_order: 4
 ---
