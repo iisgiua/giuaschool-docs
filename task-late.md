@@ -61,6 +61,8 @@ In alternativa, le uscite anticipate possono essere gestite dallo staff, dalla p
 
 E' anche prevista la possibilità di inserire un modulo di richiesta per l'autorizzazione
 all'uscita anticipata. Se la richiesta è presente, sarà visualizzata nella pagina di gestione
-dell'autorizzazione all'uscita.
+dell'autorizzazione all'uscita. Per maggiori dettagli sulle richieste, si veda
+[la pagina dei moduli di richiesta](/task-request.md).
 
-Per maggiori dettagli sulle richieste, si veda [la pagina dei moduli di richiesta](/task-request.md).
+Infine, per poter gestire situazioni particolari, viene prevista anche la possibilità di richiedere la
+giustificazione per l'uscita anticipata.
