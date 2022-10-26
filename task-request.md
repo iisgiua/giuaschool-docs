@@ -178,7 +178,7 @@ Si dovrà creare un nuovo modulo con i seguenti valori:
   - nome: _azienda_, tipo: TESTO SU UNA RIGA, obbligatorio: SI
   - nome: _fermata_, tipo: TESTO SU UNA RIGA, obbligatorio: SI
   - nome: _note_, tipo: TESTO SU PIU' RIGHE, obbligatorio: NO
-- **Nome del file del modello**: deroga_orario_entrata
+- **Nome del file del modello**: deroga_orario_ingresso
 - **Numero di allegati da inserire nella richiesta**: 0
 - **Codifica del tipo di richiesta**: E
 - **Ammessa una sola richiesta per utente**: SI
@@ -191,25 +191,20 @@ La procedura di gestione è del tutto analoga a quella illustrata in precedenza.
 Il modello usato è nel formato _Twig_, che corrisponde ad una pagina HTML in cui si possono
 inserire dei valori variabili, indicati da doppie parentesi graffe, e comandi
 racchiusi tra parentesi graffe e simbolo di percentuale.
-Ad esempio:
-```
-<p>Il/La sottoscritto/a <em>{{ app.user.nome }} {{ app.user.cognome }}</em>,
-genitore/tutore dell'alunno/a...</p>
-```
 Maggiori informazioni sull'uso del formato Twig si trovano all'indirizzo
 [https://twig.symfony.com/doc/3.x/](https://twig.symfony.com/doc/3.x/).
 
 Vengono di seguito riportati i modelli utilizzati negli esempi precedenti:
 - [uscita_anticipata](/assets/docs/uscita_anticipata.html.twig)
 - [deroga_orario_uscita](/assets/docs/deroga_orario_uscita.html.twig)
-- [deroga_orario_entrata](/assets/docs/deroga_orario_entrata.html.twig)
+- [deroga_orario_ingresso](/assets/docs/deroga_orario_ingresso.html.twig)
 
 Per una corretta personalizzazione dei modelli di esempio, si tenga presente che:
 - tutti i modelli sono divisi in due sezioni, per distinguere se l'utente collegato sia un genitore o
   un alunno;
-- le variabili del tipo **{{ app.user.XXX }}** corrispondono ai dati dell'utente collegato, in modo
+- le variabili del tipo **&lbrace;&lbrace; app.user.XXX &rbrace;&rbrace;** corrispondono ai dati dell'utente collegato, in modo
   da inserire automaticamente i dati anagrafici nel modulo; queste variabili non sono obbligatorie
   e si possono usare come si ritiene opportuno;
-- le variabili del tipo **{{ form_widget(form.XXX) }}** corrispondono ai campi per l'inserimento
+- le variabili del tipo **&lbrace;&lbrace; form_widget(form.XXX) &rbrace;&rbrace;** corrispondono ai campi per l'inserimento
   dei dati e sono obbligatorie; è fondamentale che siano presenti tutti i campi definiti nel
   modulo e abbiamo esattamente gli stessi nomi.
