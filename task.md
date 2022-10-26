@@ -14,3 +14,5 @@ has_toc: false
   - [Chiusura dell'Anno Scolastico](/task-endYear.md)
   - [Passaggio al nuovo Anno Scolastico](/task-newYear.md)
   - [Uso dei moduli di richiesta](/task-request.md)
+  - [Gestione dei ritardi e delle uscite anticipate](/task-late.md)
+  - [Gestione dei documenti BES](/task-specialNeeds.md)
