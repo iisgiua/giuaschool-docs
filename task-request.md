@@ -75,8 +75,8 @@ Si andrà quindi a creare un nuovo modulo con i seguenti valori:
 - **Utenti che possono presentare il modulo**: Genitori, Alunni maggiorenni
 - **Utenti che possono gestire la richiesta**: Staff, Docenti
 - **Lista dei campi da compilare**:
-  - nome: ora, tipo: ORA, obbligatorio: SI
-  - nome: motivazione, tipo TESTO SU PIU' RIGHE, obbligatorio: SI
+  - nome: _ora_, tipo: ORA, obbligatorio: SI
+  - nome: _motivazione_, tipo TESTO SU PIU' RIGHE, obbligatorio: SI
 - **Nome del file del modello**: uscita_anticipata
 - **Numero di allegati da inserire nella richiesta**: 0
 - **Codifica del tipo di richiesta**: U
@@ -86,13 +86,14 @@ Viene indicato che sono possibili più richieste per utente, perché si può far
 richiesta per l'uscita anticipata. Quando si usa questa impostazione, poiché la richiesta
 sarà necessariamente relativa ad una certa data, questo campo viene inserito automaticamente,
 senza dover essere specificato:
-- nome: data, tipo: DATA, obbligatorio: SI
+- nome: _data_, tipo: DATA, obbligatorio: SI
 
 A questo punto, genitori o alunni maggiorenni potranno andare alla pagina **RICHIESTE** per
 inserire la richiesta di uscita anticipata.
 Il modulo dovrà essere inserito entro una certa ora del giorno precedente alla data indicata per
 l'uscita. Per configurare l'ora entro cui inviare le richieste, modificare il parametro
 di configurazione **scadenza_invio_richiesta**.
+
 Una volta inserita la richiesta, il genitore o alunno maggiorenne la vede nello stato IN ATTESA.
 
 La procedura di gestione prevede che, al momento in cui l'alunno chiede di uscire, il docente
@@ -108,8 +109,84 @@ ad esempio, se la classe è la 1A, il documento si troverà nella cartella
 **FILES/archivio/classi/1A/documenti**.
 
 
+## Esempio 2: richieste di deroga all'orario di uscita
 
-## ...
+Questo esempio illustra la tipologia di gestione indicata con il codice **D**.
+
+Si dovrà creare un nuovo modulo con i seguenti valori:
+- **Nome del modulo**: Richiesta deroga all'orario di uscita da scuola
+- **Utenti che possono presentare il modulo**: Genitori, Alunni maggiorenni
+- **Utenti che possono gestire la richiesta**: Staff
+- **Lista dei campi da compilare**:
+  - nome: _minuti_, tipo: NUMERO INTERO, obbligatorio: SI
+  - nome: _giorni_, tipo: TESTO SU UNA RIGA, obbligatorio: SI
+  - nome: _mezzo_, tipo: TESTO SU UNA RIGA, obbligatorio: SI
+  - nome: _ora_, tipo: ORA, obbligatorio: SI
+  - nome: _azienda_, tipo: TESTO SU UNA RIGA, obbligatorio: SI
+  - nome: _fermata_, tipo: TESTO SU UNA RIGA, obbligatorio: SI
+  - nome: _note_, tipo: TESTO SU PIU' RIGHE, obbligatorio: NO
+- **Nome del file del modello**: deroga_orario_uscita
+- **Numero di allegati da inserire nella richiesta**: 0
+- **Codifica del tipo di richiesta**: D
+- **Ammessa una sola richiesta per utente**: SI
+
+Viene indicato che è possibile solo una richiesta per utente, perché la deroga vale per
+l'intero anno scolastico.
+
+A questo punto, genitori o alunni maggiorenni potranno andare alla pagina **RICHIESTE** per
+inserire la richiesta di deroga.
+Una volta compilata la richiesta, questa sarà in stato IN ATTESA.
+In qualsiasi momento, il genitore o l'alunno maggiorenne potranno annullare la richiesta ed
+inserirne una nuova.
+
+La procedura di gestione prevede che sia lo staff (o il dirigente) a concedere l'autorizzazione,
+controllando i dati inseriti nella richiesta.
+Questa operazione viene effettuata dalla pagina **STAFF > STUDENTI > RICHIESTE**, dove è
+possibile vedere tutte le richieste e filtrarle in base al tipo, allo stato, alla sede,
+alla classe, al nome dell'alunno o alla sua città di residenza.
+
+Per ogni richiesta è possibile, utilizzando gli appositi pulsanti, vederne i dettagli, gestirla
+o rimuoverla.
+
+La gestione di una richiesta permette di inserire una nota nel campo delle _autorizzazioni in uscita_
+e cambia lo stato in GESTITA.
+Inoltre è possibile inserire un messaggio di risposta che sarà visualizzato dal richiedente.
+
+
+La rimozione di una richiesta non modifica l'impostazione corrente del campo _autorizzazioni in uscita_,
+ma permette solo di inserire un messaggio di risposta che sarà visualizzato dal richiedente.
+Lo stato sarà cambiato in RIMOSSA.
+
+Il genitore e l'alunno potranno visualizzare il nuovo stato e il messaggio eventualmente inserito
+andando alla pagina **RICHIESTE**.
+Inoltre, dalla pagina **SITUAZIONE > AUTORIZZAZIONI** potranno vedere le autorizzazioni concesse.
+
+
+## Esempio 3: richieste di deroga all'orario di entrata
+
+Questo esempio, analogo al precedente, illustra la tipologia di gestione indicata con il codice **E**.
+
+Si dovrà creare un nuovo modulo con i seguenti valori:
+- **Nome del modulo**: Richiesta deroga all'orario di entrata a scuola
+- **Utenti che possono presentare il modulo**: Genitori, Alunni maggiorenni
+- **Utenti che possono gestire la richiesta**: Staff
+- **Lista dei campi da compilare**:
+  - nome: _minuti_, tipo: NUMERO INTERO, obbligatorio: SI
+  - nome: _giorni_, tipo: TESTO SU UNA RIGA, obbligatorio: SI
+  - nome: _mezzo_, tipo: TESTO SU UNA RIGA, obbligatorio: SI
+  - nome: _ora_, tipo: ORA, obbligatorio: SI
+  - nome: _azienda_, tipo: TESTO SU UNA RIGA, obbligatorio: SI
+  - nome: _fermata_, tipo: TESTO SU UNA RIGA, obbligatorio: SI
+  - nome: _note_, tipo: TESTO SU PIU' RIGHE, obbligatorio: NO
+- **Nome del file del modello**: deroga_orario_uscita
+- **Numero di allegati da inserire nella richiesta**: 0
+- **Codifica del tipo di richiesta**: E
+- **Ammessa una sola richiesta per utente**: SI
+
+La procedura di gestione è del tutto analoga a quella illustrata in precedenza.
+
+
+## Uso dei modelli (_template_)
 
 Il modello usato è nel formato _twig_, che corrisponde ad una pagina HTML in cui si possono
 inserire dei dati parametrici indicat da doppie parentesi graffe. Ad esempio:
