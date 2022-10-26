@@ -1,0 +1,27 @@
+<p style="text-align:center;">
+  <strong>RICHIESTA AUTORIZZAZIONE ALL'USCITA ANTICIPATA PER IL GIORNO INDICATO</strong>
+</p>
+
+{% if is_granted('ROLE_GENITORE') %}
+
+<p style="text-align:justify;">Il/La sottoscritto/a 
+  <em>{{ app.user.nome }} {{ app.user.cognome }}</em>, genitore/tutore dell'alunn{{ app.user.alunno.sesso == 'M' ? 'o' : 'a' }}
+  <em>{{ app.user.alunno.nome }} {{ app.user.alunno.cognome }}</em>, frequentante la classe {{ app.user.alunno.classe }}
+  della sede di {{ app.user.alunno.classe.sede.citta }},
+  chiede che {{ app.user.alunno.sesso == 'M' ? 'il suddetto alunno' : 'la suddetta alunna' }}
+  possa uscire alle ore {{ form_widget(form.ora) }} il giorno {{ form_widget(form.data) }},
+  per la seguente motivazione:<br>
+  {{ form_widget(form.motivazione) }}</p>
+
+
+{% elseif is_granted('ROLE_ALUNNO') %}
+
+<p style="text-align:justify;">{{ app.user.sesso == 'M' ? 'Il sottoscritto' : 'La sottoscritta' }}
+  {{ app.user.nome }} {{ app.user.cognome }}, alunn{{ app.user.sesso == 'M' ? 'o' : 'a' }}
+  {{ 'M' in app.user.codiceFunzioni ? 'MAGGIORENNE' }} frequentante la classe {{ app.user.classe }}
+  della sede di {{ app.user.classe.sede.citta }},
+  chiede di poter uscire alle ore {{ form_widget(form.ora) }} il giorno {{ form_widget(form.data) }},
+  per la seguente motivazione:<br>
+  {{ form_widget(form.motivazione) }}</p>
+
+{% endif %}

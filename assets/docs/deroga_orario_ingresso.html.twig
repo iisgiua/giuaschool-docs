@@ -1,0 +1,38 @@
+<p style="text-align:center;">
+  <strong>RICHIESTA DI DEROGA ALL'ORARIO DI INGRESSO A SCUOLA</strong>
+</p>
+
+{% if is_granted('ROLE_GENITORE') %}
+
+<p style="text-align:justify;">Il/La sottoscritto/a 
+  <em>{{ app.user.nome }} {{ app.user.cognome }}</em>, genitore/tutore dell'alunn{{ app.user.alunno.sesso == 'M' ? 'o' : 'a' }}
+  <em>{{ app.user.alunno.nome }} {{ app.user.alunno.cognome }}</em>, frequentante la classe {{ app.user.alunno.classe }}
+  della sede di {{ app.user.alunno.classe.sede.citta }} e residente in {{ app.user.alunno.citta }},
+  chiede che l'alunn{{ app.user.alunno.sesso == 'M' ? 'o' : 'a' }} possa entrare
+  {{ form_widget(form.minuti) }}
+  minuti in ritardo rispetto al normale orario delle lezioni, nei seguenti giorni della settimana:
+  {{ form_widget(form.giorni) }}.</p>
+<p style="text-align:justify;">A tal fine, dichiara che l'alunn{{ app.user.alunno.sesso == 'M' ? 'o' : 'a' }} viaggia con il mezzo
+  {{ form_widget(form.mezzo) }}  delle ore {{ form_widget(form.ora) }}
+  dell'azienda {{ form_widget(form.azienda) }}, con fermata in via {{ form_widget(form.fermata) }}.</p>
+<p style="text-align:justify;">Eventuali note ed osservazioni:<br>
+  {{ form_widget(form.note) }}</p>
+
+{% elseif is_granted('ROLE_ALUNNO') %}
+
+<p style="text-align:justify;">{{ app.user.sesso == 'M' ? 'Il sottoscritto' : 'La sottoscritta' }}
+  {{ app.user.nome }} {{ app.user.cognome }}, alunn{{ app.user.sesso == 'M' ? 'o' : 'a' }}
+  {{ 'M' in app.user.codiceFunzioni ? 'MAGGIORENNE' }} frequentante la classe {{ app.user.classe }}
+  della sede di {{ app.user.classe.sede.citta }} e residente in {{ app.user.citta }},
+  chiede di poter entrare
+  {{ form_widget(form.minuti) }}
+  minuti in ritardo rispetto al normale orario delle lezioni, nei seguenti giorni della settimana:
+  {{ form_widget(form.giorni) }}.</p>
+<p style="text-align:justify;">
+  A tal fine, dichiara che {{ app.user.sesso == 'M' ? 'il sottoscritto' : 'la sottoscritta' }} viaggia con il mezzo
+  {{ form_widget(form.mezzo) }} delle ore {{ form_widget(form.ora) }}
+  dell'azienda {{ form_widget(form.azienda) }}, con fermata in via {{ form_widget(form.fermata) }}.</p>
+  <p style="text-align:justify;">Eventuali note ed osservazioni:<br>
+  {{ form_widget(form.note) }}</p>
+
+{% endif %}
