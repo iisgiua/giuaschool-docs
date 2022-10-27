@@ -32,7 +32,15 @@ verrà scaricato sul proprio computer. In caso di necessità, la stessa applicaz
 nel database il file creato in precedenza, ripristinando tutti i dati presenti.
 
 
-## Scaricare l'archivio ZIP
+## Nuova procedura di aggiornamento
+
+
+
+
+
+## Vecchia procedura di aggiornamento
+
+### Scaricare l'archivio ZIP
 
 Come prima cosa bisogna scaricare l'archivio ZIP della nuova versione dell'applicazione.
 - [Scarica la versione {{ site.data.version.tag }}](/latest-release.md)
@@ -42,7 +50,7 @@ che contiene solo i file modificati dal rilascio dell'ultima versione.
 - [Scarica l'ultimo aggiornamento](latest-build.md)
 
 
-## Copiare il codice nella cartella di destinazione
+### Copiare il codice nella cartella di destinazione
 
 L'archivio ZIP va decompresso nella cartella principale che il servizio di _hosting_ mette a disposizione.
 
@@ -57,7 +65,7 @@ le proprie personalizzazioni durante gli aggiornamenti, andando poi a decidere
 quali modifiche riportare nella nuova versione dei file.
 
 
-## Eseguire la procedura di aggiornamento
+### Eseguire la procedura di aggiornamento
 
 Bisogna ora eseguire la procedura di aggiornamento, seguendo le istruzioni riportate a video.
 
