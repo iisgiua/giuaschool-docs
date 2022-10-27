@@ -25,7 +25,8 @@ registro i PEI, i PDP e le diagnosi. Tali documenti vengono cifrati e sono visib
 solo ai docenti del Consiglio di Classe.
 
 Per impostare uno o più responsabili BES, da amministratore, andare alla pagina
-**DOCENTI > RESPONSBILI BES**.
+**DOCENTI > RESPONSABILI BES**.
+
 Quando si imposta un responsabile BES, si può anche decidere che la sua gestione
 riguarderà gli alunni di una sola delle sedi scolastiche dell'Istituto.
 
@@ -51,8 +52,9 @@ memorizzato sul sistema.
 
 ## Visione  dei documenti BES
 
-I docenti della classe possono visualizzare i documenti BES dalla pagina **BACHECA > DOCUMENTI**.
+I docenti possono visualizzare i documenti BES dei propri alunni, andando alla pagina
+**BACHECA > DOCUMENTI**.
 
-Per una questione di _privacy_, il documento PDF è cifrato: per leggerlo è necessario inserire la
-password che il docente può visualizzare cliccando sull'icona del lucchetto in corrispondenza
-del file da scaricare.
+Per una questione di _privacy_, il documento PDF è cifrato: per leggerlo, è necessario inserire una
+password. Il docente può visualizzare la password cliccando sull'icona del lucchetto che si trova
+in corrispondenza del file da scaricare.
