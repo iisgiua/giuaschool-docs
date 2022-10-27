@@ -40,12 +40,12 @@ pagina **SISTEMA > AGGIORNAMENTO** e seguire le indicazioni.
 Per utilizzare questa procedura è indispensabile aver già aggiornato il sistema almeno alla
 versione **1.5.0**.
 
-A seconda delle impostazioni del servizio di hosting, la procedura potrebbe non funzionare
+A seconda delle impostazioni del servizio di _hosting_, la procedura potrebbe non funzionare
 correttamente. In tal caso, utilizzare la vecchia procedura.
 
 In particolare, i servizi di _hosting_ spesso bloccano, per questioni di sicurezza, le
 funzioni necessarie per scaricare i file direttamente sul server (_fsockopen_ o _cURL_):
-in tal caso, controllare la documentazione del prorio _hosting_ per cnonoscere le modalità
+in tal caso, controllare la documentazione del prorio _hosting_ per cononoscere le modalità
 previste per lo sblocco.
 
 A titolo di esempio, si riporta la procedura di sblocco per _Altervista_:
