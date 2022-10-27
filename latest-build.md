@@ -10,10 +10,12 @@ nav_order: 11
 [**Scarica l'ultimo aggiornamento**](https://github.com/iisgiua/giuaschool/releases/download/update-v1.5.0/giuaschool-update-v1.5.0.zip)
 {: .text-center .pb-5}
 
-Data e ora dell'ultimo aggiornamento: 25/10/2022 20:08
+Data e ora dell'ultimo aggiornamento: 27/10/2022 20:29
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [e48b8717](http://github.com/iisgiua/giuaschool/commit/e48b8717600c10e96c41036744bf081a7a634c42) - Fix: test e messaggi
+- [5f9d2675](http://github.com/iisgiua/giuaschool/commit/5f9d267569af032ded53856111d901493fc17dd8) - Modifica: gestione responsabili BES
 - [525b0e72](http://github.com/iisgiua/giuaschool/commit/525b0e722e967ab0b5329485011ef4f27090a42e) - Modifica: nuova funzione di aggiornamento automatico
 - [d7f436e1](http://github.com/iisgiua/giuaschool/commit/d7f436e12dffcc5db0445b9e9e389c5f68571e39) - Fix: docker files
 - [f516ec29](http://github.com/iisgiua/giuaschool/commit/f516ec2977a9ca0365d760a2fa361573f1e1f559) - Fix: gestione colloqui
