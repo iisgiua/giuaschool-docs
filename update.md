@@ -34,8 +34,27 @@ nel database il file creato in precedenza, ripristinando tutti i dati presenti.
 
 ## Nuova procedura di aggiornamento
 
+Per avviare la nuova procedura di aggiornamento, come utente amministratore, andare alla
+pagina **SISTEMA > AGGIORNAMENTO** e seguire le indicazioni.
 
+Per utilizzare questa procedura è indispensabile aver già aggiornato il sistema almeno alla
+versione **1.5.0**.
 
+A seconda delle impostazioni del servizio di hosting, la procedura potrebbe non funzionare
+correttamente. In tal caso, utilizzare la vecchia procedura.
+
+In particolare, i servizi di _hosting_ spesso bloccano, per questioni di sicurezza, le
+funzioni necessarie per scaricare i file direttamente sul server (_fsockopen_ o _cURL_):
+in tal caso, controllare la documentazione del prorio _hosting_ per cnonoscere le modalità
+previste per lo sblocco.
+
+A titolo di esempio, si riporta la procedura di sblocco per _Altervista_:
+1. eseguire il login per entrare nel pannello di amministrazione del proprio sito;
+2. andare alla pagina **RISORSE**;
+3. nella scheda **PHP**, cliccare su **Modifica Impostazioni PHP**;
+4. scorrere la pagina sino alla sezione **Connessioni Server to Server**;
+5. abilitare il **Collegamento esterno senza restrizioni** (sarà necessario autenticare il proprio
+    numero di telefono).
 
 
 ## Vecchia procedura di aggiornamento
