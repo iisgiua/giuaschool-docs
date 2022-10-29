@@ -10,10 +10,11 @@ nav_order: 10
 [**Scarica la Versione {{ site.data.version.tag }}**](https://github.com/iisgiua/giuaschool/releases/download/v{{ site.data.version.tag }}/giuaschool-release-v{{ site.data.version.tag }}.zip)
 {: .text-center .pb-5}
 
-Data e ora di rilascio: 28/10/2022 20:41
+Data e ora di rilascio: 29/10/2022 11:51
 
 Lista delle modifiche incluse nella nuova versione:
 
+- [4009a63d](http://github.com/iisgiua/giuaschool/commit/4009a63da8bc4abde39ff25830472d226d95825e) - Fix: per Altervista
 - [bc27176e](http://github.com/iisgiua/giuaschool/commit/bc27176e8cb49c151e4fba4b7d08ca4e56a67bb9) - Fix: updater
 - [e48b8717](http://github.com/iisgiua/giuaschool/commit/e48b8717600c10e96c41036744bf081a7a634c42) - Fix: test e messaggi
 - [5f9d2675](http://github.com/iisgiua/giuaschool/commit/5f9d267569af032ded53856111d901493fc17dd8) - Modifica: gestione responsabili BES
