@@ -45,7 +45,7 @@ correttamente. In tal caso, utilizzare la vecchia procedura.
 
 In particolare, i servizi di _hosting_ spesso bloccano, per questioni di sicurezza, le
 funzioni necessarie per scaricare i file direttamente sul server (_fsockopen_ o _cURL_):
-in tal caso, controllare la documentazione del prorio _hosting_ per cononoscere le modalità
+in tal caso, controllare la documentazione del prorio _hosting_ per conoscere le modalità
 previste per lo sblocco.
 
 A titolo di esempio, si riporta la procedura di sblocco per _Altervista_:
