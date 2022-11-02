@@ -10,10 +10,11 @@ nav_order: 11
 [**Scarica l'ultimo aggiornamento**](https://github.com/iisgiua/giuaschool/releases/download/update-v1.5.1/giuaschool-update-v1.5.1.zip)
 {: .text-center .pb-5}
 
-Data e ora dell'ultimo aggiornamento: 01/11/2022 11:52
+Data e ora dell'ultimo aggiornamento: 02/11/2022 10:46
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [a1ca783e](http://github.com/iisgiua/giuaschool/commit/a1ca783edeecbc8955e462e89a559283db2d609e) - Modifica: info lettura avvisi per staff e coordinatori
 - [532bd30c](http://github.com/iisgiua/giuaschool/commit/532bd30c06142be40c89a673721108d70b023c5c) - Rimozione configurazione email da installer
 - [1288706b](http://github.com/iisgiua/giuaschool/commit/1288706b02b43ed01c8c95f7a6d421d1e1fc1ea5) - Fix: installer
 - [76b81083](http://github.com/iisgiua/giuaschool/commit/76b810830b677af473ec880af082a4b8f7fade65) - Fix: installer
