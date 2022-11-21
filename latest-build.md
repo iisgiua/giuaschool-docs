@@ -10,10 +10,11 @@ nav_order: 11
 [**Scarica l'ultimo aggiornamento**](https://github.com/iisgiua/giuaschool/releases/download/update-v1.5.1/giuaschool-update-v1.5.1.zip)
 {: .text-center .pb-5}
 
-Data e ora dell'ultimo aggiornamento: 08/11/2022 19:02
+Data e ora dell'ultimo aggiornamento: 21/11/2022 19:22
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [f3d02670](http://github.com/iisgiua/giuaschool/commit/f3d02670e994b137129dd15d3e30a565fdee3197) - Fix minori
 - [c787b223](http://github.com/iisgiua/giuaschool/commit/c787b2239225d40dce368e222184f4ef3396bb39) - Fix: link in gestione colloqui
 - [d1adae84](http://github.com/iisgiua/giuaschool/commit/d1adae84c374329375c60bb4d3ec6bc628a8df3a) - Fix: installer e notifica colloquio
 - [83a23055](http://github.com/iisgiua/giuaschool/commit/83a23055f011e6c5a279511432a81bdf4cb5d5f4) - Fix: updater
