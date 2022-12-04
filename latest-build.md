@@ -10,10 +10,11 @@ nav_order: 11
 [**Scarica l'ultimo aggiornamento**](https://github.com/iisgiua/giuaschool/releases/download/update-v1.5.1/giuaschool-update-v1.5.1.zip)
 {: .text-center .pb-5}
 
-Data e ora dell'ultimo aggiornamento: 04/12/2022 20:53
+Data e ora dell'ultimo aggiornamento: 04/12/2022 21:45
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [ff8ade95](http://github.com/iisgiua/giuaschool/commit/ff8ade959eec5e458f3f2c8bfe387a187510d3b6) - Fix: procedure scrutini
 - [9f4af79d](http://github.com/iisgiua/giuaschool/commit/9f4af79dba8ecebea80def08977b8ca942783c92) - Scrutinio primo periodo: fix e modifiche alla procedura
 - [e5541cdc](http://github.com/iisgiua/giuaschool/commit/e5541cdc96a82993052bf520d6c5aa98658deb83) - Modifica: connessione da app e altri fix
 - [f3d02670](http://github.com/iisgiua/giuaschool/commit/f3d02670e994b137129dd15d3e30a565fdee3197) - Fix minori
