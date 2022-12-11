@@ -10,10 +10,11 @@ nav_order: 11
 [**Scarica l'ultimo aggiornamento**](https://github.com/iisgiua/giuaschool/releases/download/update-v1.5.1/giuaschool-update-v1.5.1.zip)
 {: .text-center .pb-5}
 
-Data e ora dell'ultimo aggiornamento: 09/12/2022 19:12
+Data e ora dell'ultimo aggiornamento: 11/12/2022 10:37
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [b72c13f3](http://github.com/iisgiua/giuaschool/commit/b72c13f33603cdcb80d01ef4c70eeb210685ffd9) - Modifica servizi app
 - [a9ee36c4](http://github.com/iisgiua/giuaschool/commit/a9ee36c4385684473c439ebba646c441678b0263) - Fix: scrutinio finale
 - [4fe358fd](http://github.com/iisgiua/giuaschool/commit/4fe358fdeb4be46ebf75e7d4e8560dc1d72db33c) - Fix: refresh automatico della pagina dopo 1 ora
 - [ff8ade95](http://github.com/iisgiua/giuaschool/commit/ff8ade959eec5e458f3f2c8bfe387a187510d3b6) - Fix: procedure scrutini
