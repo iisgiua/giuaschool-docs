@@ -10,10 +10,11 @@ nav_order: 11
 [**Scarica l'ultimo aggiornamento**](https://github.com/iisgiua/giuaschool/releases/download/update-v1.5.1/giuaschool-update-v1.5.1.zip)
 {: .text-center .pb-5}
 
-Data e ora dell'ultimo aggiornamento: 13/12/2022 23:56
+Data e ora dell'ultimo aggiornamento: 20/12/2022 20:38
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [724d51c7](http://github.com/iisgiua/giuaschool/commit/724d51c7150b8223ac36a90fef58705b57956d0c) - Modifica: gestione personalizzazioni su template e immagini
 - [8dd59491](http://github.com/iisgiua/giuaschool/commit/8dd594918c0495660bdf2ed4dcd531dd3afc5bd5) - Fix: gestione immagine di intestazione nei PDF
 - [83411b7f](http://github.com/iisgiua/giuaschool/commit/83411b7fca49576030955a64018900d2fd9476a0) - Modifica servizi app
 - [b72c13f3](http://github.com/iisgiua/giuaschool/commit/b72c13f33603cdcb80d01ef4c70eeb210685ffd9) - Modifica servizi app
