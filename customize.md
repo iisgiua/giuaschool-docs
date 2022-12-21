@@ -38,16 +38,43 @@ scrivere codice di programmazione PHP.
 Modificando i _template_, si può cambiare il testo dei messaggi visualizzati, il loro aspetto,
 o anche nascondere informazioni ritenute poco utili.
 
-Tutti i _template_ si trovano nella cartella **templates**.
+Tutti i _template_ si trovano nella cartella **templates/**.
 
-Inoltre, è presente anche una codifica dei messaggi di uso frequente:
-si usa un'etichetta che li identifica e ne permette l'utilizzo nei _template_.
+**ATTENZIONE**: se si desidera personalizzare un _template_, non si dovrà modificare direttamente il file,
+ma bisognerà copiarlo all'interno della cartella **PERSONAL/templates/** e poi modificarlo.
+Il sistema cerca prima eventuali template personalizzati all'interno della cartella **PERSONAL/templates/**,
+ma se non li trova utiizza quelli predefiniti presenti nella cartella **templates/**.
+Questo meccanismo permette di evitare che, durante gli aggiornamenti, si vada a sovrascrivere
+il proprio template personalizzato con quello predefinito contenuto nella nuova versione.
+
+Si faccia attenzione a replicare sempre lo stesso percorso del template predefinito.
+Ad esempio, se si desidera modificare la pagina iniziale di login, copiare il file
+**templates/login/form.html.twig** in **PERSONAL/templates/login/form.html.twig** e poi
+modificarlo.
+
+
+## Personalizzazione dei messaggi
+
+Nelle pagine visualizzate è presente anche una codifica dei messaggi di uso frequente:
+si usa un'etichetta che li identifica e ne permette l'utilizzo nei _template_ e nel codice.
 
 Anche questi messaggi sono facilmente modificabili e si trovano all'interno della
-cartella **translations**.
+cartella **translations/**.
+
+
+## Personalizzazione dell'intestazione dei documenti
+
+L'intestazione dei documenti con i dati della scuola è riportata come immagine,
+nel formato grafico JPEG, di dimensione 1000x252 pixel.
+
+L'intestazione predefinita è presente nel file **public/img/intestazione-documenti.jpg**.
+
+Se si desidera personalizzarla, creare una nuova immagine nel formato grafico JPEG, delle stesse
+dimensioni di quella originale. Salvare poi la nuova immagine nel percorso seguente:
+**PERSONAL/img/intestazione-documenti.jpg**
+
 
 ## Personalizzazione dei documenti degli scrutini
-
 
 Anche i documenti degli scrutini sono generati attraverso l'uso di _template_, come indicato
 in precedenza.
