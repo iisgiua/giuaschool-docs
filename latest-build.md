@@ -10,10 +10,12 @@ nav_order: 11
 [**Scarica l'ultimo aggiornamento**](https://github.com/iisgiua/giuaschool/releases/download/update-v1.5.1/giuaschool-update-v1.5.1.zip)
 {: .text-center .pb-5}
 
-Data e ora dell'ultimo aggiornamento: 24/12/2022 10:29
+Data e ora dell'ultimo aggiornamento: 24/12/2022 13:15
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [09f17e7f](http://github.com/iisgiua/giuaschool/commit/09f17e7fc6ffa701a01e0eade8dd96cd3db4941c) - Fix tests
+- [afb017b0](http://github.com/iisgiua/giuaschool/commit/afb017b0bd9e38360ab0dcc536ec506bbebd975e) - Fix: test installer
 - [cc770a44](http://github.com/iisgiua/giuaschool/commit/cc770a4409fa5d9ca7f281772eac43a2804501cf) - Fix: installer
 - [2faca2cd](http://github.com/iisgiua/giuaschool/commit/2faca2cd76913c143914fbd0d07f57ba66d2f9e1) - Fix docker creation
 - [724d51c7](http://github.com/iisgiua/giuaschool/commit/724d51c7150b8223ac36a90fef58705b57956d0c) - Modifica: gestione personalizzazioni su template e immagini
