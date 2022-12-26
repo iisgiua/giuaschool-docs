@@ -10,10 +10,12 @@ nav_order: 11
 [**Scarica l'ultimo aggiornamento**](https://github.com/iisgiua/giuaschool/releases/download/update-v1.5.1/giuaschool-update-v1.5.1.zip)
 {: .text-center .pb-5}
 
-Data e ora dell'ultimo aggiornamento: 25/12/2022 13:24
+Data e ora dell'ultimo aggiornamento: 26/12/2022 18:31
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [a23357f3](http://github.com/iisgiua/giuaschool/commit/a23357f3a3cc7fad0bf6d6d2a77731eeb5ab609a) - Fix GHA
+- [f4ab6435](http://github.com/iisgiua/giuaschool/commit/f4ab64358665c6f15cd92db67a585d2e48838bb3) - Update GHA and tests
 - [661792b4](http://github.com/iisgiua/giuaschool/commit/661792b44b68bc31b0cf516db22c5293f7e7888b) - Update tests
 - [a36e3057](http://github.com/iisgiua/giuaschool/commit/a36e3057183e8d7fe963b3205f17d189a22f881e) - Fix GHA
 - [e82d4f8c](http://github.com/iisgiua/giuaschool/commit/e82d4f8c0fb00fb52351316df3e83f07ee38f2b4) - Fix GHA
