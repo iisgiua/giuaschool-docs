@@ -10,10 +10,11 @@ nav_order: 11
 [**Scarica l'ultimo aggiornamento**](https://github.com/iisgiua/giuaschool/releases/download/update-v1.5.1/giuaschool-update-v1.5.1.zip)
 {: .text-center .pb-5}
 
-Data e ora dell'ultimo aggiornamento: 26/12/2022 21:50
+Data e ora dell'ultimo aggiornamento: 10/01/2023 13:56
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [55381412](http://github.com/iisgiua/giuaschool/commit/55381412f2496d8384bfe49baa0e16037d6dd761) - Base della nuova implementazione delle notifiche
 - [5f3845b8](http://github.com/iisgiua/giuaschool/commit/5f3845b8d12a00933edb56981707c61937dba51b) - Fix GHA
 - [7595f1dc](http://github.com/iisgiua/giuaschool/commit/7595f1dc6e538e5d9225033ec3b29b1ed4f8eb07) - Fix GHA
 - [8a113355](http://github.com/iisgiua/giuaschool/commit/8a113355e1f32cc1bb2c18098ce92fe6c422c991) - Fix GHA
