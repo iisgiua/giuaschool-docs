@@ -10,10 +10,11 @@ nav_order: 11
 [**Scarica l'ultimo aggiornamento**](https://github.com/iisgiua/giuaschool/releases/download/update-v1.5.1/giuaschool-update-v1.5.1.zip)
 {: .text-center .pb-5}
 
-Data e ora dell'ultimo aggiornamento: 15/01/2023 20:59
+Data e ora dell'ultimo aggiornamento: 16/01/2023 23:41
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [26ede82d](http://github.com/iisgiua/giuaschool/commit/26ede82d389fee4caad1b9a9a529d35505e37f21) - Fix: gestione rappresentanti
 - [2adbea4a](http://github.com/iisgiua/giuaschool/commit/2adbea4a83d4b054aa16ed2f4ed98f7a72a583ad) - Modifica: aggiunto calcolo ore in argomenti lezione
 - [a23c78c2](http://github.com/iisgiua/giuaschool/commit/a23c78c2bbc343b647929fdfbcb84423712e520c) - Fix: gestione rappresentanti
 - [ad03bea8](http://github.com/iisgiua/giuaschool/commit/ad03bea8cf6a8b1d5b7f5711d6d7d621dd4440ca) - Gestione rappresentanti negli avvisi
