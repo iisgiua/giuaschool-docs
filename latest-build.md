@@ -10,10 +10,11 @@ nav_order: 11
 [**Scarica l'ultimo aggiornamento**](https://github.com/iisgiua/giuaschool/releases/download/update-v1.5.1/giuaschool-update-v1.5.1.zip)
 {: .text-center .pb-5}
 
-Data e ora dell'ultimo aggiornamento: 21/01/2023 21:10
+Data e ora dell'ultimo aggiornamento: 22/01/2023 09:50
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [f8678ca0](http://github.com/iisgiua/giuaschool/commit/f8678ca07a8e8e8c0d832e7dafa589cd30128689) - Fix: tests
 - [dc654ae6](http://github.com/iisgiua/giuaschool/commit/dc654ae61408832f16bff6eaab57c9a4f5ac9ec2) - Fix: rappresentanti
 - [a3b1341d](http://github.com/iisgiua/giuaschool/commit/a3b1341de3eb63b3c568485e8f9091104e8ffae7) - Fix: ordine alunni in note individuali
 - [c40f488c](http://github.com/iisgiua/giuaschool/commit/c40f488ce5675e549d8df443300db6607da0ee30) - Gestione avvisi rappresentanti (completa)
