@@ -10,10 +10,12 @@ nav_order: 11
 [**Scarica l'ultimo aggiornamento**](https://github.com/iisgiua/giuaschool/releases/download/update-v1.5.1/giuaschool-update-v1.5.1.zip)
 {: .text-center .pb-5}
 
-Data e ora dell'ultimo aggiornamento: 24/01/2023 00:57
+Data e ora dell'ultimo aggiornamento: 25/01/2023 00:35
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [ccef744a](http://github.com/iisgiua/giuaschool/commit/ccef744a68c933eeca43097d018773d2ef40d370) - Fix test
+- [190fd95d](http://github.com/iisgiua/giuaschool/commit/190fd95da05b8ee0cac0c5e87651a6920c6eb4d9) - Fix: scrutini e notifiche
 - [25e084fd](http://github.com/iisgiua/giuaschool/commit/25e084fd231afb6a8f6b558798ca5783f2053839) - Fix tests
 - [e7290d9d](http://github.com/iisgiua/giuaschool/commit/e7290d9d35628c5fd6413ee44eaa2d2da17616f1) - Fix: secondo periodo dello scrutinio
 - [c1543e30](http://github.com/iisgiua/giuaschool/commit/c1543e30d8a42b5a63655c26a6c64c1c56f0715e) - Modifiche: primo quadrimestre (fix e numero verbale)
