@@ -10,10 +10,11 @@ nav_order: 10
 [**Scarica la Versione {{ site.data.version.tag }}**](https://github.com/iisgiua/giuaschool/releases/download/v{{ site.data.version.tag }}/giuaschool-release-v{{ site.data.version.tag }}.zip)
 {: .text-center .pb-5}
 
-Data e ora di rilascio: 28/01/2023 20:44
+Data e ora di rilascio: 28/01/2023 21:11
 
 Lista delle modifiche incluse nella nuova versione:
 
+- [fc0d5375](http://github.com/iisgiua/giuaschool/commit/fc0d5375a7636144ccd481d5d03fe4f42854a752) - Update publiccode
 - [3c5f3283](http://github.com/iisgiua/giuaschool/commit/3c5f3283e29ec015b73a6bbbdb8413cefafac7e5) - Fix tests
 - [9d28f919](http://github.com/iisgiua/giuaschool/commit/9d28f919bfee70c2b7705f6f3aff9877dd565925) - Fix: updater
 - [7f8dfe59](http://github.com/iisgiua/giuaschool/commit/7f8dfe5942294f9619ab3fcbf46f5093ae6517d5) - Fix Installer
