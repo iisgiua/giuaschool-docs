@@ -13,10 +13,11 @@ Le modifiche seguenti non sono ancora validate, per cui se ne sconsiglia l'insta
 [**Scarica l'ultimo aggiornamento**](https://github.com/iisgiua/giuaschool/releases/download/update-v1.5.2/giuaschool-update-v1.5.2.zip)
 {: .text-center .pb-5}
 
-Data e ora dell'ultimo aggiornamento: 20/02/2023 16:35
+Data e ora dell'ultimo aggiornamento: 20/02/2023 19:15
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [a6378d07](http://github.com/iisgiua/giuaschool/commit/a6378d075a7bb731a584e7a452d04587893db2f4) - Update GHA
 - [5cd90e69](http://github.com/iisgiua/giuaschool/commit/5cd90e695623d59065473982a1533fece0585bab) - Change GHA
 - [5b29f844](http://github.com/iisgiua/giuaschool/commit/5b29f8442a95d31bee03ad4a01b0b263402d6158) - Fix: gestione fuori classe
 - [50638254](http://github.com/iisgiua/giuaschool/commit/506382549fc081c9b6179e17f62ecb71b31069d2) - Fix: fuori classe
