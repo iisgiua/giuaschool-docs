@@ -7,16 +7,17 @@ nav_order: 11
 # Ultimo aggiornamento
 {: .text-center .fw-400 .pb-5}
 
-Le modifiche seguenti non sono ancora validate, per cui se ne sconsiglia l'installazione se non in ambiente di test.
+_Le modifiche seguenti non sono ancora validate né definitive:<br>se ne sconsiglia l'installazione se non in ambiente di test_
 {: .text-center .pb-5}
 
 [**Scarica l'ultimo aggiornamento**](https://github.com/iisgiua/giuaschool/releases/download/update-v1.5.2/giuaschool-update-v1.5.2.zip)
 {: .text-center .pb-5}
 
-Data e ora dell'ultimo aggiornamento: 21/02/2023 11:14
+Data e ora dell'ultimo aggiornamento: 21/02/2023 12:01
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [800af8d4](http://github.com/iisgiua/giuaschool/commit/800af8d40a97d17dd6d06d387e3cb7086ee84783) - Fix: aggiornamento
 - [d474acc2](http://github.com/iisgiua/giuaschool/commit/d474acc2037abf53491aa1c064964255af87da75) - Update GHA
 - [82e338af](http://github.com/iisgiua/giuaschool/commit/82e338af0c227621d505e1f5f574195f35645462) - Modifica: gestione aggiornamenti
 - [a6378d07](http://github.com/iisgiua/giuaschool/commit/a6378d075a7bb731a584e7a452d04587893db2f4) - Update GHA
