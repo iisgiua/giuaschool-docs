@@ -10,13 +10,11 @@ nav_order: 11
 _Le modifiche seguenti non sono ancora validate né definitive:<br>se ne sconsiglia l'installazione se non in ambiente di test_
 {: .text-center .pb-5}
 
-[**Scarica l'ultimo aggiornamento**](https://github.com/iisgiua/giuaschool/releases/download/update-v1.5.2/giuaschool-update-v1.5.2.zip)
-{: .text-center .pb-5}
-
-Data e ora dell'ultimo aggiornamento: 28/02/2023 20:19
+Data e ora dell'ultimo aggiornamento: 28/02/2023 21:04
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [c1394e36](http://github.com/iisgiua/giuaschool/commit/c1394e36583058dd9b79459f804cf5c545613211) - Fix: installazione
 - [03e22175](http://github.com/iisgiua/giuaschool/commit/03e221753d8fb4186cf735647cea022f2e7ce4e7) - Modifica: gestione installazione iniziale
 - [eb687b6e](http://github.com/iisgiua/giuaschool/commit/eb687b6ede4848e58246e0c54c15c3b155a45a55) - Fix: aggiornamento
 - [800af8d4](http://github.com/iisgiua/giuaschool/commit/800af8d40a97d17dd6d06d387e3cb7086ee84783) - Fix: aggiornamento
