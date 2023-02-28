@@ -10,10 +10,14 @@ nav_order: 11
 _Le modifiche seguenti non sono ancora validate né definitive:<br>se ne sconsiglia l'installazione se non in ambiente di test_
 {: .text-center .pb-5}
 
-Data e ora dell'ultimo aggiornamento: 21/02/2023 12:42
+[**Scarica l'ultimo aggiornamento**](https://github.com/iisgiua/giuaschool/releases/download/update-v1.5.2/giuaschool-update-v1.5.2.zip)
+{: .text-center .pb-5}
+
+Data e ora dell'ultimo aggiornamento: 28/02/2023 20:19
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [03e22175](http://github.com/iisgiua/giuaschool/commit/03e221753d8fb4186cf735647cea022f2e7ce4e7) - Modifica: gestione installazione iniziale
 - [eb687b6e](http://github.com/iisgiua/giuaschool/commit/eb687b6ede4848e58246e0c54c15c3b155a45a55) - Fix: aggiornamento
 - [800af8d4](http://github.com/iisgiua/giuaschool/commit/800af8d40a97d17dd6d06d387e3cb7086ee84783) - Fix: aggiornamento
 - [d474acc2](http://github.com/iisgiua/giuaschool/commit/d474acc2037abf53491aa1c064964255af87da75) - Update GHA
@@ -30,3 +34,4 @@ Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.ve
 - [3432649a](http://github.com/iisgiua/giuaschool/commit/3432649a60de26bb8aa206620418c9df18c8ceb0) - Gestione notifiche: invio notifiche per le circolari
 - [72f69611](http://github.com/iisgiua/giuaschool/commit/72f69611bd9bd5eb3c5360a116d09f3d94f1b9ff) - Fix: traduzioni e installer
 - [5e2bd3e5](http://github.com/iisgiua/giuaschool/commit/5e2bd3e5819432ba66cada669a4a03ef02c911d1) - Fix: rappresentanti
+
