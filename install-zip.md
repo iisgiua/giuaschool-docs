@@ -48,8 +48,7 @@ evidenziandone le criticità.
 
 Si dovrà scaricare l'archivio ZIP dell'ultima versione stabile dell'applicazione:
 
-  - [Scarica la versione {{ site.data.version.tag }}](https://github.com/iisgiua/giuaschool/releases/latest/download/giuaschool-release-latest.zip)
-    - [Visualizza i dettagli](/latest-release.md)
+  - [Scarica la versione {{ site.data.version.tag }}](/latest-release.md)
 
 
 ## Copiare il codice nella cartella di destinazione
