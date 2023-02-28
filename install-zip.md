@@ -46,14 +46,10 @@ evidenziandone le criticità.
 
 ## Scaricare l'archivio ZIP
 
-Si può scaricare l'archivio ZIP dell'ultima versione stabile dell'applicazione (**consigliato**),
-oppure quello contenente anche le ultime modifiche ancora in fase di revisione:
+Si dovrà scaricare l'archivio ZIP dell'ultima versione stabile dell'applicazione:
 
   - [Scarica la versione {{ site.data.version.tag }}](https://github.com/iisgiua/giuaschool/releases/latest/download/giuaschool-release-latest.zip)
     - [Visualizza i dettagli](/latest-release.md)
-
-  - [Scarica l'ultimo aggiornamento](https://github.com/iisgiua/giuaschool/releases/download/latest-build/giuaschool-build-latest.zip)
-    - [Visualizza i dettagli](/latest-build.md)
 
 
 ## Copiare il codice nella cartella di destinazione
@@ -77,21 +73,11 @@ A questo punto, la pagina principale del registro elettronico dovrebbe essere vi
 
 ## Eseguire la procedura di installazione
 
-Per prima cosa, rinominare il file **.env-dist** in **.env**.
-Quindi inserire la password di installazione: questa verrà
-richiesta dalla procedura per evitare che possa essere eseguita da altre persone.
+Per eseguire la procedura di installazione iniziale, andare alla pagina seguente e seguire
+le istruzioni:
+  - **https://nome_sito/install/app.php**
 
-Il file **.env** dovrà pertanto contenere la seguente riga con la nuova password:
-```
-INSTALLATION_PSW='password_non_banale'
-```
-
-Bisogna ora eseguire la procedura di installazione, seguendo le istruzioni riportate a video.
-Per eseguire la procedura di installazione andare alla pagina seguente:
-  - **https://nome_sito/install/index.php**
-
-Al termine della procedura, il file PHP viene rinominato con suffisso **.txt**, in modo
-da impedirne una nuova esecuzione.
+Al termine della procedura, il file PHP della procedura viene rimosso, per ragioni di sicurezza.
 
 
 ## Installazione su server di produzione

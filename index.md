@@ -10,7 +10,7 @@ nav_order: 1
 **giua@school** è un progetto nato dalla volontà di utilizzare un Registro Elettronico _open source_ per
 le attività scolastiche dell'**Istituto di Istruzione Superiore "Michele Giua"**.
 
-_**giua@school** è rilasciato come software open source con licenza AGPL-3.0 o successiva._
+_**giua@school** è rilasciato come software open source con licenza AGPL-3.0 o superiore._
 
 ---
 
