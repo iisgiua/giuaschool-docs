@@ -10,10 +10,11 @@ nav_order: 11
 _Le modifiche seguenti non sono ancora validate né definitive:<br>se ne sconsiglia l'installazione se non in ambiente di test_
 {: .text-center .pb-5}
 
-Data e ora dell'ultimo aggiornamento: 01/03/2023 01:19
+Data e ora dell'ultimo aggiornamento: 01/03/2023 20:48
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [3d81b539](http://github.com/iisgiua/giuaschool/commit/3d81b53932781de4f68914ad31dd02820005df97) - Fix: aggiornamento
 - [b0cee7ad](http://github.com/iisgiua/giuaschool/commit/b0cee7ad0dc20cbeec3a7c2af6273b9884a47683) - Fix: tabelle messenger e presenza
 - [c1394e36](http://github.com/iisgiua/giuaschool/commit/c1394e36583058dd9b79459f804cf5c545613211) - Fix: installazione
 - [03e22175](http://github.com/iisgiua/giuaschool/commit/03e221753d8fb4186cf735647cea022f2e7ce4e7) - Modifica: gestione installazione iniziale
