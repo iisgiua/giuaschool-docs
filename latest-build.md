@@ -10,10 +10,12 @@ nav_order: 11
 _Le modifiche seguenti non sono ancora validate né definitive:<br>se ne sconsiglia l'installazione se non in ambiente di test_
 {: .text-center .pb-5}
 
-Data e ora dell'ultimo aggiornamento: 03/03/2023 13:23
+Data e ora dell'ultimo aggiornamento: 04/03/2023 18:49
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [568fd0e9](http://github.com/iisgiua/giuaschool/commit/568fd0e984a60622c828266d736948d687fba099) - Aggiornamento IDP SPID
+- [9cb1b843](http://github.com/iisgiua/giuaschool/commit/9cb1b84363923ed62f1b85ac3fdf74c07fb45aa8) - Update GHA
 - [76ef9f96](http://github.com/iisgiua/giuaschool/commit/76ef9f96ab883399d410a68dd588e05ce240c782) - Fix GHA
 - [f663c1e5](http://github.com/iisgiua/giuaschool/commit/f663c1e5c3159deb2630017d06ce30a5e1b974d2) - Fix GHA
 - [1516dbd7](http://github.com/iisgiua/giuaschool/commit/1516dbd77d448d3c326dab01c0510e1309ffd447) - Update GHA
