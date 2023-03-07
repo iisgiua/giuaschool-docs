@@ -10,10 +10,11 @@ nav_order: 11
 _Le modifiche seguenti non sono ancora validate né definitive:<br>se ne sconsiglia l'installazione se non in ambiente di test_
 {: .text-center .pb-5}
 
-Data e ora dell'ultimo aggiornamento: 05/03/2023 11:44
+Data e ora dell'ultimo aggiornamento: 07/03/2023 23:52
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [b007e0cc](http://github.com/iisgiua/giuaschool/commit/b007e0ccf1fa3e8b5a69af67dac60f82aab99959) - Gestione completa OTP
 - [b43fc468](http://github.com/iisgiua/giuaschool/commit/b43fc468f3d729ddce6501684ddf3412ad1858d6) - Aggiornamento a Symfony 5.4.21 e altre dipendenze
 - [568fd0e9](http://github.com/iisgiua/giuaschool/commit/568fd0e984a60622c828266d736948d687fba099) - Aggiornamento IDP SPID
 - [9cb1b843](http://github.com/iisgiua/giuaschool/commit/9cb1b84363923ed62f1b85ac3fdf74c07fb45aa8) - Update GHA
