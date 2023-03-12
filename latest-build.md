@@ -10,10 +10,11 @@ nav_order: 11
 _Le modifiche seguenti non sono ancora validate né definitive:<br>se ne sconsiglia l'installazione se non in ambiente di test_
 {: .text-center .pb-5}
 
-Data e ora dell'ultimo aggiornamento: 12/03/2023 20:50
+Data e ora dell'ultimo aggiornamento: 13/03/2023 00:39
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [402e40ce](http://github.com/iisgiua/giuaschool/commit/402e40ce0570d2b5f0347104d9e9f3fb0c356048) - Gestione notifiche tramite Telegram (funzioni base)
 - [96432e00](http://github.com/iisgiua/giuaschool/commit/96432e00734b451fd367dbfb02adba4162ffe3d1) - Fix: fuori classe
 - [b007e0cc](http://github.com/iisgiua/giuaschool/commit/b007e0ccf1fa3e8b5a69af67dac60f82aab99959) - Gestione completa OTP
 - [b43fc468](http://github.com/iisgiua/giuaschool/commit/b43fc468f3d729ddce6501684ddf3412ad1858d6) - Aggiornamento a Symfony 5.4.21 e altre dipendenze
