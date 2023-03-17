@@ -10,10 +10,11 @@ nav_order: 11
 _Le modifiche seguenti non sono ancora validate né definitive:<br>se ne sconsiglia l'installazione se non in ambiente di test_
 {: .text-center .pb-5}
 
-Data e ora dell'ultimo aggiornamento: 16/03/2023 23:48
+Data e ora dell'ultimo aggiornamento: 17/03/2023 19:57
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [2e0773af](http://github.com/iisgiua/giuaschool/commit/2e0773afe0cb0da6658a26ff10233ca45f0b2d1c) - Fix: gestione notifiche
 - [2b15fcb4](http://github.com/iisgiua/giuaschool/commit/2b15fcb44c3f74c4eda8f9d9ecdbf21c00043a7d) - Gestione notifiche: configurazione telegram
 - [1be72ee7](http://github.com/iisgiua/giuaschool/commit/1be72ee7c7376f2503b1adb8729d548b162431eb) - Gestione notifiche per gli avvisi
 - [402e40ce](http://github.com/iisgiua/giuaschool/commit/402e40ce0570d2b5f0347104d9e9f3fb0c356048) - Gestione notifiche tramite Telegram (funzioni base)
