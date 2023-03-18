@@ -53,7 +53,7 @@ Se la configurazione è stata completata con successo, l'utente riceverà un mes
 Per utilizzare Telegram per l'invio delle notifiche è necessario creare un _bot_ e memorizzare il
 suo _nome_ e il suo _token_. La procedura è molto semplice, si può ad esempio seguire la seguente
 guida che spiega i passi necessari per la creazione del _bot_ e come ricavare il _token_:
-  - [Creare il bot](https://www.html.it/pag/394635/creare-telegram-bot/)
+  - [Creare il bot](https://www.html.it/pag/394635/creare-telegram-bot/){:target="_blank"}
 
 A questo punto, come utente amministratore, andare alla pagina **SISTEMA > Configura Telegram**.
 In questa pagina si dovrà inserire il _nome_ e il _token_ del _bot_ che si è creato.
@@ -95,7 +95,7 @@ duri troppo a lungo, continuando anche quando inizia quella del ciclo successivo
 ### Utilizzo di un servizio esterno
 
 Non potendo usare il comando _cron_, si dovrà utilizzare un servizio esterno che permette
-di richiamare ripetutamente, ad intervalli regolari, una apposita pagina del registro elettronico
+di richiamare ripetutamente, ad intervalli regolari, un'apposita pagina del registro elettronico
 che esegue l'invio delle notifiche.
 
 Anzi tutto, come utente amministratore, andare alla configurazione dei parametri, alla
@@ -104,7 +104,7 @@ pagina **SISTEMA > Parametri**, e inserire il valore di un codice segreto in
 richiamata da una persona non autorizzata.
 
 La pagina che dovrà essere richiamata è la seguente:
-  - http://mio_sito/command/notify/token/tempo
+  - **http://mio_sito/command/notify/token/tempo**
 
 Sostituire _token_ con il codice impostato nel parametro _comando_token_ e _tempo_ con
 il limite di tempo previsto, in secondi.
@@ -112,10 +112,10 @@ il limite di tempo previsto, in secondi.
 Si consiglia di prevedere l'esecuzione ogni 15 minuti, impostando un tempo massimo di 10 minuti
 (600 secondi). Se ad esempio il _token_ fosse "prova", l'indirizzo completo della pagina
 risulterebbe essere:
-  - http://mio_sito/command/notify/prova/600
+  - **http://mio_sito/command/notify/prova/600**
 
 Come servizio esterno, si consiglia di utilizzare il sito web seguente:
-  - [https://cron-job.org/en/](https://cron-job.org/en/)
+  - [https://cron-job.org/en/](https://cron-job.org/en/){:target="_blank"}
 
 Questo servizio, completamente gratuito, permette di pianificare l'esecuzione automatica
 della procedura. Una volta registrati, si può creare una nuova pianificazione (_crea cron job_).
