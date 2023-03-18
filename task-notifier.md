@@ -35,8 +35,8 @@ Si possono inoltre scegliere quali eventi saranno notificati:
 - **Lista nuove circolari**: viene creata una lista giornaliera che riporta le nuove circolari;
 sarà inviata al massimo una notifica al giorno.
 - **Nuovo avviso**: viene inviata una notifica per ogni nuovo avviso.
-- **Nuova verifica**: viene inviata una notifica per ogni nuova verifica (solo per utenti genitori e alunni).
-- **Nuovo compito**: viene inviata una notifica per ogni nuovo compito per casa (solo per utenti genitori e alunni).
+- **Nuova verifica**: viene inviata una notifica per ogni nuova verifica (solo per utenti con ruolo genitore o alunno).
+- **Nuovo compito**: viene inviata una notifica per ogni nuovo compito per casa (solo per utenti con ruolo genitore o alunno).
 
 Se l'utente sceglie di utilizzare _Telegram_, sarà necessario creare la chat
 su cui ricevere le notifiche: **la procedura deve essere eseguita direttamente sullo smartphone
@@ -50,7 +50,7 @@ Se la configurazione è stata completata con successo, l'utente riceverà un mes
 
 ## Configurazione del canale Telegram
 
-Per utilizzare Telegram per l'invio delle notifiche è necessario creare un _bot_e memorizzare il
+Per utilizzare Telegram per l'invio delle notifiche è necessario creare un _bot_ e memorizzare il
 suo _nome_ e il suo _token_. La procedura è molto semplice, si può ad esempio seguire la seguente
 guida che spiega i passi necessari per la creazione del _bot_ e come ricavare il _token_:
   - [Creare il bot](https://www.html.it/pag/394635/creare-telegram-bot/)
