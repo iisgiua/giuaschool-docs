@@ -16,3 +16,4 @@ has_toc: false
   - [Uso dei moduli di richiesta](/task-request.md)
   - [Gestione dei ritardi e delle uscite anticipate](/task-late.md)
   - [Gestione dei documenti BES](/task-specialNeeds.md)
+  - [Gestione delle notifiche](/task-notifier.md)
