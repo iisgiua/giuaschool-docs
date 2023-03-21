@@ -50,17 +50,20 @@ Se la configurazione è stata completata con successo, l'utente riceverà un mes
 
 ## Configurazione del canale Telegram
 
-Per utilizzare Telegram per l'invio delle notifiche è necessario creare un _bot_ e memorizzare il
-suo _nome_ e il suo _token_. La procedura è molto semplice, si può ad esempio seguire la seguente
+Per utilizzare Telegram per l'invio delle notifiche è necessario creare un _bot_ e memorizzare la
+_username_ e il _token_. La procedura è molto semplice, si può ad esempio seguire la seguente
 guida che spiega i passi necessari per la creazione del _bot_ e come ricavare il _token_:
   - [Creare il bot](https://www.html.it/pag/394635/creare-telegram-bot/){:target="_blank"}
 
 A questo punto, come utente amministratore, andare alla pagina **SISTEMA > Configura Telegram**.
-In questa pagina si dovrà inserire il _nome_ e il _token_ del _bot_ che si è creato.
+In questa pagina si dovrà inserire la _username_ e il _token_ del _bot_ che si è creato.
 
 Cliccando su **CONFERMA**, il registro provvede a registrare il proprio servizio su Telegram (_webhook_),
 completando la configurazione. Da questo momento sarà utilizzabile il canale Telegram nelle scelte di
 configurazione delle notifiche.
+
+_Telegram richiede l'uso dell'HTTPS, per cui se il sito del registro elettronico non ha l'HTTPS
+abilitato non si potrà utilizzare Telegram come canale di invio per le notifiche._
 
 
 ## Come effettuare l'invio delle notifiche
@@ -114,7 +117,9 @@ Si consiglia di prevedere l'esecuzione ogni 15 minuti, impostando un tempo massi
 risulterebbe essere:
   - **http://mio_sito/command/notify/prova/600**
 
-Come servizio esterno, si consiglia di utilizzare il sito web seguente:
+Spesso il proprio _hosting_ ha un apposito servizio di _cron job_ da configurare nel pannello
+di controllo.
+Nel caso non fosse presente, si consiglia di utilizzare utilizzare il servizio fornito dal sito web seguente:
   - [https://cron-job.org/en/](https://cron-job.org/en/){:target="_blank"}
 
 Questo servizio, completamente gratuito, permette di pianificare l'esecuzione automatica
