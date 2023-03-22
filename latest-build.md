@@ -10,10 +10,12 @@ nav_order: 11
 _Le modifiche seguenti non sono ancora validate né definitive:<br>se ne sconsiglia l'installazione se non in ambiente di test_
 {: .text-center .pb-5}
 
-Data e ora dell'ultimo aggiornamento: 21/03/2023 09:51
+Data e ora dell'ultimo aggiornamento: 22/03/2023 20:03
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [e951e951](http://github.com/iisgiua/giuaschool/commit/e951e9513e9fbf29b59e2bf4227003bd35d67610) - Fix tests
+- [49b5fac9](http://github.com/iisgiua/giuaschool/commit/49b5fac9a3931f394b8916a8c768a794390a8b20) - Tests: refactoring classes
 - [28ae9cde](http://github.com/iisgiua/giuaschool/commit/28ae9cde188a21cab9c3b1b40de842add208c4fd) - Fix: telegram
 - [22dab1e4](http://github.com/iisgiua/giuaschool/commit/22dab1e424dde1405701354052b848564b76a233) - Fix: gestione chat eliminate Telegram
 - [2e0773af](http://github.com/iisgiua/giuaschool/commit/2e0773afe0cb0da6658a26ff10233ca45f0b2d1c) - Fix: gestione notifiche
