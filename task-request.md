@@ -47,7 +47,7 @@ Nella pagina di inserimento che verrà mostrata, si dovranno indicare:
 Si tenga presente che attualmente i docenti possono gestire solo una tipologia di modulo, relativa alle
 uscite anticipate, come sarà spiegato in seguito.
 
-I file del modello (_template_) vanno caricati nella cartella **templates/PERSONALI/moduli**.
+I file del modello (_template_) vanno caricati nella cartella **PERSONAL/data/moduli**.
 Il formato dei modelli sarà illustrato negli esempi seguenti.
 
 La codifica del tipo di richiesta consente di avere più moduli con lo stesso tipo gestione.
