@@ -23,7 +23,7 @@ modifiche del codice dell'applicazione.
 
 Questo è dovuto al fatto che l'applicazione **giua@school** nasce
 per rispondere alle esigenze organizzative e didattiche dell'
-**I.I.S. Istituto di Istruzione Superiore "Michele Giua"**: solo successivamente
+**Istituto di Istruzione Superiore "Michele Giua"**: solo successivamente
 si è deciso di renderla di uso più generale, iniziando un processo di revisione
 del codice che è ancora in corso.
 
@@ -42,7 +42,7 @@ Tutti i _template_ si trovano nella cartella **templates/**.
 
 **ATTENZIONE**: se si desidera personalizzare un _template_, non si dovrà modificare direttamente il file,
 ma bisognerà copiarlo all'interno della cartella **PERSONAL/templates/** e poi modificarlo.
-Il sistema cerca prima eventuali template personalizzati all'interno della cartella **PERSONAL/templates/**,
+L'applicazione, infatti, cerca prima eventuali template personalizzati all'interno della cartella **PERSONAL/templates/**,
 ma se non li trova utiizza quelli predefiniti presenti nella cartella **templates/**.
 Questo meccanismo permette di evitare che, durante gli aggiornamenti, si vada a sovrascrivere
 il proprio template personalizzato con quello predefinito contenuto nella nuova versione.
@@ -67,7 +67,7 @@ i file presenti nella cartella indicata,
 ma bisognerà creare un nuovo file con lo stesso nome all'interno della cartella **PERSONAL/translations/**.
 Il nuovo file conterrà solo le etichette dei messaggi da personalizzare.
 
-Il sistema cerca l'etichetta del messaggio prima nei file all'interno dei file
+L'applicazione, infatti, cerca l'etichetta del messaggio prima nei file all'interno dei file
 presenti nella cartella **PERSONAL/translations/**,
 ma se non li trova utiizza quelli predefiniti nella cartella **translations/**.
 Questo meccanismo permette di evitare che, durante gli aggiornamenti, si vada a sovrascrivere
