@@ -17,15 +17,15 @@ nav_order: 6
 
 ## Perché è necessario personalizzare il registro
 
-L'applicazione **giua@school** è nata dalla volontà di utilizzare un Registro Elettronico _open source_
-per le attività scolastiche dell'**Istituto di Istruzione Superiore "Michele Giua"**.
-Di conseguenza, risponde alle esigenze organizzative di questa scuola, sia per quanto
-riguarda la gestione didattica che quella amministrativa.
-
-Seppure si stia cercando di rendere,
-via via, sempre più configurabile ogni aspetto della gestione del registro, rimangono
-tuttora diverse funzionalità che è possibile personalizzare solo attraverso apposite
+Seppure si stia cercando di rendere sempre più configurabile ogni aspetto della gestione del registro,
+rimangono tuttora diverse funzionalità che è possibile personalizzare solo attraverso apposite
 modifiche del codice dell'applicazione.
+
+Questo è dovuto al fatto che l'applicazione **giua@school** nasce
+per rispondere alle esigenze organizzative e didattiche dell'
+**I.I.S. Istituto di Istruzione Superiore "Michele Giua"**: solo successivamente
+si è deciso di renderla di uso più generale, iniziando un processo di revisione
+del codice che è ancora in corso.
 
 
 ## Personalizzazione delle pagine del registro
@@ -56,10 +56,22 @@ modificarlo.
 ## Personalizzazione dei messaggi
 
 Nelle pagine visualizzate è presente anche una codifica dei messaggi di uso frequente:
-si usa un'etichetta che li identifica e ne permette l'utilizzo nei _template_ e nel codice.
+si usa un'etichetta che li identifica e ne permette l'utilizzo sia nei _template_ che nel codice
+dell'applicazione.
 
 Anche questi messaggi sono facilmente modificabili e si trovano all'interno della
 cartella **translations/**.
+
+**ATTENZIONE**: se si desidera personalizzare i messaggi, non si dovranno modificare direttamente
+i file presenti nella cartella indicata,
+ma bisognerà creare un nuovo file con lo stesso nome all'interno della cartella **PERSONAL/translations/**.
+Il nuovo file conterrà solo le etichette dei messaggi da personalizzare.
+
+Il sistema cerca l'etichetta del messaggio prima nei file all'interno dei file
+presenti nella cartella **PERSONAL/translations/**,
+ma se non li trova utiizza quelli predefiniti nella cartella **translations/**.
+Questo meccanismo permette di evitare che, durante gli aggiornamenti, si vada a sovrascrivere
+i messaggi personalizzati con quelli predefiniti contenuti nella nuova versione.
 
 
 ## Personalizzazione dell'intestazione dei documenti
