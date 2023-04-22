@@ -10,10 +10,11 @@ nav_order: 11
 _Le modifiche seguenti non sono ancora validate né definitive:<br>se ne sconsiglia l'installazione se non in ambiente di test_
 {: .text-center .pb-5}
 
-Data e ora dell'ultimo aggiornamento: 15/04/2023 21:59
+Data e ora dell'ultimo aggiornamento: 22/04/2023 21:28
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [2643c3cb](http://github.com/iisgiua/giuaschool/commit/2643c3cb99f91e1e5a3ddb62273f521df1953e04) - Add tests
 - [58f7e8be](http://github.com/iisgiua/giuaschool/commit/58f7e8be30b08c280d10e182bd15a2c7ad5ffc5e) - Modifica: gestione etichette per messaggi personalizzati
 - [52a10d88](http://github.com/iisgiua/giuaschool/commit/52a10d88c4b9ec2c45f4471366226e38e9be5102) - Add tests
 - [1751a80b](http://github.com/iisgiua/giuaschool/commit/1751a80b45762d5920fd75cc452375b6a90946f1) - Add tests
