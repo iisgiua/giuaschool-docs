@@ -10,10 +10,11 @@ nav_order: 11
 _Le modifiche seguenti non sono ancora validate né definitive:<br>se ne sconsiglia l'installazione se non in ambiente di test_
 {: .text-center .pb-5}
 
-Data e ora dell'ultimo aggiornamento: 19/05/2023 21:01
+Data e ora dell'ultimo aggiornamento: 04/06/2023 12:10
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [9b9f807f](http://github.com/iisgiua/giuaschool/commit/9b9f807f9f4778e16385e7afe21cde62c2bba4c2) - Modifiche allo scrutinio finale: aggiunta gestione assenze di altre scuole per alunni trasferiti in corso d'anno
 - [dbd25754](http://github.com/iisgiua/giuaschool/commit/dbd25754505554ef598e7861d5dad804281a30b4) - Seconda revisione scrutinio finale
 - [993efc7b](http://github.com/iisgiua/giuaschool/commit/993efc7bb3c9454c765abbf1d3f0b2f26531b2a3) - Revisione scrutinio finale
 - [fa4a45d5](http://github.com/iisgiua/giuaschool/commit/fa4a45d5d3fa1b3984672a91ec6be9d47fb56fa4) - Fix: tests
