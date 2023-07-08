@@ -10,10 +10,11 @@ nav_order: 11
 _Le modifiche seguenti non sono ancora validate né definitive:<br>se ne sconsiglia l'installazione se non in ambiente di test_
 {: .text-center .pb-5}
 
-Data e ora dell'ultimo aggiornamento: 08/07/2023 13:17
+Data e ora dell'ultimo aggiornamento: 08/07/2023 18:26
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [078fb7e0](http://github.com/iisgiua/giuaschool/commit/078fb7e0ffdc35bbf5b761e2a99e7b1da71df522) - Fix: archiviazione per docenti omonimi
 - [42e45c31](http://github.com/iisgiua/giuaschool/commit/42e45c31793c5bce28442f29a6ce3d219b577f66) - Fix: revisione procedura di archiviazione
 - [64036ae4](http://github.com/iisgiua/giuaschool/commit/64036ae43a89d82d6be798f5307ea1aca8f7f337) - Fix: bug minori su scrutini
 - [df738404](http://github.com/iisgiua/giuaschool/commit/df7384045b9f015fa87658f2152e02110fdc358f) - Fix minori
