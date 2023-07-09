@@ -48,7 +48,9 @@ Nella pagina della procedura è possibile selezionare quali documenti generare e
 La generazione dei documenti può richiedere parecchio tempo e necessita di molte risorse del server: questo può
 comportare che il servizio di _hosting_ blocchi improvvisamente la procedura mostrando un messaggio di
 errore, o anche una pagina completamente bianca.
-In tal caso, per evitare problemi, si proceda selezionando solo un elemento alla volta.
+In tal caso, per evitare problemi, si proceda con l'archiviazione parziale, utilizzando 
+la modalità _"Dall'elemento selezionato in poi"_ o, nel caso peggiore, selezionado solo 
+un elemento alla volta.
 
 Nel registro sono presenti anche altri documenti che vengono caricati direttamente dai docenti attraverso le
 apposite funzionalità del menu **DOCUMENTI**: piani di lavoro, programmi e relazioni finali, documento del 15 maggio,
