@@ -49,7 +49,7 @@ La generazione dei documenti può richiedere parecchio tempo e necessita di molt
 comportare che il servizio di _hosting_ blocchi improvvisamente la procedura mostrando un messaggio di
 errore, o anche una pagina completamente bianca.
 In tal caso, per evitare problemi, si proceda con l'archiviazione parziale, utilizzando 
-la modalità _"Dall'elemento selezionato in poi"_ o, nel caso peggiore, selezionado solo 
+la modalità _"Dall'elemento selezionato in poi"_ o, nel caso peggiore, selezionando solo 
 un elemento alla volta.
 
 Nel registro sono presenti anche altri documenti che vengono caricati direttamente dai docenti attraverso le
