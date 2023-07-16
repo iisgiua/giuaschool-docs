@@ -10,10 +10,11 @@ nav_order: 11
 _Le modifiche seguenti non sono ancora validate né definitive:<br>se ne sconsiglia l'installazione se non in ambiente di test_
 {: .text-center .pb-5}
 
-Data e ora dell'ultimo aggiornamento: 09/07/2023 10:09
+Data e ora dell'ultimo aggiornamento: 16/07/2023 21:09
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [2d168d05](http://github.com/iisgiua/giuaschool/commit/2d168d055a4e2b441237b7321c16d39c6df4f692) - Modifica: revisione procedura passaggio d'anno
 - [9aa166a8](http://github.com/iisgiua/giuaschool/commit/9aa166a86150de28f42d0a3e1d61e516cbc3ccb4) - Modifica: gestione archiviazione parziale
 - [078fb7e0](http://github.com/iisgiua/giuaschool/commit/078fb7e0ffdc35bbf5b761e2a99e7b1da71df522) - Fix: archiviazione per docenti omonimi
 - [42e45c31](http://github.com/iisgiua/giuaschool/commit/42e45c31793c5bce28442f29a6ce3d219b577f66) - Fix: revisione procedura di archiviazione
