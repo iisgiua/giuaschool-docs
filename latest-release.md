@@ -10,24 +10,19 @@ nav_order: 10
 [**Scarica la Versione {{ site.data.version.tag }}**](https://github.com/iisgiua/giuaschool/releases/download/v{{ site.data.version.tag }}/giuaschool-release-v{{ site.data.version.tag }}.zip)
 {: .text-center .pb-5}
 
-Data e ora di rilascio: 05/06/2023 12:11
+Data e ora di rilascio: 18/07/2023 00:00
 
 Lista delle modifiche incluse nella nuova versione:
 
-- [866103a1](http://github.com/iisgiua/giuaschool/commit/866103a159fcd5b4234a0050d012de16c30e3edc) - Fix: update
-- [18f56c39](http://github.com/iisgiua/giuaschool/commit/18f56c39191ddd397afaf9f6de1854e284d7421c) - Fix: gestione scrutini
-- [9b9f807f](http://github.com/iisgiua/giuaschool/commit/9b9f807f9f4778e16385e7afe21cde62c2bba4c2) - Modifiche allo scrutinio finale: aggiunta gestione assenze di altre scuole per alunni trasferiti in corso d'anno
-- [dbd25754](http://github.com/iisgiua/giuaschool/commit/dbd25754505554ef598e7861d5dad804281a30b4) - Seconda revisione scrutinio finale
-- [993efc7b](http://github.com/iisgiua/giuaschool/commit/993efc7bb3c9454c765abbf1d3f0b2f26531b2a3) - Revisione scrutinio finale
-- [fa4a45d5](http://github.com/iisgiua/giuaschool/commit/fa4a45d5d3fa1b3984672a91ec6be9d47fb56fa4) - Fix: tests
-- [ff2148b1](http://github.com/iisgiua/giuaschool/commit/ff2148b13be903960f7bc65a5b8fa48a8259e33a) - Fix: proposta voto unvoca
-- [bc744030](http://github.com/iisgiua/giuaschool/commit/bc74403092248eebae53f4b798109c116e3c0d71) - Fix: invio avvisi
-- [68f1b773](http://github.com/iisgiua/giuaschool/commit/68f1b7736dcd6b88f8378e924725f95ff80d8121) - Test behat
-- [2643c3cb](http://github.com/iisgiua/giuaschool/commit/2643c3cb99f91e1e5a3ddb62273f521df1953e04) - Add tests
-- [58f7e8be](http://github.com/iisgiua/giuaschool/commit/58f7e8be30b08c280d10e182bd15a2c7ad5ffc5e) - Modifica: gestione etichette per messaggi personalizzati
-- [52a10d88](http://github.com/iisgiua/giuaschool/commit/52a10d88c4b9ec2c45f4471366226e38e9be5102) - Add tests
-- [1751a80b](http://github.com/iisgiua/giuaschool/commit/1751a80b45762d5920fd75cc452375b6a90946f1) - Add tests
-- [25c1bc29](http://github.com/iisgiua/giuaschool/commit/25c1bc29ce460f6744db5a800f729bf0a433216d) - Fix GHA
-- [16f13b15](http://github.com/iisgiua/giuaschool/commit/16f13b15e1c1109fa1c3dfa9191d8a75f6242bff) - Fix test
-- [e7711792](http://github.com/iisgiua/giuaschool/commit/e77117921e9bca4b328e0c94f48fc1cfeb610641) - Tests added
+- [e2d22ee2](http://github.com/iisgiua/giuaschool/commit/e2d22ee2fea4f5b0b37494bcbe0496ddc9f6ca44) - Fix: visualizzazione esito precedente A.S.
+- [2d168d05](http://github.com/iisgiua/giuaschool/commit/2d168d055a4e2b441237b7321c16d39c6df4f692) - Modifica: revisione procedura passaggio d'anno
+- [9aa166a8](http://github.com/iisgiua/giuaschool/commit/9aa166a86150de28f42d0a3e1d61e516cbc3ccb4) - Modifica: gestione archiviazione parziale
+- [078fb7e0](http://github.com/iisgiua/giuaschool/commit/078fb7e0ffdc35bbf5b761e2a99e7b1da71df522) - Fix: archiviazione per docenti omonimi
+- [42e45c31](http://github.com/iisgiua/giuaschool/commit/42e45c31793c5bce28442f29a6ce3d219b577f66) - Fix: revisione procedura di archiviazione
+- [64036ae4](http://github.com/iisgiua/giuaschool/commit/64036ae43a89d82d6be798f5307ea1aca8f7f337) - Fix: bug minori su scrutini
+- [df738404](http://github.com/iisgiua/giuaschool/commit/df7384045b9f015fa87658f2152e02110fdc358f) - Fix minori
+- [c176bb49](http://github.com/iisgiua/giuaschool/commit/c176bb491ac0c30e5edf40754392840d69b8071d) - Visualizza certificato competenze a genitori/alunni
+- [30bfecb7](http://github.com/iisgiua/giuaschool/commit/30bfecb736a8306d26b010e0f29621497d1ad3cc) - Fix: bug giorno finale su avvisi orario
+- [2822c2b4](http://github.com/iisgiua/giuaschool/commit/2822c2b4cf61ff2a9694bf4e907a84c8203dee67) - Dati per la procedura di update
+- [be51cdb5](http://github.com/iisgiua/giuaschool/commit/be51cdb573c4c1920a6697732a7a237af7364c3d) - Update version
 
