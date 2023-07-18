@@ -10,10 +10,11 @@ nav_order: 10
 [**Scarica la Versione {{ site.data.version.tag }}**](https://github.com/iisgiua/giuaschool/releases/download/v{{ site.data.version.tag }}/giuaschool-release-v{{ site.data.version.tag }}.zip)
 {: .text-center .pb-5}
 
-Data e ora di rilascio: 18/07/2023 00:00
+Data e ora di rilascio: 18/07/2023 09:12
 
 Lista delle modifiche incluse nella nuova versione:
 
+- [2c9056be](http://github.com/iisgiua/giuaschool/commit/2c9056be795b9564636706849e94e51d76316838) - Info nuova versione
 - [e2d22ee2](http://github.com/iisgiua/giuaschool/commit/e2d22ee2fea4f5b0b37494bcbe0496ddc9f6ca44) - Fix: visualizzazione esito precedente A.S.
 - [2d168d05](http://github.com/iisgiua/giuaschool/commit/2d168d055a4e2b441237b7321c16d39c6df4f692) - Modifica: revisione procedura passaggio d'anno
 - [9aa166a8](http://github.com/iisgiua/giuaschool/commit/9aa166a86150de28f42d0a3e1d61e516cbc3ccb4) - Modifica: gestione archiviazione parziale
