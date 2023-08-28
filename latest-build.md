@@ -10,9 +10,10 @@ nav_order: 11
 _Le modifiche seguenti non sono ancora validate né definitive:<br>se ne sconsiglia l'installazione se non in ambiente di test_
 {: .text-center .pb-5}
 
-Data e ora dell'ultimo aggiornamento: 21/07/2023 18:59
+Data e ora dell'ultimo aggiornamento: 28/08/2023 09:48
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [5924c466](http://github.com/iisgiua/giuaschool/commit/5924c4667d3cd2f598e2512844fb8b0a2e550588) - Fix: procedura passaggio al nuovo anno
 - [0bbecb26](http://github.com/iisgiua/giuaschool/commit/0bbecb26d0888d24e466a524de54a4b5870402c1) - Update GH action
 
