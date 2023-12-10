@@ -38,7 +38,7 @@ Per ogni modulo di richiesta inviato, viene creato il corrispondente documento i
 In alcuni casi non serve alcuna gestione degli stati, perché si tratta di un modulo in cui si comunicano
 alcune informazioni da archiviare. Un esempio è il modulo per le prove di evacuazione.
 
-In questo caso, i destinatari (tipicamente lo staff) si limita ad esaminare i moduli per qualche controllo o a esportarli su un foglio elettronico per rielaborarli secondo le proprie esigenze.
+In questo caso, i destinatari (tipicamente i componenti dello staff) si limitano ad esaminare i moduli per qualche controllo o a esportarli su un foglio elettronico per rielaborarli secondo le proprie esigenze.
 
 Per ogni modulo inviato viene creato il corrispondente documento in formato PDF, archiviato assieme agli altri documenti prodotti nel corso dell'anno scolastico.
 
