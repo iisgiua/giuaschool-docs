@@ -42,6 +42,21 @@ Si andrà quindi a creare la classe 3C, lasciando in lasciando in bianco il camp
 Succcessivamente si andrà a creare un'altra classe 3C a indirizzo chimico, indicando come gruppo classe **CHI**.
 Infine, si andrà a creare un'ulteriore classe 3C a indirizzo informatico, indicando come gruppo classe **INF**.
 
-Una volta definiti i gruppi si possono impostare le cattedre sulle materie comuni, scegliendo come classe quella senza gruppi, mentre per le altre si sceglieranno i gruppi classe definiti.
+Una volta definiti i gruppi si possono impostare le cattedre sulle materie comuni, scegliendo come classe quella senza gruppi. Per le altre cattedre si sceglieranno i gruppi classe definiti.
 
-Nel nostro esempio, si potrà impostare la cattedra di Italiano sulla classe **3C**, mentre la quella di Informatica sul gruppo classe **3C-INF** e quella di Chimica sul sul gruppo classe **3C-CHI**.
+Nel nostro esempio, si potrà impostare la cattedra di Italiano sulla classe **3C**, mentre quella di Informatica sul gruppo classe **3C-INF** e quella di Chimica sul sul gruppo classe **3C-CHI**.
+
+
+## I gruppi di religione
+
+Quando si svolge una lezione per la materia Religione, si creano automaticamente tre gruppi separati di studenti:
+- **Gruppo Religione**: comprende tutti gli studenti che si avvalgono della materia;
+- **Gruppo Mat. Alt.**: comprende tutti gli studenti che si avvalgono della Materia Alternativa alla Religione;
+- **Gruppo N.A.**: comprende tutti gli studenti che non si avvalgono della materia.
+
+Il docente di Religione o della Materia Alternativa gestirà gli alunni del proprio gruppo.
+
+Per gli alunni che non si avvalgono si possono verificare diverse situazioni, ma in ogni caso non svolgono una lezione curricolare: pertanto un docente che eventualmente si occupi di loro
+potrà firmare solo come **SUPPLENZA** sul _gruppo N.A._
+
+Nel caso un docente di sostegno che segue un alunno che non si avvale, tale docente potrà firmare solo come **SUPPLENZA** sul _gruppo N.A._
