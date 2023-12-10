@@ -10,20 +10,19 @@ nav_order: 10
 [**Scarica la Versione {{ site.data.version.tag }}**](https://github.com/iisgiua/giuaschool/releases/download/v{{ site.data.version.tag }}/giuaschool-release-v{{ site.data.version.tag }}.zip)
 {: .text-center .pb-5}
 
-Data e ora di rilascio: 18/07/2023 09:12
+Data e ora di rilascio: 10/12/2023 23:29
 
 Lista delle modifiche incluse nella nuova versione:
 
-- [2c9056be](http://github.com/iisgiua/giuaschool/commit/2c9056be795b9564636706849e94e51d76316838) - Info nuova versione
-- [e2d22ee2](http://github.com/iisgiua/giuaschool/commit/e2d22ee2fea4f5b0b37494bcbe0496ddc9f6ca44) - Fix: visualizzazione esito precedente A.S.
-- [2d168d05](http://github.com/iisgiua/giuaschool/commit/2d168d055a4e2b441237b7321c16d39c6df4f692) - Modifica: revisione procedura passaggio d'anno
-- [9aa166a8](http://github.com/iisgiua/giuaschool/commit/9aa166a86150de28f42d0a3e1d61e516cbc3ccb4) - Modifica: gestione archiviazione parziale
-- [078fb7e0](http://github.com/iisgiua/giuaschool/commit/078fb7e0ffdc35bbf5b761e2a99e7b1da71df522) - Fix: archiviazione per docenti omonimi
-- [42e45c31](http://github.com/iisgiua/giuaschool/commit/42e45c31793c5bce28442f29a6ce3d219b577f66) - Fix: revisione procedura di archiviazione
-- [64036ae4](http://github.com/iisgiua/giuaschool/commit/64036ae43a89d82d6be798f5307ea1aca8f7f337) - Fix: bug minori su scrutini
-- [df738404](http://github.com/iisgiua/giuaschool/commit/df7384045b9f015fa87658f2152e02110fdc358f) - Fix minori
-- [c176bb49](http://github.com/iisgiua/giuaschool/commit/c176bb491ac0c30e5edf40754392840d69b8071d) - Visualizza certificato competenze a genitori/alunni
-- [30bfecb7](http://github.com/iisgiua/giuaschool/commit/30bfecb736a8306d26b010e0f29621497d1ad3cc) - Fix: bug giorno finale su avvisi orario
-- [2822c2b4](http://github.com/iisgiua/giuaschool/commit/2822c2b4cf61ff2a9694bf4e907a84c8203dee67) - Dati per la procedura di update
-- [be51cdb5](http://github.com/iisgiua/giuaschool/commit/be51cdb573c4c1920a6697732a7a237af7364c3d) - Update version
+- [384abe37](http://github.com/iisgiua/giuaschool/commit/384abe378742891099afe6c6648c000bcf0b771f) - Info versione
+- [27ed649a](http://github.com/iisgiua/giuaschool/commit/27ed649a01a6f4434a22fd124e8c1eab49e59f43) - Fix: test
+- [2014a1ab](http://github.com/iisgiua/giuaschool/commit/2014a1abce97444005155ef2a54302e1dd152b28) - Fix docker
+- [b013c56c](http://github.com/iisgiua/giuaschool/commit/b013c56c815304506f067594e06ad0afcc97bde5) - Aggiornamento dipendenze Symfony 5.4.33
+- [4272149b](http://github.com/iisgiua/giuaschool/commit/4272149baa873aa7bd2154adc9666bf86a6c18ff) - Fix test
+- [de7ed863](http://github.com/iisgiua/giuaschool/commit/de7ed86337fa7f3fedd14b4c9c29cdc78da0ba7b) - Devel (#597)
+- [1e511e65](http://github.com/iisgiua/giuaschool/commit/1e511e65208b77fc5a6e18a6002bdad8cf0c4053) - Fix quadro proposte
+- [3db17433](http://github.com/iisgiua/giuaschool/commit/3db1743371dd3c5399198e64c3093cf7728a0b01) - Fix: scrutini primo periodo step 4
+- [f6d6fa32](http://github.com/iisgiua/giuaschool/commit/f6d6fa3293cace47f9b009055ab3d626d64fdd97) - Fix: scrutinio primo periodo
+- [5924c466](http://github.com/iisgiua/giuaschool/commit/5924c4667d3cd2f598e2512844fb8b0a2e550588) - Fix: procedura passaggio al nuovo anno
+- [0bbecb26](http://github.com/iisgiua/giuaschool/commit/0bbecb26d0888d24e466a524de54a4b5870402c1) - Update GH action
 
