@@ -5,7 +5,7 @@ parent: Procedure
 nav_order: 3
 ---
 
-# Uso dei moduli di richiesta
+# Uso dei moduli
 {: .no_toc .text-center .fw-400 .pb-5}
 
 <details markdown="block">
@@ -17,15 +17,30 @@ nav_order: 3
 {: .my-5 .px-4 style="background-color:#efefef;border:1px solid #cccccc"}
 
 
-## I moduli di richiesta
+## I moduli per le richieste
 
-I moduli di richiesta consentono di semplificare la gestione di alcune istanze tipiche, provenienti
+Le richieste consentono di semplificare la gestione di alcune istanze tipiche, provenienti
 dai genitori o dagli alunni e rivolte ai docenti o alla scuola.
 Alcuni tipi di richiesta hanno una gestione che viene automatizzata completamente sul registro, ma
 se ne possono aggiungere altre, la cui gestione sarà però limitata alle funzioni essenziali.
 
-Per ogni modulo di richiesta inviato, viene creato il corrispondente documento in formato PDF, archiviato assieme agli
-altri documenti prodotti nel corso dell'anno scolastico.
+Le richieste vengono gestite tramite uno stato, che permette di distinguere la situazione corrente:
+- **NUOVE**: indica le nuove richieste inviate, non ancora gestite;
+- **GESTITE**: indica le richieste che sono già state gestite (accolte o rifiutate);
+- **RIMOSSE**: indica le richieste rifiutate o errate che sono state eliminate da chi è autorizzato alla loro gestione;
+- **ANNULLATE**: indica le richieste che sono state annullate dal richiedente.
+
+Per ogni modulo di richiesta inviato, viene creato il corrispondente documento in formato PDF, archiviato assieme agli altri documenti prodotti nel corso dell'anno scolastico.
+
+
+## I moduli senza gestione
+
+In alcuni casi non serve alcuna gestione degli stati, perché si tratta di un modulo in cui si comunicano
+alcune informazioni da archiviare. Un esempio è il modulo per le prove di evacuazione.
+
+In questo caso, i destinatari (tipicamente lo staff) si limita ad esaminare i moduli per qualche controllo o a esportarli su un foglio elettronico per rielaborarli secondo le proprie esigenze.
+
+Per ogni modulo inviato viene creato il corrispondente documento in formato PDF, archiviato assieme agli altri documenti prodotti nel corso dell'anno scolastico.
 
 
 ## Configurazione di un modulo di richiesta
@@ -35,17 +50,16 @@ Per creare un nuovo modulo di richiesta, come utente _amministratore_, andare al
 Nella pagina di inserimento che verrà mostrata, si dovranno indicare:
 
 - **Nome del modulo**: il nome identificativo della richiesta;
+- **Sede**: eventuale sede scolastica alla quale è limitato l'uso della richiesta;
 - **Utenti che possono presentare il modulo**: il tipo di utenti che sono autorizzati all'invio del modulo (_es. Genitori_);
 - **Utenti che possono gestire la richiesta**: il tipo di utenti che sono autorizzati a gestire la richiesta (_es. Staff_);
 - **Lista dei campi da compilare**: la definizione dei dati che dovranno essere inseriti da chi invia la richiesta;
     per ciascun dato si dovrà indicare il nome univoco, il tipo e se il suo inserimento è obbligatorio;
 - **Nome del file del modello**: il modello (_template_) da usare per il modulo;
 - **Numero di allegati da inserire nella richiesta**: il numero di documenti che dovranno essere allegati alla richiesta (0 = nessuno);
-- **Codifica del tipo di richiesta**: il codice di un carattere usato per distinguere la gestione utilizzata per i moduli;
 - **Ammessa una sola richiesta per utente**: indica se consentire l'invio di più richieste o solo una per utente.
-
-Si tenga presente che attualmente i docenti possono gestire solo una tipologia di modulo, relativa alle
-uscite anticipate, come sarà spiegato in seguito.
+- **Attiva la gestione degli stati della procedura**: per i moduli di richiesta la gestione degli stati deve essere sempre attivata;
+- **Codifica del tipo di richiesta**: il codice di un carattere usato per distinguere la gestione utilizzata per i moduli.
 
 I file del modello (_template_) vanno caricati nella cartella **PERSONAL/data/moduli**.
 Il formato dei modelli sarà illustrato negli esempi seguenti.
@@ -54,13 +68,22 @@ La codifica del tipo di richiesta consente di avere più moduli con lo stesso ti
 I codici definiti di seguito indicano le gestioni che sono implementate sul registro:
 - **U**: gestione delle richieste di uscita anticipata;
 - **D**: gestione delle richieste di deroga all'orario di uscita;
-- **E**: gestione delle richieste di deroga all'orario di entrata.
-
-Ogni altro codice utilizzerà una gestione generica per le richieste.
+- **E**: gestione delle richieste di deroga all'orario di entrata;
+- **\***: gestione generica di un modulo di richiesta.
 
 Una volta creato il modulo, questo può essere successivamente modificato o cancellato.
 E' anche possibile disabilitare il modulo: questo renderà impossibile l'inserimento di
 nuove richieste e la gestione di quelle esistenti.
+
+
+## Configurazione di un modulo senza gestione
+
+La creazione di un modulo di questo tipo avviene come illustrato in precedenza, tranne che per il
+campo **Attiva la gestione degli stati della procedura** che dovrà essere impostato a _NO_.
+
+Inoltre, viene utilizzata la seguente codifica del tipo modulo:
+- **V**: utilizzato per il modulo delle prove di evacuazione;
+- **#**: per un modulo generico.
 
 
 ## Esempio 1: richieste di uscita anticipata per un dato giorno
@@ -79,8 +102,9 @@ Si andrà quindi a creare un nuovo modulo con i seguenti valori:
   - nome: _motivazione_, tipo TESTO SU PIU' RIGHE, obbligatorio: SI
 - **Nome del file del modello**: uscita_anticipata
 - **Numero di allegati da inserire nella richiesta**: 0
-- **Codifica del tipo di richiesta**: U
 - **Ammessa una sola richiesta per utente**: NO
+- **Attiva la gestione degli stati della procedura**: SI
+- **Codifica del tipo di richiesta**: U
 
 Viene indicato che sono possibili più richieste per utente, perché si può fare più volte
 richiesta per l'uscita anticipata. Quando si usa questa impostazione, poiché la richiesta
@@ -127,8 +151,9 @@ Si dovrà creare un nuovo modulo con i seguenti valori:
   - nome: _note_, tipo: TESTO SU PIU' RIGHE, obbligatorio: NO
 - **Nome del file del modello**: deroga_orario_uscita
 - **Numero di allegati da inserire nella richiesta**: 0
-- **Codifica del tipo di richiesta**: D
 - **Ammessa una sola richiesta per utente**: SI
+- **Codifica del tipo di richiesta**: D
+- **Attiva la gestione degli stati della procedura**: SI
 
 Viene indicato che è possibile solo una richiesta per utente, perché la deroga vale per
 l'intero anno scolastico.
@@ -180,13 +205,14 @@ Si dovrà creare un nuovo modulo con i seguenti valori:
   - nome: _note_, tipo: TESTO SU PIU' RIGHE, obbligatorio: NO
 - **Nome del file del modello**: deroga_orario_ingresso
 - **Numero di allegati da inserire nella richiesta**: 0
-- **Codifica del tipo di richiesta**: E
 - **Ammessa una sola richiesta per utente**: SI
+- **Attiva la gestione degli stati della procedura**: SI
+- **Codifica del tipo di richiesta**: E
 
 La procedura di gestione è del tutto analoga a quella illustrata in precedenza.
 
 
-## Uso dei modelli (_template_)
+## Uso dei modelli per i moduli di richiesta (_template_)
 
 Il modello usato è nel formato _Twig_, che corrisponde ad una pagina HTML in cui si possono
 inserire dei valori variabili, indicati da doppie parentesi graffe, e comandi
@@ -200,8 +226,7 @@ Vengono di seguito riportati i modelli utilizzati negli esempi precedenti:
 - [deroga_orario_ingresso](/assets/docs/deroga_orario_ingresso.html.twig)
 
 Per una corretta personalizzazione dei modelli di esempio, si tenga presente che:
-- tutti i modelli sono divisi in due sezioni, per distinguere se l'utente collegato sia un genitore o
-  un alunno;
+- i modelli di richiesta sono divisi in due sezioni, per distinguere se l'utente collegato sia un genitore o un alunno;
 - le variabili del tipo **&#123;&#123; app.user.XXX &#125;&#125;** corrispondono
   alle informazioni sull'utente collegato, in modo da inserire automaticamente i dati anagrafici
   nel modulo; queste variabili non sono obbligatorie e si possono usare come si ritiene opportuno;
