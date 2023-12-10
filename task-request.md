@@ -95,6 +95,7 @@ si dovrà anzi tutto impostare il parametro di configurazione **gestione_uscite*
 
 Si andrà quindi a creare un nuovo modulo con i seguenti valori:
 - **Nome del modulo**: Richiesta uscita anticipata per la data indicata
+- **Sede**: lasciare vuoto per tutte le sedi
 - **Utenti che possono presentare il modulo**: Genitori, Alunni maggiorenni
 - **Utenti che possono gestire la richiesta**: Staff, Docenti
 - **Lista dei campi da compilare**:
@@ -139,6 +140,7 @@ Questo esempio illustra la tipologia di gestione indicata con il codice **D**.
 
 Si dovrà creare un nuovo modulo con i seguenti valori:
 - **Nome del modulo**: Richiesta deroga all'orario di uscita da scuola
+- **Sede**: lasciare vuoto per tutte le sedi
 - **Utenti che possono presentare il modulo**: Genitori, Alunni maggiorenni
 - **Utenti che possono gestire la richiesta**: Staff
 - **Lista dei campi da compilare**:
@@ -193,6 +195,7 @@ Questo esempio illustra la tipologia di gestione indicata con il codice **E**.
 
 Si dovrà creare un nuovo modulo con i seguenti valori:
 - **Nome del modulo**: Richiesta deroga all'orario di entrata a scuola
+- **Sede**: lasciare vuoto per tutte le sedi
 - **Utenti che possono presentare il modulo**: Genitori, Alunni maggiorenni
 - **Utenti che possono gestire la richiesta**: Staff
 - **Lista dei campi da compilare**:
@@ -208,6 +211,45 @@ Si dovrà creare un nuovo modulo con i seguenti valori:
 - **Ammessa una sola richiesta per utente**: SI
 - **Attiva la gestione degli stati della procedura**: SI
 - **Codifica del tipo di richiesta**: E
+
+La procedura di gestione è del tutto analoga a quella illustrata in precedenza.
+
+
+## Esempio 4: modulo per la prova di evacuazione
+
+Questo esempio illustra l'utilizzo di un modulo per le prove di evacuazione.
+
+Si dovrà creare un nuovo modulo con i seguenti valori:
+- **Nome del modulo**: Prove di evacuazione
+- **Sede**: lasciare vuoto per tutte le sedi
+- **Utenti che possono presentare il modulo**: Docenti
+- **Utenti che possono gestire la richiesta**: Staff
+- **Lista dei campi da compilare**:
+  - nome: _classe_, tipo: TESTO SU UNA RIGA, obbligatorio: SI
+  - nome: _presenti_, tipo: NUMERO INTERO, obbligatorio: SI
+  - nome: _evacuati_, tipo: NUMERO INTERO, obbligatorio: SI
+  - nome: _dispersi_, tipo: TESTO SU PIU' RIGHE, obbligatorio: NO
+  - nome: _feriti_, tipo: TESTO SU PIU' RIGHE, obbligatorio: NO
+  - nome: _punto_, tipo: TESTO SU UNA RIGA, obbligatorio: NO
+  - nome: _note_, tipo: TESTO SU PIU' RIGHE, obbligatorio: NO
+- **Nome del file del modello**: evacuazione
+- **Numero di allegati da inserire nella richiesta**: 0
+- **Ammessa una sola richiesta per utente**: NO
+- **Attiva la gestione degli stati della procedura**: NO
+- **Codifica del tipo di richiesta**: V
+
+I docenti potranno compilare il modulo dalla pagina del registro di classe.
+In qualsiasi momento, il docente potrà annullare il modulo ed inserirne uno nuovo.
+
+La procedura prevede che sia lo staff a visionare i moduli dal menu **STAFF > MODULI > EVACUAZIONE**.
+E' anche possibile esportare i dati in un file in formato CSV, facilmente utilizzabile su tutti i fogli elettronici.
+
+
+## Esempio 5: modulo di consenso all'invio dei dati degli alunni maggiorenni
+
+Questo esempio illustra l'utilizzo di un modulo senza gestione
+la tipologia di gestione indicata con il codice **E**.
+
 
 La procedura di gestione è del tutto analoga a quella illustrata in precedenza.
 
