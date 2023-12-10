@@ -38,7 +38,7 @@ Successivamente si andranno a creare altre due classi con il medessimo anno e la
 
 Ad esempio, si vuole creare la classe articolata **3C** suddivisa in due gruppi: il gruppo **CHI** per l'indirizzo _Chimico_ e il gruppo **INF** per l'indirizzo _Informatico_.
 
-Si andrà quindi a creare la classe 3C, lasciando in lasciando in bianco il campo del _gruppo classe_.
+Si andrà quindi a creare la classe 3C, lasciando in bianco il campo del _gruppo classe_.
 Succcessivamente si andrà a creare un'altra classe 3C a indirizzo chimico, indicando come gruppo classe **CHI**.
 Infine, si andrà a creare un'ulteriore classe 3C a indirizzo informatico, indicando come gruppo classe **INF**.
 
@@ -54,9 +54,10 @@ Quando si svolge una lezione per la materia Religione, si creano automaticamente
 - **Gruppo Mat. Alt.**: comprende tutti gli studenti che si avvalgono della Materia Alternativa alla Religione;
 - **Gruppo N.A.**: comprende tutti gli studenti che non si avvalgono della materia.
 
+Sono previste firme e gestioni separate per ciascuno dei gruppi.
 Il docente di Religione o della Materia Alternativa gestirà gli alunni del proprio gruppo.
 
-Per gli alunni che non si avvalgono si possono verificare diverse situazioni, ma in ogni caso non svolgono una lezione curricolare: pertanto un docente che eventualmente si occupi di loro
+Per gli alunni che non si avvalgono si possono verificare diverse situazioni, ma in ogni caso questi non svolgono una lezione curricolare: pertanto un docente che eventualmente si occupi di loro
 potrà firmare solo come **SUPPLENZA** sul _gruppo N.A._
 
-Nel caso un docente di sostegno che segue un alunno che non si avvale, tale docente potrà firmare solo come **SUPPLENZA** sul _gruppo N.A._
+Nel caso di un docente di sostegno che segue un alunno che non si avvale, tale docente potrà firmare solo come **SUPPLENZA** sul _gruppo N.A._
