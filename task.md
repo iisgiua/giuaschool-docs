@@ -17,3 +17,4 @@ has_toc: false
   - [Gestione dei ritardi e delle uscite anticipate](/task-late.md)
   - [Gestione dei documenti BES](/task-specialNeeds.md)
   - [Gestione delle notifiche](/task-notifier.md)
+  - [Uso dei gruppi classe](/task-groups.md)
