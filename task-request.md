@@ -245,13 +245,31 @@ La procedura prevede che sia lo staff a visionare i moduli dal menu **STAFF > MO
 E' anche possibile esportare i dati in un file in formato CSV, facilmente utilizzabile su tutti i fogli elettronici.
 
 
-## Esempio 5: modulo di consenso all'invio dei dati degli alunni maggiorenni
+## Esempio 5: modulo di consenso all'invio dei dati
 
-Questo esempio illustra l'utilizzo di un modulo senza gestione
-la tipologia di gestione indicata con il codice **E**.
+Questo esempio illustra l'utilizzo di un modulo generico senza gestione: si tratta del consenso da parte
+degli alunni maggiorenni all'invio dei loro dati alle aziende che ne faranno richiesta.
 
+Si dovrà creare un nuovo modulo con i seguenti valori:
+- **Nome del modulo**: Consenso per la diffusione dei dati personali degli studenti
+- **Sede**: lasciare vuoto per tutte le sedi
+- **Utenti che possono presentare il modulo**: Alunni maggiorenni
+- **Utenti che possono gestire la richiesta**: Staff
+- **Lista dei campi da compilare**:
+  - nome: _autorizza_, tipo: SI/NO, obbligatorio: SI
+  - nome: _email_, tipo: TESTO SU UNA RIGA, obbligatorio: NO
+  - nome: _telefono_, tipo: TESTO SU UNA RIGA, obbligatorio: NO
+- **Nome del file del modello**: diffusione_dati_alunni
+- **Numero di allegati da inserire nella richiesta**: 0
+- **Ammessa una sola richiesta per utente**: SI
+- **Attiva la gestione degli stati della procedura**: NO
+- **Codifica del tipo di richiesta**: #
 
-La procedura di gestione è del tutto analoga a quella illustrata in precedenza.
+Gli alunni maggiorenni potranno compilare il modulo dalla pagina delle richieste.
+In qualsiasi momento, l'alunno potrà annullare il modulo ed inserirne uno nuovo.
+
+La procedura prevede che sia lo staff a visionare i moduli dal menu **STAFF > MODULI > ALTRI**.
+E' anche possibile esportare i dati in un file in formato CSV, facilmente utilizzabile su tutti i fogli elettronici.
 
 
 ## Uso dei modelli per i moduli di richiesta (_template_)
@@ -266,6 +284,8 @@ Vengono di seguito riportati i modelli utilizzati negli esempi precedenti:
 - [uscita_anticipata](/assets/docs/uscita_anticipata.html.twig)
 - [deroga_orario_uscita](/assets/docs/deroga_orario_uscita.html.twig)
 - [deroga_orario_ingresso](/assets/docs/deroga_orario_ingresso.html.twig)
+- [evacuazione](/assets/docs/evacuazione.html.twig)
+- [diffusione_dati_alunni](/assets/docs/diffusione_dati_alunni.html.twig)
 
 Per una corretta personalizzazione dei modelli di esempio, si tenga presente che:
 - i modelli di richiesta sono divisi in due sezioni, per distinguere se l'utente collegato sia un genitore o un alunno;

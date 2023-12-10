@@ -1,0 +1,37 @@
+<p style="text-align:center;">
+  <strong>PROVA DI EVACUAZIONE</strong>
+</p>
+<table border="1" cellpadding="5" width="100%">
+  <tr>
+    <th style="padding:5px">Data:</th>
+    <td style="padding:5px">{{ form_widget(form.data, {value: info.valore_data}) }}</td>
+  </tr>
+  <tr>
+    <th style="padding:5px">Classe:</th>
+    <td style="padding:5px">{{ form_widget(form.classe, {value: info.valore_classe}) }}</td>
+  </tr>
+  <tr>
+    <th style="padding:5px">Numero presenti:</th>
+    <td style="padding:5px">{{ form_widget(form.presenti) }}</td>
+  </tr>
+  <tr>
+    <th style="padding:5px">Numero evacuati:</th>
+    <td style="padding:5px">{{ form_widget(form.evacuati) }}</td>
+  </tr>
+  <tr>
+    <th style="padding:5px">Nomi dei dispersi:</th>
+    <td style="padding:5px">{{ form_widget(form.dispersi, {value: '---'}) }}</td>
+  </tr>
+  <tr>
+    <th style="padding:5px">Nomi dei feriti:</th>
+    <td style="padding:5px">{{ form_widget(form.feriti, {value: '---'}) }}</td>
+  </tr>
+  <tr>
+    <th style="padding:5px">Punto di raccolta:</th>
+    <td style="padding:5px">{{ form_widget(form.punto) }}</td>
+  </tr>
+  <tr>
+    <th style="padding:5px">Note:</th>
+    <td style="padding:5px">{{ form_widget(form.note, {value: 'La procedura di evacuazione si è svolta regolarmente.'}) }}</td>
+  </tr>
+</table>

@@ -1,0 +1,21 @@
+<p style="text-align:center;">
+  <strong>CONSENSO/AUTORIZZAZIONE PER LA DIFFUSIONE DI DATI PERSONALI DEGLI STUDENTI A DITTE/SOCIETÀ/AZIENDE</strong>
+</p>
+
+<p style="text-align:justify;">{{ app.user.sesso == 'M' ? 'Il sottoscritto' : 'La sottoscritta' }}
+  <em>{{ app.user.nome }} {{ app.user.cognome }}</em>
+  nat{{ app.user.sesso == 'M' ? 'o' : 'a' }} a <em>{{ app.user.comuneNascita }}</em>
+  il <em>{{ app.user.dataNascita|date('d/m/Y') }}</em>,
+  alunn{{ app.user.sesso == 'M' ? 'o' : 'a' }} maggiorenne della classe {{ app.user.classe }}
+  della sede di {{ app.user.classe.sede.citta }}, autorizza l'invio dei dati personali (nella specie
+  dati di contatto e dati relativi ai risultati scolastici) a Ditte/Società/Aziende per finalità di
+  orientamento professionale, così come stabilito ai sensi dell'art. 96 del D.lgs. 196/03,
+  novellato dal D.lgs. 101/18.<BR>
+  <strong>&nbsp;&nbsp;CONFERMA AUTORIZZAZIONE: {{ form_widget(form.autorizza) }}</strong>
+</p>
+
+<p style="text-align:justify;">In caso di autorizzazione, il sottoscritt{{ app.user.sesso == 'M' ? 'o' : 'a' }}
+  indica come dati di contatto da inviare:<br>
+  &nbsp;&nbsp;- l'indirizzo	email personale {{ form_widget(form.email) }}<br>
+  &nbsp;&nbsp;- il numero di telefono {{ form_widget(form.telefono) }}
+</p>
