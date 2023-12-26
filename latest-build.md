@@ -10,10 +10,14 @@ nav_order: 11
 _Le modifiche seguenti non sono ancora validate né definitive:<br>se ne sconsiglia l'installazione se non in ambiente di test_
 {: .text-center .pb-5}
 
-Data e ora dell'ultimo aggiornamento: 21/12/2023 18:40
+Data e ora dell'ultimo aggiornamento: 26/12/2023 10:21
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [99d3406c](http://github.com/iisgiua/giuaschool/commit/99d3406ccce6adb936a7a5b9274c69a6b7c60eb4) - Fix tests
+- [7d4cedd1](http://github.com/iisgiua/giuaschool/commit/7d4cedd1bce84fa4b5001b0eb5546b909da16a9f) - Tests: fix
+- [14baa43b](http://github.com/iisgiua/giuaschool/commit/14baa43b08f1d3b2be7b3b831e1d04b6f8639192) - test
+- [5ce9e761](http://github.com/iisgiua/giuaschool/commit/5ce9e7618f65a42ed281bbec1a7d0f8aca70b3a6) - Aggiunta test
 - [00ed2b16](http://github.com/iisgiua/giuaschool/commit/00ed2b162ba9b9f032a5ec8e6d563021d4162278) - Fix: argomenti Ed.Civica con gestione a gruppi
 - [6f321bf4](http://github.com/iisgiua/giuaschool/commit/6f321bf4827a35529b68a2891200324d02ba8bbb) - Fix: voti ed.Civica su gruppi
 - [8b2b531f](http://github.com/iisgiua/giuaschool/commit/8b2b531f25c18b16d315ea031aa7962f42a71c34) - Fix: moduli non devono comparire in gestione
