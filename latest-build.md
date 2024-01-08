@@ -10,10 +10,11 @@ nav_order: 11
 _Le modifiche seguenti non sono ancora validate né definitive:<br>se ne sconsiglia l'installazione se non in ambiente di test_
 {: .text-center .pb-5}
 
-Data e ora dell'ultimo aggiornamento: 07/01/2024 12:10
+Data e ora dell'ultimo aggiornamento: 08/01/2024 18:20
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [a62a9f04](http://github.com/iisgiua/giuaschool/commit/a62a9f047bc9890c1c9f42fb3ffcc404d9562929) - Gestione studente con frequenza all'estero
 - [122c061a](http://github.com/iisgiua/giuaschool/commit/122c061a4f3ad35e01c74350b9669363089e5dac) - Fix test e visualizzazione docenti in scrutinio
 - [7a57c1b4](http://github.com/iisgiua/giuaschool/commit/7a57c1b42b4bb36c1462805ac8ef7bcf55b5fbef) - Fix tests
 - [c6b00de0](http://github.com/iisgiua/giuaschool/commit/c6b00de05779e6bb1c3f63a3704ec0f780d1d51e) - Aggiunti test e fix su scrutinio classe articolata
