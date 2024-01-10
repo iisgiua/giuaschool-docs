@@ -10,10 +10,12 @@ nav_order: 11
 _Le modifiche seguenti non sono ancora validate né definitive:<br>se ne sconsiglia l'installazione se non in ambiente di test_
 {: .text-center .pb-5}
 
-Data e ora dell'ultimo aggiornamento: 09/01/2024 16:16
+Data e ora dell'ultimo aggiornamento: 11/01/2024 00:40
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [c0984950](http://github.com/iisgiua/giuaschool/commit/c098495043c2973a212bcd0aa1165a824a56ec84) - Fix tests
+- [a1d1dbeb](http://github.com/iisgiua/giuaschool/commit/a1d1dbeb5c6c02b7218b44368d2164f19414be09) - Gestione presa visione pagella primi periodo
 - [d367e3e5](http://github.com/iisgiua/giuaschool/commit/d367e3e53e00ef48e290f95e86f3967d91ba87dc) - Modifica: visualizzazione voti alunni
 - [a62a9f04](http://github.com/iisgiua/giuaschool/commit/a62a9f047bc9890c1c9f42fb3ffcc404d9562929) - Gestione studente con frequenza all'estero
 - [122c061a](http://github.com/iisgiua/giuaschool/commit/122c061a4f3ad35e01c74350b9669363089e5dac) - Fix test e visualizzazione docenti in scrutinio
