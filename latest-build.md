@@ -10,10 +10,11 @@ nav_order: 11
 _Le modifiche seguenti non sono ancora validate né definitive:<br>se ne sconsiglia l'installazione se non in ambiente di test_
 {: .text-center .pb-5}
 
-Data e ora dell'ultimo aggiornamento: 11/01/2024 20:17
+Data e ora dell'ultimo aggiornamento: 13/01/2024 20:49
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [08b1e5bd](http://github.com/iisgiua/giuaschool/commit/08b1e5bd9daa367649f30ce37eb0a85ff8edbf64) - Fix: visualizzazione giustificazione
 - [c7bb4594](http://github.com/iisgiua/giuaschool/commit/c7bb45944f73306213029469c693d37b9befcb05) - Fix: gestione presa visione
 - [c0984950](http://github.com/iisgiua/giuaschool/commit/c098495043c2973a212bcd0aa1165a824a56ec84) - Fix tests
 - [a1d1dbeb](http://github.com/iisgiua/giuaschool/commit/a1d1dbeb5c6c02b7218b44368d2164f19414be09) - Gestione presa visione pagella primi periodo
