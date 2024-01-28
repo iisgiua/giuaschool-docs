@@ -10,10 +10,11 @@ nav_order: 11
 _Le modifiche seguenti non sono ancora validate né definitive:<br>se ne sconsiglia l'installazione se non in ambiente di test_
 {: .text-center .pb-5}
 
-Data e ora dell'ultimo aggiornamento: 27/01/2024 13:38
+Data e ora dell'ultimo aggiornamento: 28/01/2024 19:18
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [2371ded6](http://github.com/iisgiua/giuaschool/commit/2371ded6f907c8e9f909a9ec3c3afe0981f18250) - Fix: ompatibilità MySQL 5.7 - ONLY_FULL_GROUP_BY
 - [cdccb7cb](http://github.com/iisgiua/giuaschool/commit/cdccb7cbfd8b6262533da6dc7caddef178cbe36d) - Update GHA
 - [c81b6ead](http://github.com/iisgiua/giuaschool/commit/c81b6eadec7f22a245735412ea7a0a48010b1820) - Fix GHA
 - [8ecc2fca](http://github.com/iisgiua/giuaschool/commit/8ecc2fca45b1332d0c0e6d4aa1d4745f76ca4de1) - Fix tests & update GHA
