@@ -10,10 +10,11 @@ nav_order: 11
 _Le modifiche seguenti non sono ancora validate né definitive:<br>se ne sconsiglia l'installazione se non in ambiente di test_
 {: .text-center .pb-5}
 
-Data e ora dell'ultimo aggiornamento: 30/01/2024 20:08
+Data e ora dell'ultimo aggiornamento: 09/02/2024 19:23
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [c1cc8ddb](http://github.com/iisgiua/giuaschool/commit/c1cc8ddb75788785688c80b02984bb29c4c30970) - Note: annullamento, provvedimento, parametri
 - [2a03fbcb](http://github.com/iisgiua/giuaschool/commit/2a03fbcb139976199584faba947d9fff7dd2ca8b) - Fix: visualizzazione argomento verbale
 - [f0accf7f](http://github.com/iisgiua/giuaschool/commit/f0accf7f05d30e1440f489774a62141fcad1a3a2) - Fix: visualizzazione argomento verbale
 - [2371ded6](http://github.com/iisgiua/giuaschool/commit/2371ded6f907c8e9f909a9ec3c3afe0981f18250) - Fix: ompatibilità MySQL 5.7 - ONLY_FULL_GROUP_BY
