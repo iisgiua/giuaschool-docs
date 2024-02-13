@@ -10,10 +10,11 @@ nav_order: 11
 _Le modifiche seguenti non sono ancora validate né definitive:<br>se ne sconsiglia l'installazione se non in ambiente di test_
 {: .text-center .pb-5}
 
-Data e ora dell'ultimo aggiornamento: 09/02/2024 19:23
+Data e ora dell'ultimo aggiornamento: 13/02/2024 14:26
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [803f1a20](http://github.com/iisgiua/giuaschool/commit/803f1a20481b4a036afd7f3dec804fd2916283fa) - Modifiche allo scrutinio del secondo periodo; test aggiunti
 - [c1cc8ddb](http://github.com/iisgiua/giuaschool/commit/c1cc8ddb75788785688c80b02984bb29c4c30970) - Note: annullamento, provvedimento, parametri
 - [2a03fbcb](http://github.com/iisgiua/giuaschool/commit/2a03fbcb139976199584faba947d9fff7dd2ca8b) - Fix: visualizzazione argomento verbale
 - [f0accf7f](http://github.com/iisgiua/giuaschool/commit/f0accf7f05d30e1440f489774a62141fcad1a3a2) - Fix: visualizzazione argomento verbale
