@@ -10,10 +10,11 @@ nav_order: 11
 _Le modifiche seguenti non sono ancora validate né definitive:<br>se ne sconsiglia l'installazione se non in ambiente di test_
 {: .text-center .pb-5}
 
-Data e ora dell'ultimo aggiornamento: 22/02/2024 00:07
+Data e ora dell'ultimo aggiornamento: 29/02/2024 15:33
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [b18dfeb9](http://github.com/iisgiua/giuaschool/commit/b18dfeb9c86cd064c5f092cbc038ef6a7a773f86) - Fix minori
 - [2665b700](http://github.com/iisgiua/giuaschool/commit/2665b700ec1a7c1beea256cfaba962e147eed65c) - Modifica: visualizzazione data modifica in eventi in agenda
 - [803f1a20](http://github.com/iisgiua/giuaschool/commit/803f1a20481b4a036afd7f3dec804fd2916283fa) - Modifiche allo scrutinio del secondo periodo; test aggiunti
 - [c1cc8ddb](http://github.com/iisgiua/giuaschool/commit/c1cc8ddb75788785688c80b02984bb29c4c30970) - Note: annullamento, provvedimento, parametri
