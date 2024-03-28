@@ -10,10 +10,11 @@ nav_order: 11
 _Le modifiche seguenti non sono ancora validate né definitive:<br>se ne sconsiglia l'installazione se non in ambiente di test_
 {: .text-center .pb-5}
 
-Data e ora dell'ultimo aggiornamento: 15/03/2024 21:34
+Data e ora dell'ultimo aggiornamento: 28/03/2024 20:34
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [ec75c515](http://github.com/iisgiua/giuaschool/commit/ec75c515d0dfbd0f5145bc38e4bfa136fb2d74a1) - Fix: visualizza tipo verifica Scritto/Grafico
 - [16b7dd83](http://github.com/iisgiua/giuaschool/commit/16b7dd835dfad7315338932cbba39815319ded20) - Fix tests
 - [276720d7](http://github.com/iisgiua/giuaschool/commit/276720d79b9af6e72fb109ca1e91413c2ed7583f) - Aggiunta gestione RSPP per avvisi
 - [b18dfeb9](http://github.com/iisgiua/giuaschool/commit/b18dfeb9c86cd064c5f092cbc038ef6a7a773f86) - Fix minori
