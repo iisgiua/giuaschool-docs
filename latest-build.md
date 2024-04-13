@@ -10,10 +10,12 @@ nav_order: 11
 _Le modifiche seguenti non sono ancora validate né definitive:<br>se ne sconsiglia l'installazione se non in ambiente di test_
 {: .text-center .pb-5}
 
-Data e ora dell'ultimo aggiornamento: 12/04/2024 13:46
+Data e ora dell'ultimo aggiornamento: 13/04/2024 20:02
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [32e72b13](http://github.com/iisgiua/giuaschool/commit/32e72b133d4b759ae7a947f50aeba68360d59a61) - Fix test
+- [01058655](http://github.com/iisgiua/giuaschool/commit/01058655c3964e19091296bbd6d4dcc8436f1dbe) - Fix test
 - [0cc89a76](http://github.com/iisgiua/giuaschool/commit/0cc89a76fc25a118c630863e278c7ef404ec07eb) - Fix: scrutinio finale passo 2
 - [fcb72d90](http://github.com/iisgiua/giuaschool/commit/fcb72d902427663fa16f6c87e6a1095066114c70) - Fix scrutinio finale passo 3
 - [5d503203](http://github.com/iisgiua/giuaschool/commit/5d503203316b94e16f11270472a0de4b24bae49d) - Test
