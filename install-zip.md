@@ -79,6 +79,33 @@ le istruzioni:
 Al termine della procedura, il file PHP della procedura viene rimosso, per ragioni di sicurezza.
 
 
+## Esempio di installazione su Altervista
+
+La procedura per l'installazione iniziale usando il servizio di hosting _Altervista_ viene descritta di seguito: si raccomanda di eseguire con attenzione ogni passaggio.
+
+1.  Per prima cosa, se non l'hai già fatto, registrati su *Altervista* e scegli il nome del tuo dominio.
+    In fase di registrazione, assicurati di scegliere il servizio **Hosting con file manager**.
+    Se non sai come fare, segui [questo tutorial](https://www.smartworld.it/guide/come-creare-sito-gratis-altervista.html).
+
+1.  Vai al pannello di controllo di _Altervista_ e clicca sul menu **RISORSE**.
+    Cerca nella pagina il riquadro **PHP** e clicca sul collegamento **Modifica Impostazioni PHP**.
+    A questo punto cerca la configurazione della _versione PHP_ e impostala su **PHP8**; infine clicca sul pulsante **SALVA**.
+
+1.  Scarica il file ZIP dell'[ultima versione](https://iisgiua.github.io/giuaschool-docs/latest-release.html) e decomprimilo sul tuo computer.
+
+1.  Usa un programma FTP come _FileZilla_ ([scaricalo da qui](https://filezilla-project.org/download.php?platform=win64) se non ce l'hai).
+    _FileZilla_ ti permette di caricare i file sul tuo spazio Altervista: se non conosci questo programma guarda [questo tutorial](https://www.youtube.com/watch?v=8kOMTK3XOp8).
+
+1.  Connettiti con _FileZilla_ al tuo spazio Altervista, utilizzando le credenziali FTP che ti hanno inviato.
+    I file del tuo spazio _Altervista_ appariranno nel riquadro **SITO REMOTO**.
+    Imposta nel riquadro **SITO LOCALE** la cartella presente nel tuo computer con i file estratti dallo ZIP di _giua@school_.
+    Effettua il trasferimento di tutti i file dal sito LOCALE al sito REMOTO (richiederà un po' di tempo, sono tanti file).
+    Alla fine, controlla se ci sono stati errori: in tal caso ricarica solo i file indicati come errati.
+
+1. Quando sei sicuro di aver caricato tutto, esegui la procedura di installazione andando all'indirizzo:
+    **http://nome_sito_altervista/public/install/app.php**
+
+
 ## Installazione su server di produzione
 
 Nel momento in cui si decide di usare il registro elettronico per l'uso scolastico quotidiano,
