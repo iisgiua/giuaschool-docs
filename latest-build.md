@@ -10,10 +10,12 @@ nav_order: 11
 _Le modifiche seguenti non sono ancora validate né definitive:<br>se ne sconsiglia l'installazione se non in ambiente di test_
 {: .text-center .pb-5}
 
-Data e ora dell'ultimo aggiornamento: 27/04/2024 21:03
+Data e ora dell'ultimo aggiornamento: 30/04/2024 15:10
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [85435649](http://github.com/iisgiua/giuaschool/commit/854356490f70b5529a41e739798914878df39760) - fix test
+- [a4666388](http://github.com/iisgiua/giuaschool/commit/a4666388a43e1978111ca76a2c8ca0f62cfa9793) - Fix test
 - [59e85a05](http://github.com/iisgiua/giuaschool/commit/59e85a053f408232af3da0dc84a4aaca23becbf5) - Modifica scrutinio passo 6: nuova certificazione competenze
 - [d0228357](http://github.com/iisgiua/giuaschool/commit/d0228357b11506ff23837c92d447fecccadacf24) - Aggiunti test
 - [f1339e16](http://github.com/iisgiua/giuaschool/commit/f1339e16eef0a013fa27385906a720bec13353e0) - Fix test
