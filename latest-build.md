@@ -10,10 +10,11 @@ nav_order: 11
 _Le modifiche seguenti non sono ancora validate né definitive:<br>se ne sconsiglia l'installazione se non in ambiente di test_
 {: .text-center .pb-5}
 
-Data e ora dell'ultimo aggiornamento: 03/05/2024 00:46
+Data e ora dell'ultimo aggiornamento: 03/05/2024 16:55
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [29dd498b](http://github.com/iisgiua/giuaschool/commit/29dd498b336bc6882f29beb25bb708946a3dc50e) - Modifica: scrutinio finale passo 8
 - [b6d2b950](http://github.com/iisgiua/giuaschool/commit/b6d2b950f39b124389b2d93c11ad049ab998ee3b) - Fix: gestione recupero debiti in scrutinio finale
 - [c3b6f3de](http://github.com/iisgiua/giuaschool/commit/c3b6f3de4d28fe6656922c8b51569dba3425266e) - Aggiunti test
 - [bebf1fae](http://github.com/iisgiua/giuaschool/commit/bebf1faec7750c0a26cef94f9a5237faf2013d23) - Fix: scrutinio finale
