@@ -10,10 +10,18 @@ nav_order: 11
 _Le modifiche seguenti non sono ancora validate né definitive:<br>se ne sconsiglia l'installazione se non in ambiente di test_
 {: .text-center .pb-5}
 
-Data e ora dell'ultimo aggiornamento: 03/05/2024 16:55
+Data e ora dell'ultimo aggiornamento: 16/05/2024 23:52
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [23c4b69a](http://github.com/iisgiua/giuaschool/commit/23c4b69ae4895dc75d1b4becfb206dd5b0b71b58) - Fix tests
+- [e6a2f5e4](http://github.com/iisgiua/giuaschool/commit/e6a2f5e4c0cffd8a099296c30d2a8d8737566328) - Fic: ultimo passo sscrutinio finale e test
+- [3951a4c4](http://github.com/iisgiua/giuaschool/commit/3951a4c4f3bd756d1f3b3f4321070f78593ebe1f) - Fix tests
+- [5ae0b756](http://github.com/iisgiua/giuaschool/commit/5ae0b7564f3e0431190680e2f34d39decf3388fc) - Fix tests
+- [d49752bf](http://github.com/iisgiua/giuaschool/commit/d49752bf489828de10d274123ab81ce1cccc65ab) - Fix test
+- [1936be35](http://github.com/iisgiua/giuaschool/commit/1936be35bc30f88463096033cbd46d5f1b3646cc) - Fix test
+- [f8d6e61e](http://github.com/iisgiua/giuaschool/commit/f8d6e61e49d6dd7ceb63a04c98302e7ba4bf1875) - Fix test
+- [9f88d161](http://github.com/iisgiua/giuaschool/commit/9f88d161e860bce079c9debb28246dfcd691f769) - Fix: scrutinio finale passo di chiusura scrutinio
 - [29dd498b](http://github.com/iisgiua/giuaschool/commit/29dd498b336bc6882f29beb25bb708946a3dc50e) - Modifica: scrutinio finale passo 8
 - [b6d2b950](http://github.com/iisgiua/giuaschool/commit/b6d2b950f39b124389b2d93c11ad049ab998ee3b) - Fix: gestione recupero debiti in scrutinio finale
 - [c3b6f3de](http://github.com/iisgiua/giuaschool/commit/c3b6f3de4d28fe6656922c8b51569dba3425266e) - Aggiunti test
