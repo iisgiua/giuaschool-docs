@@ -10,10 +10,11 @@ nav_order: 11
 _Le modifiche seguenti non sono ancora validate né definitive:<br>se ne sconsiglia l'installazione se non in ambiente di test_
 {: .text-center .pb-5}
 
-Data e ora dell'ultimo aggiornamento: 22/05/2024 19:27
+Data e ora dell'ultimo aggiornamento: 22/05/2024 23:36
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [afd6a2ea](http://github.com/iisgiua/giuaschool/commit/afd6a2eaa45dff2e05ac620909d5b6ce099fddcf) - Fix: comunicazione certificato competenze
 - [063c55a7](http://github.com/iisgiua/giuaschool/commit/063c55a77ef722e26df956c2bfc11f8d315dbefd) - Fix test
 - [91ae4f3d](http://github.com/iisgiua/giuaschool/commit/91ae4f3d763b826e6d739cb80da8c3dc3753db46) - Fix: nome file PDF con caratteri speciali
 - [5a918e49](http://github.com/iisgiua/giuaschool/commit/5a918e49ae18583fa6a0cdab8f684f81a4892391) - Fix: inserimento esito per alunno all'estero e non ammesso per assenze
