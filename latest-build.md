@@ -10,10 +10,12 @@ nav_order: 11
 _Le modifiche seguenti non sono ancora validate né definitive:<br>se ne sconsiglia l'installazione se non in ambiente di test_
 {: .text-center .pb-5}
 
-Data e ora dell'ultimo aggiornamento: 20/05/2024 18:15
+Data e ora dell'ultimo aggiornamento: 22/05/2024 19:27
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [063c55a7](http://github.com/iisgiua/giuaschool/commit/063c55a77ef722e26df956c2bfc11f8d315dbefd) - Fix test
+- [91ae4f3d](http://github.com/iisgiua/giuaschool/commit/91ae4f3d763b826e6d739cb80da8c3dc3753db46) - Fix: nome file PDF con caratteri speciali
 - [5a918e49](http://github.com/iisgiua/giuaschool/commit/5a918e49ae18583fa6a0cdab8f684f81a4892391) - Fix: inserimento esito per alunno all'estero e non ammesso per assenze
 - [ef6a507d](http://github.com/iisgiua/giuaschool/commit/ef6a507dece364c22614a1cf77f244894dc62426) - Fix: visualizzazione esiti per alunni/genitori
 - [19fc0266](http://github.com/iisgiua/giuaschool/commit/19fc0266bc062e9d3fd71774a26241a014b5632f) - Modifica: gestione programmi per quinte
