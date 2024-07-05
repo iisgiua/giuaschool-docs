@@ -10,10 +10,11 @@ nav_order: 11
 _Le modifiche seguenti non sono ancora validate né definitive:<br>se ne sconsiglia l'installazione se non in ambiente di test_
 {: .text-center .pb-5}
 
-Data e ora dell'ultimo aggiornamento: 04/07/2024 19:15
+Data e ora dell'ultimo aggiornamento: 05/07/2024 21:38
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [ed1d80fa](http://github.com/iisgiua/giuaschool/commit/ed1d80fa4c454d1b857ae677200d86754d3499fa) - Fix: visualizzazione esiti
 - [ed3025c1](http://github.com/iisgiua/giuaschool/commit/ed3025c14c109609dc5612f00cd8af7e7f12b5ea) - Modifica: scrutinio alunni sospesi
 - [386b8ab4](http://github.com/iisgiua/giuaschool/commit/386b8ab4a0a7bed1ac7d5f10c46917a99ba5deb3) - Modifica: gestione scrutinio sospeso
 - [4332cc9a](http://github.com/iisgiua/giuaschool/commit/4332cc9ab48345083ee693897ba5b99d09e60168) - Fix tests
