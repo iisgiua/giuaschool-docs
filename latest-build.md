@@ -10,10 +10,11 @@ nav_order: 11
 _Le modifiche seguenti non sono ancora validate né definitive:<br>se ne sconsiglia l'installazione se non in ambiente di test_
 {: .text-center .pb-5}
 
-Data e ora dell'ultimo aggiornamento: 20/07/2024 11:27
+Data e ora dell'ultimo aggiornamento: 21/07/2024 00:18
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [0489f9d6](http://github.com/iisgiua/giuaschool/commit/0489f9d61a279e090dd24c11c36478e73aba489b) - Fix: procedura archiviazione registro sostegno
 - [82d38645](http://github.com/iisgiua/giuaschool/commit/82d38645c856b7c0522d4849fc46a350947767ba) - Fix: procedura di archiviazione registro docente
 - [f9e1d9b3](http://github.com/iisgiua/giuaschool/commit/f9e1d9b37bf7e47ef19310ffc6bf45d2d1782a92) - Fix: gestione scrutinio rinviato
 - [ed1d80fa](http://github.com/iisgiua/giuaschool/commit/ed1d80fa4c454d1b857ae677200d86754d3499fa) - Fix: visualizzazione esiti
