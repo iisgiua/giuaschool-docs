@@ -10,10 +10,11 @@ nav_order: 11
 _Le modifiche seguenti non sono ancora validate né definitive:<br>se ne sconsiglia l'installazione se non in ambiente di test_
 {: .text-center .pb-5}
 
-Data e ora dell'ultimo aggiornamento: 04/08/2024 23:47
+Data e ora dell'ultimo aggiornamento: 14/08/2024 19:18
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [6a808145](http://github.com/iisgiua/giuaschool/commit/6a808145e9e7af141e46db8d1f71997f142607b2) - Fix: revisione procedura passaggio nuovo anno
 - [0b8aefa5](http://github.com/iisgiua/giuaschool/commit/0b8aefa517f0f94565a898b305c42a81c599c9fd) - Fix: procedura di archiviazione
 - [842a36c5](http://github.com/iisgiua/giuaschool/commit/842a36c548c0da2b8dc12f9ba65b9188872afa94) - Fix: procedura archiviazione - registro di classe e scrutini
 - [0489f9d6](http://github.com/iisgiua/giuaschool/commit/0489f9d61a279e090dd24c11c36478e73aba489b) - Fix: procedura archiviazione registro sostegno
