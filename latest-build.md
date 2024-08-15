@@ -10,10 +10,11 @@ nav_order: 11
 _Le modifiche seguenti non sono ancora validate né definitive:<br>se ne sconsiglia l'installazione se non in ambiente di test_
 {: .text-center .pb-5}
 
-Data e ora dell'ultimo aggiornamento: 15/08/2024 12:14
+Data e ora dell'ultimo aggiornamento: 15/08/2024 20:59
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [cd2a1170](http://github.com/iisgiua/giuaschool/commit/cd2a117026cbdbf749d78e5ec3bbad32eef26003) - Predispone versione 1.5.9
 - [6766603d](http://github.com/iisgiua/giuaschool/commit/6766603dd32edcf481d7212fd13142d0443b7fc3) - Nuovo: archivio avvisi anni precedenti
 - [cef0ef6c](http://github.com/iisgiua/giuaschool/commit/cef0ef6c585e4853549e2cf5c80ba187b36d08d3) - Fix: procedura passaggio all'anno nuovo
 - [6a808145](http://github.com/iisgiua/giuaschool/commit/6a808145e9e7af141e46db8d1f71997f142607b2) - Fix: revisione procedura passaggio nuovo anno
