@@ -10,7 +10,7 @@ nav_order: 10
 [**Scarica la Versione {{ site.data.version.tag }}**](https://github.com/iisgiua/giuaschool/releases/download/v{{ site.data.version.tag }}/giuaschool-release-v{{ site.data.version.tag }}.zip)
 {: .text-center .pb-5}
 
-Data e ora di rilascio: 15/08/2024 23:47
+Data e ora di rilascio: 16/08/2024 00:19
 
 Lista delle modifiche incluse nella nuova versione:
 
