@@ -10,10 +10,11 @@ nav_order: 11
 _Le modifiche seguenti non sono ancora validate né definitive:<br>se ne sconsiglia l'installazione se non in ambiente di test_
 {: .text-center .pb-5}
 
-Data e ora dell'ultimo aggiornamento: 30/11/2024 19:40
+Data e ora dell'ultimo aggiornamento: 30/11/2024 20:59
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [617c14c8](http://github.com/iisgiua/giuaschool/commit/617c14c88f18065efdc5d8ef69cf915f6f807b9f) - Fix: procedura aggiornamento
 - [b280fbd4](http://github.com/iisgiua/giuaschool/commit/b280fbd4e5a3e6ad7d2155c8eddb9f23a6223c08) - Update GHA
 - [cabee294](http://github.com/iisgiua/giuaschool/commit/cabee294f9d9568101ca80051a07a1df947836bd) - Fix: installazione
 - [5015f658](http://github.com/iisgiua/giuaschool/commit/5015f65833f8fdfdcccc700c0286e967b84607d4) - Fix: controllo versione PHP
