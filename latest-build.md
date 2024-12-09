@@ -10,10 +10,12 @@ nav_order: 11
 _Le modifiche seguenti non sono ancora validate né definitive:<br>se ne sconsiglia l'installazione se non in ambiente di test_
 {: .text-center .pb-5}
 
-Data e ora dell'ultimo aggiornamento: 30/11/2024 20:59
+Data e ora dell'ultimo aggiornamento: 09/12/2024 20:53
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [54924d36](http://github.com/iisgiua/giuaschool/commit/54924d36118a11976beeca55bebd2152b84f2b3a) - Fix: errori visualizzazione annotazione e orario uscita
+- [6a567491](http://github.com/iisgiua/giuaschool/commit/6a5674914cbb21c1e0316d8bcc4364b6c0426b14) - Modifica: migliorata pagina assenze mensili e info annotazioni
 - [617c14c8](http://github.com/iisgiua/giuaschool/commit/617c14c88f18065efdc5d8ef69cf915f6f807b9f) - Fix: procedura aggiornamento
 - [b280fbd4](http://github.com/iisgiua/giuaschool/commit/b280fbd4e5a3e6ad7d2155c8eddb9f23a6223c08) - Update GHA
 - [cabee294](http://github.com/iisgiua/giuaschool/commit/cabee294f9d9568101ca80051a07a1df947836bd) - Fix: installazione
