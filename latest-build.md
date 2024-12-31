@@ -10,10 +10,11 @@ nav_order: 11
 _Le modifiche seguenti non sono ancora validate né definitive:<br>se ne sconsiglia l'installazione se non in ambiente di test_
 {: .text-center .pb-5}
 
-Data e ora dell'ultimo aggiornamento: 13/12/2024 00:37
+Data e ora dell'ultimo aggiornamento: 31/12/2024 11:39
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [346f9ea1](http://github.com/iisgiua/giuaschool/commit/346f9ea155725b52e7688c1688fcf214e7bd1c11) - Modifica: personalizzazione pagina di errore HTTP
 - [f839b84e](http://github.com/iisgiua/giuaschool/commit/f839b84e7674829fc097ca064ecc569e89d57c9c) - Fix: gestione filtro alunni per assenze su supplenza
 - [8c920f38](http://github.com/iisgiua/giuaschool/commit/8c920f3828204b3e8c64c5eb3503ec078cbb3600) - Modifica: seleziona/deseleziona tutti su annotazioni e note
 - [54924d36](http://github.com/iisgiua/giuaschool/commit/54924d36118a11976beeca55bebd2152b84f2b3a) - Fix: errori visualizzazione annotazione e orario uscita
