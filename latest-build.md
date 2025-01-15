@@ -10,10 +10,14 @@ nav_order: 11
 _Le modifiche seguenti non sono ancora validate né definitive:<br>se ne sconsiglia l'installazione se non in ambiente di test_
 {: .text-center .pb-5}
 
-Data e ora dell'ultimo aggiornamento: 31/12/2024 11:39
+Data e ora dell'ultimo aggiornamento: 16/01/2025 00:08
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [4a2a72df](http://github.com/iisgiua/giuaschool/commit/4a2a72dfaafb36d372de49a9c7155fb53eee3eab) - Fix: gestione provvedimenti su note e test sicurezza
+- [d4cff517](http://github.com/iisgiua/giuaschool/commit/d4cff5171eda8a7ca4014619e66e4df9dde73eff) - Fix tests
+- [b4d1021e](http://github.com/iisgiua/giuaschool/commit/b4d1021e08a287bfaeac162b02318b81819e85c5) - fix
+- [70291391](http://github.com/iisgiua/giuaschool/commit/70291391c27c99b72d45a4c29888b917f6319d12) - Modifica: nuovo meccanismo di login da app
 - [346f9ea1](http://github.com/iisgiua/giuaschool/commit/346f9ea155725b52e7688c1688fcf214e7bd1c11) - Modifica: personalizzazione pagina di errore HTTP
 - [f839b84e](http://github.com/iisgiua/giuaschool/commit/f839b84e7674829fc097ca064ecc569e89d57c9c) - Fix: gestione filtro alunni per assenze su supplenza
 - [8c920f38](http://github.com/iisgiua/giuaschool/commit/8c920f3828204b3e8c64c5eb3503ec078cbb3600) - Modifica: seleziona/deseleziona tutti su annotazioni e note
