@@ -10,10 +10,11 @@ nav_order: 11
 _Le modifiche seguenti non sono ancora validate né definitive:<br>se ne sconsiglia l'installazione se non in ambiente di test_
 {: .text-center .pb-5}
 
-Data e ora dell'ultimo aggiornamento: 16/01/2025 00:08
+Data e ora dell'ultimo aggiornamento: 25/01/2025 20:06
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [3e04b149](http://github.com/iisgiua/giuaschool/commit/3e04b1494aeba5fef32f04b4970d0c0e17dc7960) - Aggiunta: gestione app in pagina pubblica
 - [4a2a72df](http://github.com/iisgiua/giuaschool/commit/4a2a72dfaafb36d372de49a9c7155fb53eee3eab) - Fix: gestione provvedimenti su note e test sicurezza
 - [d4cff517](http://github.com/iisgiua/giuaschool/commit/d4cff5171eda8a7ca4014619e66e4df9dde73eff) - Fix tests
 - [b4d1021e](http://github.com/iisgiua/giuaschool/commit/b4d1021e08a287bfaeac162b02318b81819e85c5) - fix
