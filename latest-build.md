@@ -10,10 +10,12 @@ nav_order: 11
 _Le modifiche seguenti non sono ancora validate né definitive:<br>se ne sconsiglia l'installazione se non in ambiente di test_
 {: .text-center .pb-5}
 
-Data e ora dell'ultimo aggiornamento: 25/01/2025 20:06
+Data e ora dell'ultimo aggiornamento: 28/01/2025 21:03
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [368fe2a8](http://github.com/iisgiua/giuaschool/commit/368fe2a8a517b1bc60832d9c002ee12d30412806) - Fix: tests
+- [8e5e1c1e](http://github.com/iisgiua/giuaschool/commit/8e5e1c1e56d222c33a6c720730dbde89a43aa14c) - Aggiunta: gestione categorie ATA in avvisi
 - [3e04b149](http://github.com/iisgiua/giuaschool/commit/3e04b1494aeba5fef32f04b4970d0c0e17dc7960) - Aggiunta: gestione app in pagina pubblica
 - [4a2a72df](http://github.com/iisgiua/giuaschool/commit/4a2a72dfaafb36d372de49a9c7155fb53eee3eab) - Fix: gestione provvedimenti su note e test sicurezza
 - [d4cff517](http://github.com/iisgiua/giuaschool/commit/d4cff5171eda8a7ca4014619e66e4df9dde73eff) - Fix tests
