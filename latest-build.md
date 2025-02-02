@@ -10,10 +10,13 @@ nav_order: 11
 _Le modifiche seguenti non sono ancora validate né definitive:<br>se ne sconsiglia l'installazione se non in ambiente di test_
 {: .text-center .pb-5}
 
-Data e ora dell'ultimo aggiornamento: 28/01/2025 21:03
+Data e ora dell'ultimo aggiornamento: 02/02/2025 23:49
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [fe794ed0](http://github.com/iisgiua/giuaschool/commit/fe794ed04f4e2b1fb62bdca9d2ef0fd39174a92a) - Fix tests
+- [52014897](http://github.com/iisgiua/giuaschool/commit/520148970d44138902e13a34e2012fb524344959) - Fix: test
+- [8b1ca8a9](http://github.com/iisgiua/giuaschool/commit/8b1ca8a984a58f0dac40a716f3031d8690ae9b87) - Modifica: gestione categorie ATA in circolari e avvisi
 - [368fe2a8](http://github.com/iisgiua/giuaschool/commit/368fe2a8a517b1bc60832d9c002ee12d30412806) - Fix: tests
 - [8e5e1c1e](http://github.com/iisgiua/giuaschool/commit/8e5e1c1e56d222c33a6c720730dbde89a43aa14c) - Aggiunta: gestione categorie ATA in avvisi
 - [3e04b149](http://github.com/iisgiua/giuaschool/commit/3e04b1494aeba5fef32f04b4970d0c0e17dc7960) - Aggiunta: gestione app in pagina pubblica
