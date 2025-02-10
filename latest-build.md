@@ -10,10 +10,11 @@ nav_order: 11
 _Le modifiche seguenti non sono ancora validate né definitive:<br>se ne sconsiglia l'installazione se non in ambiente di test_
 {: .text-center .pb-5}
 
-Data e ora dell'ultimo aggiornamento: 02/02/2025 23:49
+Data e ora dell'ultimo aggiornamento: 11/02/2025 00:44
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [33e0cd98](http://github.com/iisgiua/giuaschool/commit/33e0cd98bc5a6b9b62ea50b20ff1035d1654f7ef) - FIX vari
 - [fe794ed0](http://github.com/iisgiua/giuaschool/commit/fe794ed04f4e2b1fb62bdca9d2ef0fd39174a92a) - Fix tests
 - [52014897](http://github.com/iisgiua/giuaschool/commit/520148970d44138902e13a34e2012fb524344959) - Fix: test
 - [8b1ca8a9](http://github.com/iisgiua/giuaschool/commit/8b1ca8a984a58f0dac40a716f3031d8690ae9b87) - Modifica: gestione categorie ATA in circolari e avvisi
