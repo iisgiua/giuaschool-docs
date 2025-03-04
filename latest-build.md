@@ -10,10 +10,11 @@ nav_order: 11
 _Le modifiche seguenti non sono ancora validate né definitive:<br>se ne sconsiglia l'installazione se non in ambiente di test_
 {: .text-center .pb-5}
 
-Data e ora dell'ultimo aggiornamento: 04/03/2025 11:07
+Data e ora dell'ultimo aggiornamento: 04/03/2025 23:31
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [0f80ff36](http://github.com/iisgiua/giuaschool/commit/0f80ff3617d5757c6f856c6948047c1e87bc91b2) - Fix: allegati di circolari/avvisi non si cancellano
 - [30efb976](http://github.com/iisgiua/giuaschool/commit/30efb976d2babc04fad894c6d1d78be75f13e2ed) - Fix: tests
 - [d6f9f619](http://github.com/iisgiua/giuaschool/commit/d6f9f61953ce8d4359c9857ba149e8c83d7f08be) - Aggiunta: gestione moduli formativi
 - [d9aad23d](http://github.com/iisgiua/giuaschool/commit/d9aad23db365513440bf86543eb007fe0d62162c) - Fix: visualizza circolari a classi
