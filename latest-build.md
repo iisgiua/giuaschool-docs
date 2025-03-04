@@ -10,10 +10,11 @@ nav_order: 11
 _Le modifiche seguenti non sono ancora validate né definitive:<br>se ne sconsiglia l'installazione se non in ambiente di test_
 {: .text-center .pb-5}
 
-Data e ora dell'ultimo aggiornamento: 05/03/2025 00:18
+Data e ora dell'ultimo aggiornamento: 05/03/2025 00:52
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [cbf2d594](http://github.com/iisgiua/giuaschool/commit/cbf2d594652f64ede0a0d3dd25bf6aa133c19bda) - Update dipendenze
 - [f4545ab6](http://github.com/iisgiua/giuaschool/commit/f4545ab69a47ef5a1db0167a3d32084b5f062659) - Modifica: Fuori Classe visualizzato a genitori/alunni
 - [0f80ff36](http://github.com/iisgiua/giuaschool/commit/0f80ff3617d5757c6f856c6948047c1e87bc91b2) - Fix: allegati di circolari/avvisi non si cancellano
 - [30efb976](http://github.com/iisgiua/giuaschool/commit/30efb976d2babc04fad894c6d1d78be75f13e2ed) - Fix: tests
