@@ -10,10 +10,13 @@ nav_order: 11
 _Le modifiche seguenti non sono ancora validate né definitive:<br>se ne sconsiglia l'installazione se non in ambiente di test_
 {: .text-center .pb-5}
 
-Data e ora dell'ultimo aggiornamento: 11/02/2025 00:44
+Data e ora dell'ultimo aggiornamento: 04/03/2025 11:07
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [30efb976](http://github.com/iisgiua/giuaschool/commit/30efb976d2babc04fad894c6d1d78be75f13e2ed) - Fix: tests
+- [d6f9f619](http://github.com/iisgiua/giuaschool/commit/d6f9f61953ce8d4359c9857ba149e8c83d7f08be) - Aggiunta: gestione moduli formativi
+- [d9aad23d](http://github.com/iisgiua/giuaschool/commit/d9aad23db365513440bf86543eb007fe0d62162c) - Fix: visualizza circolari a classi
 - [33e0cd98](http://github.com/iisgiua/giuaschool/commit/33e0cd98bc5a6b9b62ea50b20ff1035d1654f7ef) - FIX vari
 - [fe794ed0](http://github.com/iisgiua/giuaschool/commit/fe794ed04f4e2b1fb62bdca9d2ef0fd39174a92a) - Fix tests
 - [52014897](http://github.com/iisgiua/giuaschool/commit/520148970d44138902e13a34e2012fb524344959) - Fix: test
