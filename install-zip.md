@@ -38,7 +38,7 @@ Per consentire l'utilizzo corretto dell'applicazione, il servizio di _hosting_ u
 rispettare i seguenti requisiti fondamentali:
   - web server **Apache 2.x** o superiore;
   - database server **MySQL 5.5** o superiore, oppure  **MariaDB 10.0** o superiore;
-  - **PHP 7.4** o superiore.
+  - **PHP 8.2** o superiore.
 
 Durante la procedura di installazione saranno verificati ulteriori requisiti di sistema,
 evidenziandone le criticità.
