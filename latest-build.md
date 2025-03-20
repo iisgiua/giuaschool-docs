@@ -10,10 +10,12 @@ nav_order: 11
 _Le modifiche seguenti non sono ancora validate né definitive:<br>se ne sconsiglia l'installazione se non in ambiente di test_
 {: .text-center .pb-5}
 
-Data e ora dell'ultimo aggiornamento: 13/03/2025 13:32
+Data e ora dell'ultimo aggiornamento: 21/03/2025 00:34
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [b6bb30ba](http://github.com/iisgiua/giuaschool/commit/b6bb30ba3cf9182fa2313fdf81b32b5dce90bb27) - Modifica: nomi file allegati nelle circolari
+- [6f8aaa7c](http://github.com/iisgiua/giuaschool/commit/6f8aaa7c24bc954463c45c3fa7beb9e5de06d92a) - Fix: inserimento di assenza consecutiva già giustificata
 - [8d1f1618](http://github.com/iisgiua/giuaschool/commit/8d1f1618fc8be40596f6c3444e6e4d9c5f01fb5f) - Fix: test
 - [bd50b998](http://github.com/iisgiua/giuaschool/commit/bd50b99895e8b3b67b08ed172bd6ec3a1630e5c5) - fix test
 - [9dfa8b0f](http://github.com/iisgiua/giuaschool/commit/9dfa8b0f349aab2493dcde6f5841b5aa1ef30243) - Fix: tests
