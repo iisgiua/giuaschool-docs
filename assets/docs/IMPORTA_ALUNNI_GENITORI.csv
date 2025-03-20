@@ -1,3 +1,3 @@
-cognome,nome,sesso,dataNascita,comuneNascita,codiceFiscale,citta,indirizzo,bes,noteBes,frequenzaEstero,religione,credito3,credito4,classe,username,password,email,genitore1Cognome,genitore1Nome,genitore1CodiceFiscale,genitore1Telefono,genitore1Username,genitore1Password,genitore1Email,genitore2Cognome,genitore2Nome,genitore2CodiceFiscale,genitore2Telefono,genitore2Username,genitore2Password,genitore2Email
-MUTI,ORNELLA,F,12/12/2006,CITTA,COD0001,,,,,,S,,,1A,,,,,,,,,,,,,,,,,
-DE FILIPPI,MARIA,F,01/03/2001,CITTA,COD0002,,,,,,U,,,1A,,,,,,,,,,,,,,,,,
+"cognome","nome","sesso","dataNascita","comuneNascita","provinciaNascita","codiceFiscale","citta","provincia","indirizzo","bes","noteBes","frequenzaEstero","religione","credito3","credito4","classe","username","password","email","genitore1Cognome","genitore1Nome","genitore1CodiceFiscale","genitore1Telefono","genitore1Username","genitore1Password","genitore1Email","genitore2Cognome","genitore2Nome","genitore2CodiceFiscale","genitore2Telefono","genitore2Username","genitore2Password","genitore2Email"
+"MUTI","ORNELLA","F","12/12/2006","CITTA",,"COD0001",,,,,,,"S",,,"1A",,,,,,,,,,,,,,,,,
+"DE FILIPPI","MARIA","F","01/03/2001","CITTA",,"COD0002",,,,,,,"U",,,"1A",,,,,,,,,,,,,,,,,
