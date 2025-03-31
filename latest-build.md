@@ -10,10 +10,11 @@ nav_order: 11
 _Le modifiche seguenti non sono ancora validate né definitive:<br>se ne sconsiglia l'installazione se non in ambiente di test_
 {: .text-center .pb-5}
 
-Data e ora dell'ultimo aggiornamento: 30/03/2025 20:51
+Data e ora dell'ultimo aggiornamento: 31/03/2025 18:27
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [b759e160](http://github.com/iisgiua/giuaschool/commit/b759e160dc363f2b9dd9612dc9b0e8c751bcca58) - Fix: nomi allegati in circolari
 - [a6856398](http://github.com/iisgiua/giuaschool/commit/a685639899041c7fad7406efe693b9f25e52b0d0) - Modifica: visualizzazione verifiche di classe in agenda
 - [98be9985](http://github.com/iisgiua/giuaschool/commit/98be9985ba71545cf0c5c281c0a652ea1c2a1bf2) - Aggiunta API info docente
 - [35ce5038](http://github.com/iisgiua/giuaschool/commit/35ce50387796b075092be0ea20586ad9a4f937fc) - Fix: togli blocco primo periodo per moduli formativi
