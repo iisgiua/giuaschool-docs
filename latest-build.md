@@ -10,10 +10,11 @@ nav_order: 11
 _Le modifiche seguenti non sono ancora validate né definitive:<br>se ne sconsiglia l'installazione se non in ambiente di test_
 {: .text-center .pb-5}
 
-Data e ora dell'ultimo aggiornamento: 13/04/2025 21:17
+Data e ora dell'ultimo aggiornamento: 16/04/2025 10:29
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [03290ea8](http://github.com/iisgiua/giuaschool/commit/03290ea8e6265d392278027bde27036a6109f1e3) - Aggiunta: pulsante per medie automatiche in proposte di voto
 - [7ccaff68](http://github.com/iisgiua/giuaschool/commit/7ccaff684d2bbb6c7742d7528fd1b39892609f37) - Fix: visualizzazione voti
 - [25d96f22](http://github.com/iisgiua/giuaschool/commit/25d96f2291ab258a625ececfcfaac5281504e6dd) - Fix tests
 - [08fd8d1d](http://github.com/iisgiua/giuaschool/commit/08fd8d1d5959a7af0431dd50f329ee6178e4fe1f) - Modifica: nuova visualizzazione voti con medie
