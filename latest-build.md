@@ -10,10 +10,12 @@ nav_order: 11
 _Le modifiche seguenti non sono ancora validate né definitive:<br>se ne sconsiglia l'installazione se non in ambiente di test_
 {: .text-center .pb-5}
 
-Data e ora dell'ultimo aggiornamento: 21/04/2025 11:28
+Data e ora dell'ultimo aggiornamento: 23/04/2025 00:33
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [358c20bc](http://github.com/iisgiua/giuaschool/commit/358c20bcfb4d7da7c7dd12ce697ecc91d9b46fae) - Fix tests
+- [45243944](http://github.com/iisgiua/giuaschool/commit/45243944084e5ad94b983d94f66aad537666dc73) - Fix: modifica termine supplenza in SOSTITUZIONE
 - [fd2e2ad7](http://github.com/iisgiua/giuaschool/commit/fd2e2ad73e84158e43d9c349453b7756187404b6) - Modifica: impedisci visualizzazione di docenti sostituiti da supplente
 - [852af78d](http://github.com/iisgiua/giuaschool/commit/852af78d3c8206e9a42ffa5b5eb5fb193968c9bb) - Modifica: gestione cattedre di supplenze
 - [12107a0c](http://github.com/iisgiua/giuaschool/commit/12107a0c7770988cc89b2b5c7eea8e2569439eef) - Modifica: aggiunto campo per gestione docente sostituito in supplenza
