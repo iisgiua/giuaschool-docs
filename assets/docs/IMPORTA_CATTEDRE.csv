@@ -1,3 +1,4 @@
-UsernameDocente,Classe,Materia,UsernameAlunno,Tipo,Supplenza
-giulio.andreotti,1B,Italiano,,P,N
-franco.neri,1A,Informatica,,I,N
+UsernameDocente,Classe,Materia,UsernameAlunno,Tipo,UsernameSupplenza
+massimo.bianchi,1B,Storia,,P,
+franco.neri,1A,Informatica,,I,
+maria.defilippi,1C,Storia,,N,massimo.bianchi
