@@ -10,10 +10,11 @@ nav_order: 11
 _Le modifiche seguenti non sono ancora validate né definitive:<br>se ne sconsiglia l'installazione se non in ambiente di test_
 {: .text-center .pb-5}
 
-Data e ora dell'ultimo aggiornamento: 26/04/2025 20:05
+Data e ora dell'ultimo aggiornamento: 04/05/2025 21:21
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [65f12fc5](http://github.com/iisgiua/giuaschool/commit/65f12fc5664d4b02ea8b8b1502f4b7c2faf619df) - Modifica: gestione materie per supplenze e lezioni pluriclasse
 - [0966c955](http://github.com/iisgiua/giuaschool/commit/0966c955c5e257e58ec2050893d71b64fa730545) - Fix
 - [3c6e3e1c](http://github.com/iisgiua/giuaschool/commit/3c6e3e1cf43dadbe1d7fcdaff37672306055f7e2) - Fix minori
 - [9bcb1f6c](http://github.com/iisgiua/giuaschool/commit/9bcb1f6ce7988814eff033b272301bb810ccc9c9) - Modifica: gestione sostituzioni in lezione (database)
