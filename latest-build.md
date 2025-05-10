@@ -10,10 +10,11 @@ nav_order: 11
 _Le modifiche seguenti non sono ancora validate né definitive:<br>se ne sconsiglia l'installazione se non in ambiente di test_
 {: .text-center .pb-5}
 
-Data e ora dell'ultimo aggiornamento: 06/05/2025 23:45
+Data e ora dell'ultimo aggiornamento: 10/05/2025 12:48
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [a708a222](http://github.com/iisgiua/giuaschool/commit/a708a22248d193bf5dcaee688d883289ddf556a0) - Modifica: gestione parametro data fine colloqui
 - [6b7475f4](http://github.com/iisgiua/giuaschool/commit/6b7475f4798d9be3c63f497cbb9f2ebb22e2710a) - Fix: visualizzazione voti
 - [ff9ed9c3](http://github.com/iisgiua/giuaschool/commit/ff9ed9c312247fe4bdf009511427266abb1b083e) - Fix
 - [65f12fc5](http://github.com/iisgiua/giuaschool/commit/65f12fc5664d4b02ea8b8b1502f4b7c2faf619df) - Modifica: gestione materie per supplenze e lezioni pluriclasse
