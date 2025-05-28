@@ -10,10 +10,11 @@ nav_order: 11
 _Le modifiche seguenti non sono ancora validate né definitive:<br>se ne sconsiglia l'installazione se non in ambiente di test_
 {: .text-center .pb-5}
 
-Data e ora dell'ultimo aggiornamento: 18/05/2025 18:25
+Data e ora dell'ultimo aggiornamento: 28/05/2025 12:27
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [dbeebf01](http://github.com/iisgiua/giuaschool/commit/dbeebf01f18897194948afaf62bf9917c87746e7) - Fix: proposte
 - [1cc45036](http://github.com/iisgiua/giuaschool/commit/1cc45036bc9c0dd2afabfb437244ee4b120156d1) - Fix: tests
 - [e5b50c8f](http://github.com/iisgiua/giuaschool/commit/e5b50c8f60cbb8fed021d06cabde92b0309d1741) - Modifica: nuova visualizzazione per voti del sostegno
 - [6d1f172f](http://github.com/iisgiua/giuaschool/commit/6d1f172f290604ee860162c8b07ad4309a075438) - Fix
