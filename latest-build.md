@@ -10,10 +10,19 @@ nav_order: 11
 _Le modifiche seguenti non sono ancora validate né definitive:<br>se ne sconsiglia l'installazione se non in ambiente di test_
 {: .text-center .pb-5}
 
-Data e ora dell'ultimo aggiornamento: 28/05/2025 12:27
+Data e ora dell'ultimo aggiornamento: 19/06/2025 00:14
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [00c6af37](http://github.com/iisgiua/giuaschool/commit/00c6af3783b4302d4c7f7eca9190b761d0b9f982) - update GHA
+- [e3f00f38](http://github.com/iisgiua/giuaschool/commit/e3f00f38c0e9ff69f1fcea5c8e94d52d605e1180) - update GHA
+- [de845839](http://github.com/iisgiua/giuaschool/commit/de84583905b098830685f01c49c1f68d8f8f4f82) - update GHA
+- [ef28faef](http://github.com/iisgiua/giuaschool/commit/ef28faefcedac996d93fcf9320810fa81f153528) - update GHA
+- [db94d945](http://github.com/iisgiua/giuaschool/commit/db94d94520be6c55590b696729ab3f7f75f8f325) - GHA update
+- [196d1b39](http://github.com/iisgiua/giuaschool/commit/196d1b39b17320f203c7e5b24276deef85dc541e) - GHA update
+- [9fc17b59](http://github.com/iisgiua/giuaschool/commit/9fc17b59dd9544c0d03e919f6fdb71316764aec4) - update GHA
+- [4c58f83e](http://github.com/iisgiua/giuaschool/commit/4c58f83e2e7ffc8076aa95f35ee6189bc929f98e) - update GHA
+- [1f0320d0](http://github.com/iisgiua/giuaschool/commit/1f0320d0cd2e5dec4335b1592edc87236a9e031b) - Modifica: procedura dello scrutinio finale
 - [dbeebf01](http://github.com/iisgiua/giuaschool/commit/dbeebf01f18897194948afaf62bf9917c87746e7) - Fix: proposte
 - [1cc45036](http://github.com/iisgiua/giuaschool/commit/1cc45036bc9c0dd2afabfb437244ee4b120156d1) - Fix: tests
 - [e5b50c8f](http://github.com/iisgiua/giuaschool/commit/e5b50c8f60cbb8fed021d06cabde92b0309d1741) - Modifica: nuova visualizzazione per voti del sostegno
