@@ -10,10 +10,11 @@ nav_order: 11
 _Le modifiche seguenti non sono ancora validate né definitive:<br>se ne sconsiglia l'installazione se non in ambiente di test_
 {: .text-center .pb-5}
 
-Data e ora dell'ultimo aggiornamento: 19/06/2025 00:14
+Data e ora dell'ultimo aggiornamento: 21/06/2025 20:25
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [0d82e360](http://github.com/iisgiua/giuaschool/commit/0d82e3604ad4116393fd6f35342da02daa1316a9) - Fix: visualizzazione voti non in media
 - [00c6af37](http://github.com/iisgiua/giuaschool/commit/00c6af3783b4302d4c7f7eca9190b761d0b9f982) - update GHA
 - [e3f00f38](http://github.com/iisgiua/giuaschool/commit/e3f00f38c0e9ff69f1fcea5c8e94d52d605e1180) - update GHA
 - [de845839](http://github.com/iisgiua/giuaschool/commit/de84583905b098830685f01c49c1f68d8f8f4f82) - update GHA
