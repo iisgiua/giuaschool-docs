@@ -10,63 +10,59 @@ nav_order: 10
 [**Scarica la Versione {{ site.data.version.tag }}**](https://github.com/iisgiua/giuaschool/releases/download/v{{ site.data.version.tag }}/giuaschool-release-v{{ site.data.version.tag }}.zip)
 {: .text-center .pb-5}
 
-Data e ora di rilascio: 08/03/2025 12:00
+Data e ora di rilascio: 09/07/2025 11:34
 
 Lista delle modifiche incluse nella nuova versione:
 
-- [76b21ad8](http://github.com/iisgiua/giuaschool/commit/76b21ad8c5be6444a2ec59bd2d50b46c1d58d162) - Fix: installer
-- [ebde1898](http://github.com/iisgiua/giuaschool/commit/ebde18981225e5daa3e206f737cdd38905bb00d8) - Fix: installer
-- [a33fa96b](http://github.com/iisgiua/giuaschool/commit/a33fa96b8e45b5975a574827dd68d4e25adca1d6) - Fix: installer
-- [1e17a462](http://github.com/iisgiua/giuaschool/commit/1e17a462d63a20999240455e5e4067e88afb39f5) - Fix: installer
-- [e20a535b](http://github.com/iisgiua/giuaschool/commit/e20a535b26285fba9e5cc62a70082ddb56abc55b) - Fix: installer
-- [cbf2d594](http://github.com/iisgiua/giuaschool/commit/cbf2d594652f64ede0a0d3dd25bf6aa133c19bda) - Update dipendenze
-- [f4545ab6](http://github.com/iisgiua/giuaschool/commit/f4545ab69a47ef5a1db0167a3d32084b5f062659) - Modifica: Fuori Classe visualizzato a genitori/alunni
-- [0f80ff36](http://github.com/iisgiua/giuaschool/commit/0f80ff3617d5757c6f856c6948047c1e87bc91b2) - Fix: allegati di circolari/avvisi non si cancellano
-- [30efb976](http://github.com/iisgiua/giuaschool/commit/30efb976d2babc04fad894c6d1d78be75f13e2ed) - Fix: tests
-- [d6f9f619](http://github.com/iisgiua/giuaschool/commit/d6f9f61953ce8d4359c9857ba149e8c83d7f08be) - Aggiunta: gestione moduli formativi
-- [d9aad23d](http://github.com/iisgiua/giuaschool/commit/d9aad23db365513440bf86543eb007fe0d62162c) - Fix: visualizza circolari a classi
-- [33e0cd98](http://github.com/iisgiua/giuaschool/commit/33e0cd98bc5a6b9b62ea50b20ff1035d1654f7ef) - FIX vari
-- [fe794ed0](http://github.com/iisgiua/giuaschool/commit/fe794ed04f4e2b1fb62bdca9d2ef0fd39174a92a) - Fix tests
-- [52014897](http://github.com/iisgiua/giuaschool/commit/520148970d44138902e13a34e2012fb524344959) - Fix: test
-- [8b1ca8a9](http://github.com/iisgiua/giuaschool/commit/8b1ca8a984a58f0dac40a716f3031d8690ae9b87) - Modifica: gestione categorie ATA in circolari e avvisi
-- [368fe2a8](http://github.com/iisgiua/giuaschool/commit/368fe2a8a517b1bc60832d9c002ee12d30412806) - Fix: tests
-- [8e5e1c1e](http://github.com/iisgiua/giuaschool/commit/8e5e1c1e56d222c33a6c720730dbde89a43aa14c) - Aggiunta: gestione categorie ATA in avvisi
-- [3e04b149](http://github.com/iisgiua/giuaschool/commit/3e04b1494aeba5fef32f04b4970d0c0e17dc7960) - Aggiunta: gestione app in pagina pubblica
-- [4a2a72df](http://github.com/iisgiua/giuaschool/commit/4a2a72dfaafb36d372de49a9c7155fb53eee3eab) - Fix: gestione provvedimenti su note e test sicurezza
-- [d4cff517](http://github.com/iisgiua/giuaschool/commit/d4cff5171eda8a7ca4014619e66e4df9dde73eff) - Fix tests
-- [b4d1021e](http://github.com/iisgiua/giuaschool/commit/b4d1021e08a287bfaeac162b02318b81819e85c5) - fix
-- [70291391](http://github.com/iisgiua/giuaschool/commit/70291391c27c99b72d45a4c29888b917f6319d12) - Modifica: nuovo meccanismo di login da app
-- [346f9ea1](http://github.com/iisgiua/giuaschool/commit/346f9ea155725b52e7688c1688fcf214e7bd1c11) - Modifica: personalizzazione pagina di errore HTTP
-- [f839b84e](http://github.com/iisgiua/giuaschool/commit/f839b84e7674829fc097ca064ecc569e89d57c9c) - Fix: gestione filtro alunni per assenze su supplenza
-- [8c920f38](http://github.com/iisgiua/giuaschool/commit/8c920f3828204b3e8c64c5eb3503ec078cbb3600) - Modifica: seleziona/deseleziona tutti su annotazioni e note
-- [54924d36](http://github.com/iisgiua/giuaschool/commit/54924d36118a11976beeca55bebd2152b84f2b3a) - Fix: errori visualizzazione annotazione e orario uscita
-- [6a567491](http://github.com/iisgiua/giuaschool/commit/6a5674914cbb21c1e0316d8bcc4364b6c0426b14) - Modifica: migliorata pagina assenze mensili e info annotazioni
-- [617c14c8](http://github.com/iisgiua/giuaschool/commit/617c14c88f18065efdc5d8ef69cf915f6f807b9f) - Fix: procedura aggiornamento
-- [b280fbd4](http://github.com/iisgiua/giuaschool/commit/b280fbd4e5a3e6ad7d2155c8eddb9f23a6223c08) - Update GHA
-- [cabee294](http://github.com/iisgiua/giuaschool/commit/cabee294f9d9568101ca80051a07a1df947836bd) - Fix: installazione
-- [5015f658](http://github.com/iisgiua/giuaschool/commit/5015f65833f8fdfdcccc700c0286e967b84607d4) - Fix: controllo versione PHP
-- [a446f959](http://github.com/iisgiua/giuaschool/commit/a446f9590b8d080b24c9920f07c20e924eb815d9) - Fix: installazione aggiornamento
-- [aa77d34c](http://github.com/iisgiua/giuaschool/commit/aa77d34ca5c8550ae0644a8ca587ed521764b55f) - Fix: installazione aggiornamenti
-- [c0ac3263](http://github.com/iisgiua/giuaschool/commit/c0ac32639e659991dbbeeff94116fdb59353579e) - Fix Spid
-- [87edd1f7](http://github.com/iisgiua/giuaschool/commit/87edd1f70d951c8f45059458ce04c095a4408c85) - Fix: tests
-- [a8d0597c](http://github.com/iisgiua/giuaschool/commit/a8d0597c40ab21c736c64069c0c13f6cca87a987) - Fix: configurazione di sistema
-- [3bf5d5da](http://github.com/iisgiua/giuaschool/commit/3bf5d5da8c7d8e7b0059abffbd214f36ced591b4) - Fix: correzioni su aggioramento delle dipendenze
-- [f3207d6c](http://github.com/iisgiua/giuaschool/commit/f3207d6c623d92e82f2a3c44772fe6a5f38bb966) - Fix: configurazione e sintassi PHP 8.2
-- [13e37309](http://github.com/iisgiua/giuaschool/commit/13e373094380188013ad92b3ed3c765fba5d9eee) - Upgrade to Symphony6 and PHP 8.2 (#776)
-- [ed72b467](http://github.com/iisgiua/giuaschool/commit/ed72b46732aee0326c79e0c0144551c97d291d1f) - Fix GHA tests
-- [b7116660](http://github.com/iisgiua/giuaschool/commit/b7116660314db8e29b5f4b2e68810b77ea84ef21) - Fix: GHA action
-- [b05459f9](http://github.com/iisgiua/giuaschool/commit/b05459f9a542219f0c596abe713298727d3c6976) - Fix: gestione colloqui inserimento singola data
-- [eb39b4f6](http://github.com/iisgiua/giuaschool/commit/eb39b4f6284d85f84a140398cb4af6878da0dbcf) - Fix: annullamento richiesta
-- [eb5b0e00](http://github.com/iisgiua/giuaschool/commit/eb5b0e00ced829184e8fabf400a3303e40779bb3) - Fix: cancella file di sessione solo se esiste directory
-- [ff8befbd](http://github.com/iisgiua/giuaschool/commit/ff8befbd4b8ad249a4b476062e2feeebdf85529f) - Miglioramenti Github Actions (#761)
-- [4e247da8](http://github.com/iisgiua/giuaschool/commit/4e247da8c6e982f0476ab168f98d67bf4df9d21d) - Fix dockerfile
-- [d4651eb9](http://github.com/iisgiua/giuaschool/commit/d4651eb96f3223340a8f2fd91eaf6119dcf92fef) - Fix: dockerfile
-- [50eb5461](http://github.com/iisgiua/giuaschool/commit/50eb54615e8a22865f9c408ab610751a483b7bfb) - Fix: gestione richieste - visualizzazione dati
-- [30c6fbb4](http://github.com/iisgiua/giuaschool/commit/30c6fbb45762a126a912ccb24394ac2e193243e6) - Modifica: gestione provincie in importazione alunni
-- [3359baba](http://github.com/iisgiua/giuaschool/commit/3359baba1da327a8a04b1b96a6055b7a9514c3d8) - Fix: gestione documenti BES
-- [4ccc210e](http://github.com/iisgiua/giuaschool/commit/4ccc210eeb39b037b5b210e27ee719f9150d4d30) - Fix: alunni/genitori senza classe come destinatari di circolari/avvisi
-- [0d41d3be](http://github.com/iisgiua/giuaschool/commit/0d41d3bed959ea29b367a94d156999a45fed2a7b) - Fix: gestione studenti senza classe
-- [b232d4cb](http://github.com/iisgiua/giuaschool/commit/b232d4cb408b80cd955835d1f80801bca8da1ad7) - Modifica gestione circolari su anno scolastico
-- [68c484d8](http://github.com/iisgiua/giuaschool/commit/68c484d87eb01d1de30abc4e0a3ad3c1810a9229) - Fix: archiviazione
-- [a48537dc](http://github.com/iisgiua/giuaschool/commit/a48537dcab12c809aa164f7471a8c8d4824ad275) - Fix: archiviazione
+- [bcfb859d](http://github.com/iisgiua/giuaschool/commit/bcfb859dae23533dd56bb2990251bd0b900bd43e) - update version
+- [37aa0de4](http://github.com/iisgiua/giuaschool/commit/37aa0de4c45f64fa318d8516a2313cf6983dd682) - fix update version 1.6.1
+- [8ac968a3](http://github.com/iisgiua/giuaschool/commit/8ac968a3f2394474d922d3c6aa1fe304909213c5) - Fix: archiviazione registro
+- [8be24d9f](http://github.com/iisgiua/giuaschool/commit/8be24d9ff803721cebf2dfa9cf7e2c075452ad65) - fix GHA
+- [ac18d56a](http://github.com/iisgiua/giuaschool/commit/ac18d56a6b41d7e1e8991927127cbaeb83792322) - Fix: procedura scrutinio sospeso
+- [0d82e360](http://github.com/iisgiua/giuaschool/commit/0d82e3604ad4116393fd6f35342da02daa1316a9) - Fix: visualizzazione voti non in media
+- [00c6af37](http://github.com/iisgiua/giuaschool/commit/00c6af3783b4302d4c7f7eca9190b761d0b9f982) - update GHA
+- [e3f00f38](http://github.com/iisgiua/giuaschool/commit/e3f00f38c0e9ff69f1fcea5c8e94d52d605e1180) - update GHA
+- [de845839](http://github.com/iisgiua/giuaschool/commit/de84583905b098830685f01c49c1f68d8f8f4f82) - update GHA
+- [ef28faef](http://github.com/iisgiua/giuaschool/commit/ef28faefcedac996d93fcf9320810fa81f153528) - update GHA
+- [db94d945](http://github.com/iisgiua/giuaschool/commit/db94d94520be6c55590b696729ab3f7f75f8f325) - GHA update
+- [196d1b39](http://github.com/iisgiua/giuaschool/commit/196d1b39b17320f203c7e5b24276deef85dc541e) - GHA update
+- [9fc17b59](http://github.com/iisgiua/giuaschool/commit/9fc17b59dd9544c0d03e919f6fdb71316764aec4) - update GHA
+- [4c58f83e](http://github.com/iisgiua/giuaschool/commit/4c58f83e2e7ffc8076aa95f35ee6189bc929f98e) - update GHA
+- [1f0320d0](http://github.com/iisgiua/giuaschool/commit/1f0320d0cd2e5dec4335b1592edc87236a9e031b) - Modifica: procedura dello scrutinio finale
+- [dbeebf01](http://github.com/iisgiua/giuaschool/commit/dbeebf01f18897194948afaf62bf9917c87746e7) - Fix: proposte
+- [1cc45036](http://github.com/iisgiua/giuaschool/commit/1cc45036bc9c0dd2afabfb437244ee4b120156d1) - Fix: tests
+- [e5b50c8f](http://github.com/iisgiua/giuaschool/commit/e5b50c8f60cbb8fed021d06cabde92b0309d1741) - Modifica: nuova visualizzazione per voti del sostegno
+- [6d1f172f](http://github.com/iisgiua/giuaschool/commit/6d1f172f290604ee860162c8b07ad4309a075438) - Fix
+- [a708a222](http://github.com/iisgiua/giuaschool/commit/a708a22248d193bf5dcaee688d883289ddf556a0) - Modifica: gestione parametro data fine colloqui
+- [6b7475f4](http://github.com/iisgiua/giuaschool/commit/6b7475f4798d9be3c63f497cbb9f2ebb22e2710a) - Fix: visualizzazione voti
+- [ff9ed9c3](http://github.com/iisgiua/giuaschool/commit/ff9ed9c312247fe4bdf009511427266abb1b083e) - Fix
+- [65f12fc5](http://github.com/iisgiua/giuaschool/commit/65f12fc5664d4b02ea8b8b1502f4b7c2faf619df) - Modifica: gestione materie per supplenze e lezioni pluriclasse
+- [0966c955](http://github.com/iisgiua/giuaschool/commit/0966c955c5e257e58ec2050893d71b64fa730545) - Fix
+- [3c6e3e1c](http://github.com/iisgiua/giuaschool/commit/3c6e3e1cf43dadbe1d7fcdaff37672306055f7e2) - Fix minori
+- [9bcb1f6c](http://github.com/iisgiua/giuaschool/commit/9bcb1f6ce7988814eff033b272301bb810ccc9c9) - Modifica: gestione sostituzioni in lezione (database)
+- [358c20bc](http://github.com/iisgiua/giuaschool/commit/358c20bcfb4d7da7c7dd12ce697ecc91d9b46fae) - Fix tests
+- [45243944](http://github.com/iisgiua/giuaschool/commit/45243944084e5ad94b983d94f66aad537666dc73) - Fix: modifica termine supplenza in SOSTITUZIONE
+- [fd2e2ad7](http://github.com/iisgiua/giuaschool/commit/fd2e2ad73e84158e43d9c349453b7756187404b6) - Modifica: impedisci visualizzazione di docenti sostituiti da supplente
+- [852af78d](http://github.com/iisgiua/giuaschool/commit/852af78d3c8206e9a42ffa5b5eb5fb193968c9bb) - Modifica: gestione cattedre di supplenze
+- [12107a0c](http://github.com/iisgiua/giuaschool/commit/12107a0c7770988cc89b2b5c7eea8e2569439eef) - Modifica: aggiunto campo per gestione docente sostituito in supplenza
+- [03290ea8](http://github.com/iisgiua/giuaschool/commit/03290ea8e6265d392278027bde27036a6109f1e3) - Aggiunta: pulsante per medie automatiche in proposte di voto
+- [7ccaff68](http://github.com/iisgiua/giuaschool/commit/7ccaff684d2bbb6c7742d7528fd1b39892609f37) - Fix: visualizzazione voti
+- [25d96f22](http://github.com/iisgiua/giuaschool/commit/25d96f2291ab258a625ececfcfaac5281504e6dd) - Fix tests
+- [08fd8d1d](http://github.com/iisgiua/giuaschool/commit/08fd8d1d5959a7af0431dd50f329ee6178e4fe1f) - Modifica: nuova visualizzazione voti con medie
+- [b759e160](http://github.com/iisgiua/giuaschool/commit/b759e160dc363f2b9dd9612dc9b0e8c751bcca58) - Fix: nomi allegati in circolari
+- [a6856398](http://github.com/iisgiua/giuaschool/commit/a685639899041c7fad7406efe693b9f25e52b0d0) - Modifica: visualizzazione verifiche di classe in agenda
+- [98be9985](http://github.com/iisgiua/giuaschool/commit/98be9985ba71545cf0c5c281c0a652ea1c2a1bf2) - Aggiunta API info docente
+- [35ce5038](http://github.com/iisgiua/giuaschool/commit/35ce50387796b075092be0ea20586ad9a4f937fc) - Fix: togli blocco primo periodo per moduli formativi
+- [b6bb30ba](http://github.com/iisgiua/giuaschool/commit/b6bb30ba3cf9182fa2313fdf81b32b5dce90bb27) - Modifica: nomi file allegati nelle circolari
+- [6f8aaa7c](http://github.com/iisgiua/giuaschool/commit/6f8aaa7c24bc954463c45c3fa7beb9e5de06d92a) - Fix: inserimento di assenza consecutiva già giustificata
+- [8d1f1618](http://github.com/iisgiua/giuaschool/commit/8d1f1618fc8be40596f6c3444e6e4d9c5f01fb5f) - Fix: test
+- [bd50b998](http://github.com/iisgiua/giuaschool/commit/bd50b99895e8b3b67b08ed172bd6ec3a1630e5c5) - fix test
+- [9dfa8b0f](http://github.com/iisgiua/giuaschool/commit/9dfa8b0f349aab2493dcde6f5841b5aa1ef30243) - Fix: tests
+- [9b0c00b6](http://github.com/iisgiua/giuaschool/commit/9b0c00b67b3d86679e6785a72a115b699174050c) - Fix
+- [d6d44931](http://github.com/iisgiua/giuaschool/commit/d6d449316bb09f7dd63912e6767594917b071c82) - Fix: test update
+- [eefdd956](http://github.com/iisgiua/giuaschool/commit/eefdd956cfde7352b782f027fced528eff50d6ef) - Fix: test update procedure
+- [28d5dafa](http://github.com/iisgiua/giuaschool/commit/28d5dafa4ca3573aaa2136d122eee2b5dd68a44d) - Fix test update
+- [88ef6857](http://github.com/iisgiua/giuaschool/commit/88ef685782bb672c392443f1b8105636ccc5df7b) - Fix: test
+- [877d08eb](http://github.com/iisgiua/giuaschool/commit/877d08eb8c012e89acf6c35f09302b7fbbdaa260) - Fix: modulo formativo lunghezza nome breve
+- [c7404e7c](http://github.com/iisgiua/giuaschool/commit/c7404e7c712ae50cd5bc7fa8dd8af8b94002391a) - Fix: installer
 
