@@ -10,10 +10,12 @@ nav_order: 11
 _Le modifiche seguenti non sono ancora validate né definitive:<br>se ne sconsiglia l'installazione se non in ambiente di test_
 {: .text-center .pb-5}
 
-Data e ora dell'ultimo aggiornamento: 18/07/2025 13:21
+Data e ora dell'ultimo aggiornamento: 19/07/2025 00:11
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [fa8b3409](http://github.com/iisgiua/giuaschool/commit/fa8b3409de3f91f7ac7c542c5a197ce6060acd61) - Fix test
+- [d2b0e67a](http://github.com/iisgiua/giuaschool/commit/d2b0e67a5458faeacbca2f699effddd41720b60d) - Fix: anonimizzazione file BES
 - [81bbcdd8](http://github.com/iisgiua/giuaschool/commit/81bbcdd82b0dd02f5526a2c4b688a1a9af259e4d) - Fix tests
 - [31f04cbf](http://github.com/iisgiua/giuaschool/commit/31f04cbfeabb3ee8f9e9512a3c9a009dac481378) - Fix: bacheca e test
 - [fedbf570](http://github.com/iisgiua/giuaschool/commit/fedbf5706562d35c533777cf454308e2b8a6d40f) - Fix test
