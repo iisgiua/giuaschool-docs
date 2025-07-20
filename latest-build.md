@@ -10,10 +10,11 @@ nav_order: 11
 _Le modifiche seguenti non sono ancora validate né definitive:<br>se ne sconsiglia l'installazione se non in ambiente di test_
 {: .text-center .pb-5}
 
-Data e ora dell'ultimo aggiornamento: 20/07/2025 20:18
+Data e ora dell'ultimo aggiornamento: 21/07/2025 00:53
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [cbc31a35](http://github.com/iisgiua/giuaschool/commit/cbc31a35fe9426b7316673062eb10438fe94f87d) - Modifica: cifratura su db dei dati sensibili
 - [8281f1e3](http://github.com/iisgiua/giuaschool/commit/8281f1e3f7e8a52fb628120232672919424aec37) - Fix installer
 - [f9ddc7fc](http://github.com/iisgiua/giuaschool/commit/f9ddc7fcc8810543a93e7cf9cf179817a173475c) - Fix installer
 - [fa8b3409](http://github.com/iisgiua/giuaschool/commit/fa8b3409de3f91f7ac7c542c5a197ce6060acd61) - Fix test
