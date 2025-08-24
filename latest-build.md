@@ -10,10 +10,12 @@ nav_order: 11
 _Le modifiche seguenti non sono ancora validate né definitive:<br>se ne sconsiglia l'installazione se non in ambiente di test_
 {: .text-center .pb-5}
 
-Data e ora dell'ultimo aggiornamento: 24/08/2025 10:12
+Data e ora dell'ultimo aggiornamento: 24/08/2025 12:44
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [c1cd8757](http://github.com/iisgiua/giuaschool/commit/c1cd87572bb943c950636adf5b95fa06f9c0c6f7) - Fix test
+- [1ff7b2f1](http://github.com/iisgiua/giuaschool/commit/1ff7b2f11d61d8f169f08b335f95e60e39ab17ad) - Modifica: elimina log inutile
 - [e28da88e](http://github.com/iisgiua/giuaschool/commit/e28da88e14319fc2a5da01ae53273746018a0b30) - Fix tests
 - [10343a8e](http://github.com/iisgiua/giuaschool/commit/10343a8e67a07e3813885619349de24f400f6684) - Fix: firma registro con annotazioni senza avvisi
 - [9604e998](http://github.com/iisgiua/giuaschool/commit/9604e998f60e55859bb72192356c6c55889debd8) - Fix: gestione avvisi
