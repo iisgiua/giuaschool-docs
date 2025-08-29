@@ -10,10 +10,14 @@ nav_order: 11
 _Le modifiche seguenti non sono ancora validate né definitive:<br>se ne sconsiglia l'installazione se non in ambiente di test_
 {: .text-center .pb-5}
 
-Data e ora dell'ultimo aggiornamento: 24/08/2025 12:44
+Data e ora dell'ultimo aggiornamento: 29/08/2025 13:18
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [27fb5c23](http://github.com/iisgiua/giuaschool/commit/27fb5c23058f59419e61029a2f446d436e5d80ff) - Fix tests
+- [00586377](http://github.com/iisgiua/giuaschool/commit/005863771d1bb18c8bebc09175e219b2edc29113) - Fix tests
+- [8cb7f419](http://github.com/iisgiua/giuaschool/commit/8cb7f4199667cb5f00daef4c2a00965fed8ca8ed) - Fix tests
+- [7e9e97d3](http://github.com/iisgiua/giuaschool/commit/7e9e97d3fee9e24da18d9dbed76adaa987cb9c16) - Aggiunti test
 - [c1cd8757](http://github.com/iisgiua/giuaschool/commit/c1cd87572bb943c950636adf5b95fa06f9c0c6f7) - Fix test
 - [1ff7b2f1](http://github.com/iisgiua/giuaschool/commit/1ff7b2f11d61d8f169f08b335f95e60e39ab17ad) - Modifica: elimina log inutile
 - [e28da88e](http://github.com/iisgiua/giuaschool/commit/e28da88e14319fc2a5da01ae53273746018a0b30) - Fix tests
