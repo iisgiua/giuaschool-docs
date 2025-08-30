@@ -10,10 +10,12 @@ nav_order: 11
 _Le modifiche seguenti non sono ancora validate né definitive:<br>se ne sconsiglia l'installazione se non in ambiente di test_
 {: .text-center .pb-5}
 
-Data e ora dell'ultimo aggiornamento: 29/08/2025 13:18
+Data e ora dell'ultimo aggiornamento: 30/08/2025 09:21
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [f987a16e](http://github.com/iisgiua/giuaschool/commit/f987a16efe3201b0ced5a786d372af39f270817f) - Fix tests
+- [6f345dd9](http://github.com/iisgiua/giuaschool/commit/6f345dd9c636bb88200675897160ef075ca04503) - Update: Map parameter in controller
 - [27fb5c23](http://github.com/iisgiua/giuaschool/commit/27fb5c23058f59419e61029a2f446d436e5d80ff) - Fix tests
 - [00586377](http://github.com/iisgiua/giuaschool/commit/005863771d1bb18c8bebc09175e219b2edc29113) - Fix tests
 - [8cb7f419](http://github.com/iisgiua/giuaschool/commit/8cb7f4199667cb5f00daef4c2a00965fed8ca8ed) - Fix tests
