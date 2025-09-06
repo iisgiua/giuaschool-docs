@@ -10,10 +10,16 @@ nav_order: 11
 _Le modifiche seguenti non sono ancora validate né definitive:<br>se ne sconsiglia l'installazione se non in ambiente di test_
 {: .text-center .pb-5}
 
-**Data e ora dell'ultimo aggiornamento:** `TZ='Europe/Rome' date +'%d/%m/%Y %H:%M'`
+**Data e ora dell'ultimo aggiornamento: 06/09/2025 23:57**
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [0586d498](http://github.com/iisgiua/giuaschool/commit/0586d498945fe010bb9ddac4dc2274d5c2d9a928) - Fix tests
+- [a901c307](http://github.com/iisgiua/giuaschool/commit/a901c30761f0044838da85c059843351f8f6789f) - Fix tests
+- [89a87b62](http://github.com/iisgiua/giuaschool/commit/89a87b625ca842e9218a6b0264cf0ad356dfa256) - Fix tests
+- [45cb246e](http://github.com/iisgiua/giuaschool/commit/45cb246e2444d06f68678cb35d7eb00a18986600) - Fix docker
+- [1f245170](http://github.com/iisgiua/giuaschool/commit/1f24517069315cb65bb2943a411f64eed67bcbb2) - Fix docker
+- [cb13a78d](http://github.com/iisgiua/giuaschool/commit/cb13a78d128b09730211a0451321439119c5151a) - Fix GHA & docker
 - [b853ba19](http://github.com/iisgiua/giuaschool/commit/b853ba19a131085744277f48d50a29c5d26c7671) - Fix tests
 - [dfb1e67e](http://github.com/iisgiua/giuaschool/commit/dfb1e67e9b2dc46732f57155f608116cf9b4f964) - Fix tests
 - [9495f756](http://github.com/iisgiua/giuaschool/commit/9495f7567a046f11ffac655de9c54b27ee07c464) - Fix tests
