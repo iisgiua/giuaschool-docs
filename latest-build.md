@@ -10,10 +10,12 @@ nav_order: 11
 _Le modifiche seguenti non sono ancora validate né definitive:<br>se ne sconsiglia l'installazione se non in ambiente di test_
 {: .text-center .pb-5}
 
-**Data e ora dell'ultimo aggiornamento: 08/09/2025 08:30**
+**Data e ora dell'ultimo aggiornamento: 19/09/2025 00:52**
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [c624a977](http://github.com/iisgiua/giuaschool/commit/c624a977a018504a9c37ac466b80991ffedc8b26) - Fix agenda
+- [6f0f2915](http://github.com/iisgiua/giuaschool/commit/6f0f291596f17ae3b9b90f6a896dc3d7fc01e91a) - Fix scrutini e agenda
 - [55ad3b55](http://github.com/iisgiua/giuaschool/commit/55ad3b55f7359ef2d99dc559e9c7277318b17bf2) - Fix docker
 - [c185ffce](http://github.com/iisgiua/giuaschool/commit/c185ffce57727bab6ae44184ca0261b8e412b33c) - Fix docker
 - [2a654e99](http://github.com/iisgiua/giuaschool/commit/2a654e99ab49b0cd688518be838be954587ca2ce) - Change GHA
