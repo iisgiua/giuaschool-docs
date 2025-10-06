@@ -10,10 +10,12 @@ nav_order: 11
 _Le modifiche seguenti non sono ancora validate né definitive:<br>se ne sconsiglia l'installazione se non in ambiente di test_
 {: .text-center .pb-5}
 
-**Data e ora dell'ultimo aggiornamento: 02/10/2025 23:49**
+**Data e ora dell'ultimo aggiornamento: 06/10/2025 13:23**
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [36e0e70f](http://github.com/iisgiua/giuaschool/commit/36e0e70f14c3a4da858dc22b4b7d296c7ce7b255) - Fix installazione
+- [17bbe31a](http://github.com/iisgiua/giuaschool/commit/17bbe31aecccb998e64f5e8e705ad975966b2df4) - Modifca: configurazione pagina voti
 - [72c04f44](http://github.com/iisgiua/giuaschool/commit/72c04f44ed6207ef17fcd7d442c93dbb0dc1d03d) - Fix: notifiche
 - [aedce292](http://github.com/iisgiua/giuaschool/commit/aedce2925c1bdb065c1d155fcb470173c37ab4fe) - Fix repository e visualizza classi di avvisi
 - [981528f5](http://github.com/iisgiua/giuaschool/commit/981528f55a0fdfecaced7ae7fc04ebab53f05b34) - Fix: SQL mode full_group
