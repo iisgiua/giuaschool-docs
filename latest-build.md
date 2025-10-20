@@ -10,10 +10,11 @@ nav_order: 11
 _Le modifiche seguenti non sono ancora validate né definitive:<br>se ne sconsiglia l'installazione se non in ambiente di test_
 {: .text-center .pb-5}
 
-**Data e ora dell'ultimo aggiornamento: 14/10/2025 19:05**
+**Data e ora dell'ultimo aggiornamento: 20/10/2025 23:43**
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [2a5de84f](http://github.com/iisgiua/giuaschool/commit/2a5de84fe7c0bdd1551a9c1d38902e62bcd21900) - Fix: SQL constraint error in log subscriber
 - [7694caae](http://github.com/iisgiua/giuaschool/commit/7694caaee2a1de25607ba4305f790bc9ae7d082d) - Fix: voti su ritardo, e altri minori
 - [36e0e70f](http://github.com/iisgiua/giuaschool/commit/36e0e70f14c3a4da858dc22b4b7d296c7ce7b255) - Fix installazione
 - [17bbe31a](http://github.com/iisgiua/giuaschool/commit/17bbe31aecccb998e64f5e8e705ad975966b2df4) - Modifca: configurazione pagina voti
