@@ -10,10 +10,14 @@ nav_order: 11
 _Le modifiche seguenti non sono ancora validate né definitive:<br>se ne sconsiglia l'installazione se non in ambiente di test_
 {: .text-center .pb-5}
 
-**Data e ora dell'ultimo aggiornamento: 01/11/2025 20:44**
+**Data e ora dell'ultimo aggiornamento: 08/11/2025 12:03**
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [99c2dd62](http://github.com/iisgiua/giuaschool/commit/99c2dd62f271e4eda36ebc242ad561f1c72da32b) - Fix tests
+- [e5d0b8d7](http://github.com/iisgiua/giuaschool/commit/e5d0b8d792990bb6bbab9f8126794f3f2ffff7b8) - Fix minori
+- [8b34520e](http://github.com/iisgiua/giuaschool/commit/8b34520ea13f55b48ecb25644380822174f3b35a) - Fix: visualizzazione filtro utenti avvisi/circolari
+- [75b2929f](http://github.com/iisgiua/giuaschool/commit/75b2929fa547649f128b5fbdfc6222b4345ce3fe) - Fix: da PCTO a FSL
 - [0629e62a](http://github.com/iisgiua/giuaschool/commit/0629e62a5dd36fac3c0b0fa48918553d52f139e8) - Modifica: gestione colloqui per docenti su più sedi
 - [2a5de84f](http://github.com/iisgiua/giuaschool/commit/2a5de84fe7c0bdd1551a9c1d38902e62bcd21900) - Fix: SQL constraint error in log subscriber
 - [7694caae](http://github.com/iisgiua/giuaschool/commit/7694caaee2a1de25607ba4305f790bc9ae7d082d) - Fix: voti su ritardo, e altri minori
