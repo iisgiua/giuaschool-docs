@@ -10,10 +10,11 @@ nav_order: 11
 _Le modifiche seguenti non sono ancora validate né definitive:<br>se ne sconsiglia l'installazione se non in ambiente di test_
 {: .text-center .pb-5}
 
-**Data e ora dell'ultimo aggiornamento: 14/11/2025 21:17**
+**Data e ora dell'ultimo aggiornamento: 17/11/2025 19:21**
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [a5fed0e6](http://github.com/iisgiua/giuaschool/commit/a5fed0e6add0b0ce5f84496a911aed723f8a3955) - Nuovo: gestione evento creazione/modifica docente
 - [fcf81faa](http://github.com/iisgiua/giuaschool/commit/fcf81faa412ebcc61382786bf6c18c250a386782) - Modifica: statiche lettura per docenti su avvisi particolari
 - [99c2dd62](http://github.com/iisgiua/giuaschool/commit/99c2dd62f271e4eda36ebc242ad561f1c72da32b) - Fix tests
 - [e5d0b8d7](http://github.com/iisgiua/giuaschool/commit/e5d0b8d792990bb6bbab9f8126794f3f2ffff7b8) - Fix minori
