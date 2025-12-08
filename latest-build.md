@@ -10,10 +10,18 @@ nav_order: 11
 _Le modifiche seguenti non sono ancora validate né definitive:<br>se ne sconsiglia l'installazione se non in ambiente di test_
 {: .text-center .pb-5}
 
-**Data e ora dell'ultimo aggiornamento: 26/11/2025 16:01**
+**Data e ora dell'ultimo aggiornamento: 08/12/2025 15:33**
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [0ece06dd](http://github.com/iisgiua/giuaschool/commit/0ece06dd4e31d2768f407f45d5be7e9fe18b0b9c) - Fix registro mensile lezioni
+- [792827fd](http://github.com/iisgiua/giuaschool/commit/792827fd4de81aa46e8a14eba0497f224cebe1cf) - Fix installer
+- [222d256c](http://github.com/iisgiua/giuaschool/commit/222d256cfe7f0219ec496959109712ff5d3d0d6c) - Fix vari
+- [49eb3fde](http://github.com/iisgiua/giuaschool/commit/49eb3fde9a30eb1fdc2ad170421c285b7e2b0bcb) - Fix test
+- [5df51412](http://github.com/iisgiua/giuaschool/commit/5df51412bac556500babbd8e892c815528eebb80) - Fix: tests e installer
+- [c26224b6](http://github.com/iisgiua/giuaschool/commit/c26224b67497c6f37741bcb94fc5f151b4afbb00) - Fix: test
+- [52302a6f](http://github.com/iisgiua/giuaschool/commit/52302a6f1d5976de69bd7325cd932809ecf03550) - Fix: consultazioni
+- [1ed81728](http://github.com/iisgiua/giuaschool/commit/1ed817280d59803bf20b78b2e8cbd85bfc0168c9) - Aggiunta:  gestione consultazioni (versione base)
 - [4d9e37f6](http://github.com/iisgiua/giuaschool/commit/4d9e37f64881aeb1d09fa3468ddeebbfc34d67f2) - Fix: lettura avviso
 - [c734360a](http://github.com/iisgiua/giuaschool/commit/c734360a97b3d3a746de3b6221925b33a5d33a87) - Fix: lettura avvisi
 - [a5fed0e6](http://github.com/iisgiua/giuaschool/commit/a5fed0e6add0b0ce5f84496a911aed723f8a3955) - Nuovo: gestione evento creazione/modifica docente
