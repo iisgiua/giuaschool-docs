@@ -10,10 +10,13 @@ nav_order: 11
 _Le modifiche seguenti non sono ancora validate né definitive:<br>se ne sconsiglia l'installazione se non in ambiente di test_
 {: .text-center .pb-5}
 
-**Data e ora dell'ultimo aggiornamento: 08/12/2025 15:33**
+**Data e ora dell'ultimo aggiornamento: 17/12/2025 13:31**
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [733a2532](http://github.com/iisgiua/giuaschool/commit/733a25322f3e258c2f628bfec702f1656eabbfe3) - Fix: gestione avvisi coordinatore
+- [aa9b9205](http://github.com/iisgiua/giuaschool/commit/aa9b92054110c23bcaf3f3838501cd887e8c0775) - Fix: lista consultazioni
+- [6c3d6c9d](http://github.com/iisgiua/giuaschool/commit/6c3d6c9ddd1a59e44fc8c7f55f5d6ef17ab8985c) - Fix: gestione consultazioni
 - [0ece06dd](http://github.com/iisgiua/giuaschool/commit/0ece06dd4e31d2768f407f45d5be7e9fe18b0b9c) - Fix registro mensile lezioni
 - [792827fd](http://github.com/iisgiua/giuaschool/commit/792827fd4de81aa46e8a14eba0497f224cebe1cf) - Fix installer
 - [222d256c](http://github.com/iisgiua/giuaschool/commit/222d256cfe7f0219ec496959109712ff5d3d0d6c) - Fix vari
