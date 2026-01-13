@@ -10,10 +10,14 @@ nav_order: 11
 _Le modifiche seguenti non sono ancora validate né definitive:<br>se ne sconsiglia l'installazione se non in ambiente di test_
 {: .text-center .pb-5}
 
-**Data e ora dell'ultimo aggiornamento: 17/12/2025 13:31**
+**Data e ora dell'ultimo aggiornamento: 13/01/2026 11:20**
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [65ea6ff5](http://github.com/iisgiua/giuaschool/commit/65ea6ff57c9bc3e52db58b363ba72f59f7c4d019) - Fix test
+- [e47a9178](http://github.com/iisgiua/giuaschool/commit/e47a9178c2f2865834840af0a8f40b073ca4fc94) - fix test
+- [7e83c666](http://github.com/iisgiua/giuaschool/commit/7e83c666a0e7477beac0954f93990f227d43e116) - Aggiunta: implemetazione di base per SPID MIM
+- [8c91bf12](http://github.com/iisgiua/giuaschool/commit/8c91bf12bb081c8c8cdf5f40a6799b1e75711a38) - Aggiunta: prima parte della gestione autorizzazioni
 - [733a2532](http://github.com/iisgiua/giuaschool/commit/733a25322f3e258c2f628bfec702f1656eabbfe3) - Fix: gestione avvisi coordinatore
 - [aa9b9205](http://github.com/iisgiua/giuaschool/commit/aa9b92054110c23bcaf3f3838501cd887e8c0775) - Fix: lista consultazioni
 - [6c3d6c9d](http://github.com/iisgiua/giuaschool/commit/6c3d6c9ddd1a59e44fc8c7f55f5d6ef17ab8985c) - Fix: gestione consultazioni
