@@ -10,10 +10,14 @@ nav_order: 11
 _Le modifiche seguenti non sono ancora validate né definitive:<br>se ne sconsiglia l'installazione se non in ambiente di test_
 {: .text-center .pb-5}
 
-**Data e ora dell'ultimo aggiornamento: 13/01/2026 11:20**
+**Data e ora dell'ultimo aggiornamento: 05/02/2026 20:41**
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [2a4c846d](http://github.com/iisgiua/giuaschool/commit/2a4c846dd68647c363b987eb0dfb4ba62ceec3ad) - Fix test
+- [d6e32083](http://github.com/iisgiua/giuaschool/commit/d6e32083c16edf89c2da87dae3a68c3c70085939) - Fix test
+- [2344f5ca](http://github.com/iisgiua/giuaschool/commit/2344f5ca0a42edd80c377e95a830c062ade67470) - Fix vari
+- [696d0917](http://github.com/iisgiua/giuaschool/commit/696d09174a72672d3dae08e45e60a4dda9b5ba97) - Fix: proposte di voto
 - [65ea6ff5](http://github.com/iisgiua/giuaschool/commit/65ea6ff57c9bc3e52db58b363ba72f59f7c4d019) - Fix test
 - [e47a9178](http://github.com/iisgiua/giuaschool/commit/e47a9178c2f2865834840af0a8f40b073ca4fc94) - fix test
 - [7e83c666](http://github.com/iisgiua/giuaschool/commit/7e83c666a0e7477beac0954f93990f227d43e116) - Aggiunta: implemetazione di base per SPID MIM
