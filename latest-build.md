@@ -10,10 +10,14 @@ nav_order: 11
 _Le modifiche seguenti non sono ancora validate né definitive:<br>se ne sconsiglia l'installazione se non in ambiente di test_
 {: .text-center .pb-5}
 
-**Data e ora dell'ultimo aggiornamento: 05/02/2026 20:41**
+**Data e ora dell'ultimo aggiornamento: 10/02/2026 00:10**
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [a0bf26fd](http://github.com/iisgiua/giuaschool/commit/a0bf26fd2a4cc03824ebf8e5301d5b204aa15e56) - Fix
+- [09c3400a](http://github.com/iisgiua/giuaschool/commit/09c3400ae6832960c6e6ff75ee2a79a751321a93) - aggiunta: gestione SPID/CIE (gateway MIM)
+- [4109b3ca](http://github.com/iisgiua/giuaschool/commit/4109b3caa006b68a15af3ab75ce9032c9ed1da5d) - Fix: log listener
+- [0455aa67](http://github.com/iisgiua/giuaschool/commit/0455aa6727d8bb6e1ec518a3a274c4950e7283e4) - Fix: autenticazione SPID via gateway MIM
 - [2a4c846d](http://github.com/iisgiua/giuaschool/commit/2a4c846dd68647c363b987eb0dfb4ba62ceec3ad) - Fix test
 - [d6e32083](http://github.com/iisgiua/giuaschool/commit/d6e32083c16edf89c2da87dae3a68c3c70085939) - Fix test
 - [2344f5ca](http://github.com/iisgiua/giuaschool/commit/2344f5ca0a42edd80c377e95a830c062ade67470) - Fix vari
