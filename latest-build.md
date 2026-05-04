@@ -10,10 +10,30 @@ nav_order: 11
 _Le modifiche seguenti non sono ancora validate né definitive:<br>se ne sconsiglia l'installazione se non in ambiente di test_
 {: .text-center .pb-5}
 
-**Data e ora dell'ultimo aggiornamento: 10/02/2026 00:10**
+**Data e ora dell'ultimo aggiornamento: 04/05/2026 20:45**
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [eaba3d78](http://github.com/iisgiua/giuaschool/commit/eaba3d78cfff1c1194582dc8e45d79bae620806a) - Fix tests
+- [6137ab93](http://github.com/iisgiua/giuaschool/commit/6137ab9375c4656bd16508a5a1671d6a85771bc4) - Fix tests
+- [c0f8b445](http://github.com/iisgiua/giuaschool/commit/c0f8b445099e60c9d3c5aeb6e5b7f7ea8c925739) - Fix tests
+- [8aca030f](http://github.com/iisgiua/giuaschool/commit/8aca030f178789998c3e3bed463a61f0a4e7f642) - Fix
+- [77026e02](http://github.com/iisgiua/giuaschool/commit/77026e02161a6d2e75480ef7886114479281ef04) - Fix: supplenza per docente di sostegno
+- [11401a1e](http://github.com/iisgiua/giuaschool/commit/11401a1eb54c6d7c614e5c3cee8e714b774972ce) - Modifica: visualizzazione lezioni per i genitori
+- [97972f30](http://github.com/iisgiua/giuaschool/commit/97972f3007ab4bd3e401f59b79ac525dfc81971f) - Fix: test
+- [d5e0754e](http://github.com/iisgiua/giuaschool/commit/d5e0754e53deeb66f5f328ee991d18fd35cec401) - Fix GHA
+- [36b9868c](http://github.com/iisgiua/giuaschool/commit/36b9868c0ce4c3ed6ccdf6a7568708e6dcf94558) - Fix test
+- [f6a72357](http://github.com/iisgiua/giuaschool/commit/f6a72357ac0d93bd3a2700aa0675b0d7a256a2b9) - Fix GHA
+- [bd5a714c](http://github.com/iisgiua/giuaschool/commit/bd5a714c84cc6be0206b1f3e7a07dcb6ebdf3339) - Fix GHA and test
+- [16ff6e7c](http://github.com/iisgiua/giuaschool/commit/16ff6e7c337c5e259a8d67543481b5444760b806) - Fix action and test
+- [c9672fbe](http://github.com/iisgiua/giuaschool/commit/c9672fbeddfe14dd4bd86aca4f5039c9d5cb8e4f) - Fix: test
+- [fc62b2e1](http://github.com/iisgiua/giuaschool/commit/fc62b2e1dd45728b56585635b40b376378752ae6) - Fix test
+- [fdf5f138](http://github.com/iisgiua/giuaschool/commit/fdf5f138ff18633d21fffd90405e6274c7bc7b7e) - Fix: test
+- [de803ab4](http://github.com/iisgiua/giuaschool/commit/de803ab4c528c80a9d0087649682021d8d550a5c) - Modifica: gestione autorizzazioni
+- [e63781ed](http://github.com/iisgiua/giuaschool/commit/e63781ed9952ddf4df8a1438661e5dd6df192a24) - Fix test
+- [fe88bea3](http://github.com/iisgiua/giuaschool/commit/fe88bea30471151da2148bd9d43556740401e600) - Fix test
+- [45b60f9a](http://github.com/iisgiua/giuaschool/commit/45b60f9a9c263656e87597a6916dd12bd73175af) - Rimosso: vecchio supporto SPID
+- [70212d87](http://github.com/iisgiua/giuaschool/commit/70212d87bd1e238e7d532e704cd1528bd6fd6238) - Fix: rimozione @giua.edu.it
 - [a0bf26fd](http://github.com/iisgiua/giuaschool/commit/a0bf26fd2a4cc03824ebf8e5301d5b204aa15e56) - Fix
 - [09c3400a](http://github.com/iisgiua/giuaschool/commit/09c3400ae6832960c6e6ff75ee2a79a751321a93) - aggiunta: gestione SPID/CIE (gateway MIM)
 - [4109b3ca](http://github.com/iisgiua/giuaschool/commit/4109b3caa006b68a15af3ab75ce9032c9ed1da5d) - Fix: log listener
