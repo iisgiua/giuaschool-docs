@@ -10,10 +10,15 @@ nav_order: 11
 _Le modifiche seguenti non sono ancora validate né definitive:<br>se ne sconsiglia l'installazione se non in ambiente di test_
 {: .text-center .pb-5}
 
-**Data e ora dell'ultimo aggiornamento: 21/05/2026 14:12**
+**Data e ora dell'ultimo aggiornamento: 02/06/2026 19:57**
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [dab794e4](http://github.com/iisgiua/giuaschool/commit/dab794e4ee9650b85635db9878ef65ece4f30212) - Fix tests
+- [14a4c94d](http://github.com/iisgiua/giuaschool/commit/14a4c94d83df2ecd9369263090d15b0cc8dfbcb1) - Modifica: aggiornamento scrutinio finale alle nuova normativa
+- [b7d3683d](http://github.com/iisgiua/giuaschool/commit/b7d3683df8787eb1ee5132ced4b0c30a92855cfb) - Fix: visuallizza percentuale assenze
+- [fef7f208](http://github.com/iisgiua/giuaschool/commit/fef7f208f442f65d66d01861ad9070f5e71fce05) - Fix: visualizzazione ritardi
+- [4fb472f3](http://github.com/iisgiua/giuaschool/commit/4fb472f3deacf58a54e0de6f94976e9b49cd4c21) - Fix: scrutinio finale
 - [e6a31c61](http://github.com/iisgiua/giuaschool/commit/e6a31c611f79ea6f5f7178220da47e85ce43b16b) - Fix archiviazione
 - [2579fe56](http://github.com/iisgiua/giuaschool/commit/2579fe560505812dd601c908c604bd60aa61b985) - Fix: archiviazione registri
 - [00127a05](http://github.com/iisgiua/giuaschool/commit/00127a0575e6ecf0e9a4e2a697daa6a534af9c92) - Update GHA
