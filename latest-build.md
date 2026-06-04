@@ -10,10 +10,11 @@ nav_order: 11
 _Le modifiche seguenti non sono ancora validate né definitive:<br>se ne sconsiglia l'installazione se non in ambiente di test_
 {: .text-center .pb-5}
 
-**Data e ora dell'ultimo aggiornamento: 02/06/2026 19:57**
+**Data e ora dell'ultimo aggiornamento: 04/06/2026 18:58**
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [f3216af2](http://github.com/iisgiua/giuaschool/commit/f3216af2abd97d716101ac1eb9ceea557ff55051) - Fix: voto sospensione
 - [dab794e4](http://github.com/iisgiua/giuaschool/commit/dab794e4ee9650b85635db9878ef65ece4f30212) - Fix tests
 - [14a4c94d](http://github.com/iisgiua/giuaschool/commit/14a4c94d83df2ecd9369263090d15b0cc8dfbcb1) - Modifica: aggiornamento scrutinio finale alle nuova normativa
 - [b7d3683d](http://github.com/iisgiua/giuaschool/commit/b7d3683df8787eb1ee5132ced4b0c30a92855cfb) - Fix: visuallizza percentuale assenze
