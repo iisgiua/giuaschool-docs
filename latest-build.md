@@ -10,10 +10,14 @@ nav_order: 11
 _Le modifiche seguenti non sono ancora validate né definitive:<br>se ne sconsiglia l'installazione se non in ambiente di test_
 {: .text-center .pb-5}
 
-**Data e ora dell'ultimo aggiornamento: 04/06/2026 18:58**
+**Data e ora dell'ultimo aggiornamento: 08/06/2026 09:29**
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [5a12f36c](http://github.com/iisgiua/giuaschool/commit/5a12f36c47a2fa7f1425e41f5e8e2ca45cf02616) - Fix test
+- [ffeb75db](http://github.com/iisgiua/giuaschool/commit/ffeb75db5a1df7d9be0d93c21138130753dbe407) - Fix test
+- [549b8c66](http://github.com/iisgiua/giuaschool/commit/549b8c6659652e9a1d016b82c9fe89ababc2db87) - Fix: scrutini finali
+- [fc73e19a](http://github.com/iisgiua/giuaschool/commit/fc73e19a7fbb1686ac57a78c8f0ca17f11f99410) - Fix: scrutinio
 - [f3216af2](http://github.com/iisgiua/giuaschool/commit/f3216af2abd97d716101ac1eb9ceea557ff55051) - Fix: voto sospensione
 - [dab794e4](http://github.com/iisgiua/giuaschool/commit/dab794e4ee9650b85635db9878ef65ece4f30212) - Fix tests
 - [14a4c94d](http://github.com/iisgiua/giuaschool/commit/14a4c94d83df2ecd9369263090d15b0cc8dfbcb1) - Modifica: aggiornamento scrutinio finale alle nuova normativa
