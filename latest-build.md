@@ -10,10 +10,12 @@ nav_order: 11
 _Le modifiche seguenti non sono ancora validate né definitive:<br>se ne sconsiglia l'installazione se non in ambiente di test_
 {: .text-center .pb-5}
 
-**Data e ora dell'ultimo aggiornamento: 26/06/2026 19:35**
+**Data e ora dell'ultimo aggiornamento: 30/06/2026 19:54**
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [3a408d21](http://github.com/iisgiua/giuaschool/commit/3a408d219f9d97a37ac4a9a28d4346586f5ca477) - Fix: procedura nuovo anno
+- [a63782ee](http://github.com/iisgiua/giuaschool/commit/a63782eec78e5e857793bb2a3aa32c6562b233c8) - Fix: creazione registro con moduli formativi
 - [df9f2e07](http://github.com/iisgiua/giuaschool/commit/df9f2e075a3d272bfedf9f7ad837c5c3a28b9279) - Fix: archiviazione e scrutini
 - [5a12f36c](http://github.com/iisgiua/giuaschool/commit/5a12f36c47a2fa7f1425e41f5e8e2ca45cf02616) - Fix test
 - [ffeb75db](http://github.com/iisgiua/giuaschool/commit/ffeb75db5a1df7d9be0d93c21138130753dbe407) - Fix test
