@@ -10,10 +10,11 @@ nav_order: 11
 _Le modifiche seguenti non sono ancora validate né definitive:<br>se ne sconsiglia l'installazione se non in ambiente di test_
 {: .text-center .pb-5}
 
-**Data e ora dell'ultimo aggiornamento: 01/07/2026 10:26**
+**Data e ora dell'ultimo aggiornamento: 01/07/2026 11:50**
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [b4c40293](http://github.com/iisgiua/giuaschool/commit/b4c40293fcb4dff9c6b4aca630cd52f4b0cd98b2) - Fix: scrutinio giudizio sospeso
 - [38387638](http://github.com/iisgiua/giuaschool/commit/38387638b4e523c27df8a8413869ec8c76a4d47f) - Aggiornamento dipendenze
 - [3a408d21](http://github.com/iisgiua/giuaschool/commit/3a408d219f9d97a37ac4a9a28d4346586f5ca477) - Fix: procedura nuovo anno
 - [a63782ee](http://github.com/iisgiua/giuaschool/commit/a63782eec78e5e857793bb2a3aa32c6562b233c8) - Fix: creazione registro con moduli formativi
