@@ -2,7 +2,7 @@
 layout: default
 title: Ritardi e uscite
 parent: Procedure
-nav_order: 4
+nav_order: 6
 ---
 
 # Gestione dei ritardi e delle uscite anticipate

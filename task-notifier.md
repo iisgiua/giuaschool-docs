@@ -2,7 +2,7 @@
 layout: default
 title: Gestione notifiche
 parent: Procedure
-nav_order: 6
+nav_order: 8
 ---
 
 # Gestione delle notifiche
