@@ -10,10 +10,11 @@ nav_order: 11
 _Le modifiche seguenti non sono ancora validate né definitive:<br>se ne sconsiglia l'installazione se non in ambiente di test_
 {: .text-center .pb-5}
 
-**Data e ora dell'ultimo aggiornamento: 08/08/2026 17:44**
+**Data e ora dell'ultimo aggiornamento: 10/08/2026 11:50**
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [f87e6fc8](http://github.com/iisgiua/giuaschool/commit/f87e6fc87f848a52b84eec06b088037f35d4ee7e) - Modifica: gestione RSPP
 - [c7ff1997](http://github.com/iisgiua/giuaschool/commit/c7ff1997a6e2a5988e734bf22e4227fed7917b94) - Fix
 - [184fb9ab](http://github.com/iisgiua/giuaschool/commit/184fb9ab377fec244422269a46bf880d1d28c1f6) - Fix: cancellazione vecchio SPID
 - [7e15c8b3](http://github.com/iisgiua/giuaschool/commit/7e15c8b3f546ed3ee1c0ba01c02fe6f49fc0f904) - Fix installation
