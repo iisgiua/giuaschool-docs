@@ -10,10 +10,12 @@ nav_order: 11
 _Le modifiche seguenti non sono ancora validate né definitive:<br>se ne sconsiglia l'installazione se non in ambiente di test_
 {: .text-center .pb-5}
 
-**Data e ora dell'ultimo aggiornamento: 15/08/2026 10:38**
+**Data e ora dell'ultimo aggiornamento: 17/08/2026 12:35**
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [6569ee44](http://github.com/iisgiua/giuaschool/commit/6569ee44bf31cb73e779f36cfbb89be65576e703) - Fix: tests
+- [aa4ebbea](http://github.com/iisgiua/giuaschool/commit/aa4ebbea9df1276e3bc8fda31332c5db019be66f) - Modifica: login speciale
 - [f28f7144](http://github.com/iisgiua/giuaschool/commit/f28f71443b7618f4ec683e6eb762f98be9cc84ca) - Modifica: campo per il login speciale
 - [b6d2d32c](http://github.com/iisgiua/giuaschool/commit/b6d2d32c8f2891fc32802eca772c2490c450c028) - Fix: installazione
 - [f87e6fc8](http://github.com/iisgiua/giuaschool/commit/f87e6fc87f848a52b84eec06b088037f35d4ee7e) - Modifica: gestione RSPP
