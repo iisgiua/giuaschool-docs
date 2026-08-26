@@ -10,10 +10,13 @@ nav_order: 11
 _Le modifiche seguenti non sono ancora validate né definitive:<br>se ne sconsiglia l'installazione se non in ambiente di test_
 {: .text-center .pb-5}
 
-**Data e ora dell'ultimo aggiornamento: 17/08/2026 12:35**
+**Data e ora dell'ultimo aggiornamento: 26/08/2026 20:02**
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [966754ab](http://github.com/iisgiua/giuaschool/commit/966754ab87fd8d937014220d53c0a171d5a61e97) - Fix: installation
+- [a853d2d3](http://github.com/iisgiua/giuaschool/commit/a853d2d3d94608f2e4fbfe180d83c6df358f5ec5) - Fix GHA
+- [01a04942](http://github.com/iisgiua/giuaschool/commit/01a04942f1bce91b45c600483c13c8881168d884) - Modica: gestione accesso
 - [6569ee44](http://github.com/iisgiua/giuaschool/commit/6569ee44bf31cb73e779f36cfbb89be65576e703) - Fix: tests
 - [aa4ebbea](http://github.com/iisgiua/giuaschool/commit/aa4ebbea9df1276e3bc8fda31332c5db019be66f) - Modifica: login speciale
 - [f28f7144](http://github.com/iisgiua/giuaschool/commit/f28f71443b7618f4ec683e6eb762f98be9cc84ca) - Modifica: campo per il login speciale
