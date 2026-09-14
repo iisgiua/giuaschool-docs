@@ -10,10 +10,15 @@ nav_order: 11
 _Le modifiche seguenti non sono ancora validate né definitive:<br>se ne sconsiglia l'installazione se non in ambiente di test_
 {: .text-center .pb-5}
 
-**Data e ora dell'ultimo aggiornamento: 04/09/2026 12:27**
+**Data e ora dell'ultimo aggiornamento: 14/09/2026 18:43**
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [7bd609fb](http://github.com/iisgiua/giuaschool/commit/7bd609fb3ea727190e456493d94cfb2942308790) - Fix: test
+- [855fe5eb](http://github.com/iisgiua/giuaschool/commit/855fe5eb43665f4a767fb82b5bc93853f226ac4c) - Fix test
+- [9dd676e9](http://github.com/iisgiua/giuaschool/commit/9dd676e9b31dcee7baf8c4fb3c95785a534b0ace) - Fix test
+- [f266e347](http://github.com/iisgiua/giuaschool/commit/f266e3471d9f094d6c85fe3899940314681f2d50) - Fix test
+- [d67c1edd](http://github.com/iisgiua/giuaschool/commit/d67c1edda4b240900777e7fc22e2ee845727c5cd) - Modifica: nuova procedura di accesso da app
 - [f1994ad9](http://github.com/iisgiua/giuaschool/commit/f1994ad9c8e463f5fdfa28a94003d12a13eeee2d) - Fix: installazione
 - [a893f13d](http://github.com/iisgiua/giuaschool/commit/a893f13d1c8469e09bdd0e06ef74032a1f9c6e3f) - Fix test
 - [40e37458](http://github.com/iisgiua/giuaschool/commit/40e3745839aaf75800a46ea88a9a544998849965) - Fix tests
