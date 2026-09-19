@@ -10,10 +10,15 @@ nav_order: 11
 _Le modifiche seguenti non sono ancora validate né definitive:<br>se ne sconsiglia l'installazione se non in ambiente di test_
 {: .text-center .pb-5}
 
-**Data e ora dell'ultimo aggiornamento: 15/09/2026 08:52**
+**Data e ora dell'ultimo aggiornamento: 19/09/2026 10:51**
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [4bcee070](http://github.com/iisgiua/giuaschool/commit/4bcee070469e8ffba1199e5f833d082da8fc5ce0) - Fix
+- [b3ffe280](http://github.com/iisgiua/giuaschool/commit/b3ffe280fa80056eb9c526d5f9a808ede5bf5786) - Fix: chiamata AJAX
+- [77f63293](http://github.com/iisgiua/giuaschool/commit/77f632936b8e31e2b69a564f3b2fae972796fcea) - Fix: ancora chiamata AJAX
+- [45d1400d](http://github.com/iisgiua/giuaschool/commit/45d1400d5ebe7501f8cd5fd36c7596aec83c83f0) - fix: chiamata AJAX
+- [41ebf59b](http://github.com/iisgiua/giuaschool/commit/41ebf59b6517ea5ad9b5c1151438868398bad297) - Fix: firma registro su supplenza
 - [c2588392](http://github.com/iisgiua/giuaschool/commit/c25883927d3b2990bc5598ed9c9093983a7a5e51) - Fix: test
 - [7bd609fb](http://github.com/iisgiua/giuaschool/commit/7bd609fb3ea727190e456493d94cfb2942308790) - Fix: test
 - [855fe5eb](http://github.com/iisgiua/giuaschool/commit/855fe5eb43665f4a767fb82b5bc93853f226ac4c) - Fix test
