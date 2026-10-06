@@ -10,10 +10,11 @@ nav_order: 11
 _Le modifiche seguenti non sono ancora validate né definitive:<br>se ne sconsiglia l'installazione se non in ambiente di test_
 {: .text-center .pb-5}
 
-**Data e ora dell'ultimo aggiornamento: 19/09/2026 10:51**
+**Data e ora dell'ultimo aggiornamento: 06/10/2026 18:32**
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [b21e7494](http://github.com/iisgiua/giuaschool/commit/b21e749479c7e666b0590128bccd35e746684248) - Modifica: gestione SPID
 - [4bcee070](http://github.com/iisgiua/giuaschool/commit/4bcee070469e8ffba1199e5f833d082da8fc5ce0) - Fix
 - [b3ffe280](http://github.com/iisgiua/giuaschool/commit/b3ffe280fa80056eb9c526d5f9a808ede5bf5786) - Fix: chiamata AJAX
 - [77f63293](http://github.com/iisgiua/giuaschool/commit/77f632936b8e31e2b69a564f3b2fae972796fcea) - Fix: ancora chiamata AJAX
