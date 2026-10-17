@@ -10,10 +10,12 @@ nav_order: 11
 _Le modifiche seguenti non sono ancora validate né definitive:<br>se ne sconsiglia l'installazione se non in ambiente di test_
 {: .text-center .pb-5}
 
-**Data e ora dell'ultimo aggiornamento: 06/10/2026 18:32**
+**Data e ora dell'ultimo aggiornamento: 17/10/2026 23:42**
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [6512d8b7](http://github.com/iisgiua/giuaschool/commit/6512d8b75e4a385d1a5de7926bbdcc4060d90d2d) - Modifiche: nuova autenticazione da app
+- [27d04619](http://github.com/iisgiua/giuaschool/commit/27d0461940cb546ba3c0393c394d58e3ed2749f8) - Modica: gestione app
 - [b21e7494](http://github.com/iisgiua/giuaschool/commit/b21e749479c7e666b0590128bccd35e746684248) - Modifica: gestione SPID
 - [4bcee070](http://github.com/iisgiua/giuaschool/commit/4bcee070469e8ffba1199e5f833d082da8fc5ce0) - Fix
 - [b3ffe280](http://github.com/iisgiua/giuaschool/commit/b3ffe280fa80056eb9c526d5f9a808ede5bf5786) - Fix: chiamata AJAX
