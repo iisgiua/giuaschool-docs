@@ -10,10 +10,11 @@ nav_order: 11
 _Le modifiche seguenti non sono ancora validate né definitive:<br>se ne sconsiglia l'installazione se non in ambiente di test_
 {: .text-center .pb-5}
 
-**Data e ora dell'ultimo aggiornamento: 28/10/2026 12:34**
+**Data e ora dell'ultimo aggiornamento: 31/10/2026 10:05**
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [a99ab035](http://github.com/iisgiua/giuaschool/commit/a99ab035b119cabea7f238fd1be262a26bd19ad0) - Fix: assegnazioni evacuazione
 - [9af74dfd](http://github.com/iisgiua/giuaschool/commit/9af74dfda7da67a3dbbe44da465f52d157c5377c) - Fix: provisioning
 - [9a957a50](http://github.com/iisgiua/giuaschool/commit/9a957a507076775f0a095a48a3613e5242c341c0) - Aggiunta: gestione designazione evacuazione
 - [6512d8b7](http://github.com/iisgiua/giuaschool/commit/6512d8b75e4a385d1a5de7926bbdcc4060d90d2d) - Modifiche: nuova autenticazione da app
