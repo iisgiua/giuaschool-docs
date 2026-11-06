@@ -10,10 +10,11 @@ nav_order: 11
 _Le modifiche seguenti non sono ancora validate né definitive:<br>se ne sconsiglia l'installazione se non in ambiente di test_
 {: .text-center .pb-5}
 
-**Data e ora dell'ultimo aggiornamento: 02/11/2026 09:57**
+**Data e ora dell'ultimo aggiornamento: 06/11/2026 20:11**
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [6e5030fa](http://github.com/iisgiua/giuaschool/commit/6e5030fa31dec74586885d7c54470c9462896f30) - Aggiorna controller, installer e traduzioni
 - [3dc56921](http://github.com/iisgiua/giuaschool/commit/3dc56921fdb07c6a795498bd79090f45c3189158) - Fix: install
 - [a99ab035](http://github.com/iisgiua/giuaschool/commit/a99ab035b119cabea7f238fd1be262a26bd19ad0) - Fix: assegnazioni evacuazione
 - [9af74dfd](http://github.com/iisgiua/giuaschool/commit/9af74dfda7da67a3dbbe44da465f52d157c5377c) - Fix: provisioning
