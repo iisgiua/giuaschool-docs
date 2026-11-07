@@ -10,10 +10,12 @@ nav_order: 11
 _Le modifiche seguenti non sono ancora validate né definitive:<br>se ne sconsiglia l'installazione se non in ambiente di test_
 {: .text-center .pb-5}
 
-**Data e ora dell'ultimo aggiornamento: 07/11/2026 19:27**
+**Data e ora dell'ultimo aggiornamento: 07/11/2026 20:33**
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [80c9d901](http://github.com/iisgiua/giuaschool/commit/80c9d901f0b7c3ebe9c0a64e533abbd31a1e120d) - sicurezza: rimozione dell'header X-Powered-By
+- [c58efeba](http://github.com/iisgiua/giuaschool/commit/c58efeba9d6443dd9a91ae3ea61af5b2bb603474) - Allegati: verifica PDF reale con finfo/mime_content_type e rispostaAllegato per inline/download
 - [2d02a58c](http://github.com/iisgiua/giuaschool/commit/2d02a58c51504df12936949708056d7d68ed6d72) - Rimuove le query Uscita duplicate in giustifiche
 - [0795bef6](http://github.com/iisgiua/giuaschool/commit/0795bef658a6038ae21af93658eec39a3b765ecd) - Corregge il conteggio delle uscite nel riepilogo mensile
 - [65226e4f](http://github.com/iisgiua/giuaschool/commit/65226e4f79d82a7dac49d50604fc7c74fc9cea3f) - Aggiunge noopener alla finestra di logout
