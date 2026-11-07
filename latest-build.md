@@ -10,10 +10,12 @@ nav_order: 11
 _Le modifiche seguenti non sono ancora validate né definitive:<br>se ne sconsiglia l'installazione se non in ambiente di test_
 {: .text-center .pb-5}
 
-**Data e ora dell'ultimo aggiornamento: 06/11/2026 20:11**
+**Data e ora dell'ultimo aggiornamento: 07/11/2026 13:40**
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [65226e4f](http://github.com/iisgiua/giuaschool/commit/65226e4f79d82a7dac49d50604fc7c74fc9cea3f) - Aggiunge noopener alla finestra di logout
+- [0e906e29](http://github.com/iisgiua/giuaschool/commit/0e906e2915bafa35fdef987d95e42db049e8f6d6) - Corregge l'escaping dei valori nelle esportazioni CSV
 - [6e5030fa](http://github.com/iisgiua/giuaschool/commit/6e5030fa31dec74586885d7c54470c9462896f30) - Aggiorna controller, installer e traduzioni
 - [3dc56921](http://github.com/iisgiua/giuaschool/commit/3dc56921fdb07c6a795498bd79090f45c3189158) - Fix: install
 - [a99ab035](http://github.com/iisgiua/giuaschool/commit/a99ab035b119cabea7f238fd1be262a26bd19ad0) - Fix: assegnazioni evacuazione
