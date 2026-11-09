@@ -10,10 +10,14 @@ nav_order: 11
 _Le modifiche seguenti non sono ancora validate né definitive:<br>se ne sconsiglia l'installazione se non in ambiente di test_
 {: .text-center .pb-5}
 
-**Data e ora dell'ultimo aggiornamento: 07/11/2026 20:33**
+**Data e ora dell'ultimo aggiornamento: 09/11/2026 16:00**
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [40b500a3](http://github.com/iisgiua/giuaschool/commit/40b500a302f3589e6df62fe5aa9e458e6d519544) - Colloqui: enable/disdetta tornano a GET con token in query, prenotazione con transazione e lock pessimistico, messaggio posti esauriti
+- [f071287c](http://github.com/iisgiua/giuaschool/commit/f071287c8540591930ad66c9107b43b1a70774e9) - CSRF sulle azioni GET sensibili
+- [7a4cfebc](http://github.com/iisgiua/giuaschool/commit/7a4cfebcb4ca13340b90bc84e8c9327aedf85630) - CSRF sulle azioni GET sensibili: token in query string per password/firma/legge/pubblica/circolari
+- [be652f1d](http://github.com/iisgiua/giuaschool/commit/be652f1d580948dad9bc25d9a988e3383c5585a6) - FileController: whitelist estensioni, token CSRF su upload/remove, gestione array file singolo
 - [80c9d901](http://github.com/iisgiua/giuaschool/commit/80c9d901f0b7c3ebe9c0a64e533abbd31a1e120d) - sicurezza: rimozione dell'header X-Powered-By
 - [c58efeba](http://github.com/iisgiua/giuaschool/commit/c58efeba9d6443dd9a91ae3ea61af5b2bb603474) - Allegati: verifica PDF reale con finfo/mime_content_type e rispostaAllegato per inline/download
 - [2d02a58c](http://github.com/iisgiua/giuaschool/commit/2d02a58c51504df12936949708056d7d68ed6d72) - Rimuove le query Uscita duplicate in giustifiche
