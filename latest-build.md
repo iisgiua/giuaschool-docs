@@ -10,10 +10,12 @@ nav_order: 11
 _Le modifiche seguenti non sono ancora validate né definitive:<br>se ne sconsiglia l'installazione se non in ambiente di test_
 {: .text-center .pb-5}
 
-**Data e ora dell'ultimo aggiornamento: 09/11/2026 20:51**
+**Data e ora dell'ultimo aggiornamento: 10/11/2026 10:06**
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [ef227175](http://github.com/iisgiua/giuaschool/commit/ef22717524774db63438a25d89503c65bb7a99b4) - Rafforza la validazione dei dati nell'installer
+- [01e1434d](http://github.com/iisgiua/giuaschool/commit/01e1434de0a72c21d8bb1a639b9920fd16cb3d97) - Usa confronti in tempo costante e un generatore crittografico
 - [faaac2cd](http://github.com/iisgiua/giuaschool/commit/faaac2cdd361d40f9c0f1b011321b9a31983723c) - Correggeva il popolamento di listaurl nel menu
 - [d9ebb036](http://github.com/iisgiua/giuaschool/commit/d9ebb0367c060cc2bf7f5e51e6fe7f28e48be5d5) - Valida il token CSRF nell'azzeramento dell'OTP dei docenti
 - [18247bf9](http://github.com/iisgiua/giuaschool/commit/18247bf961612d17cde3977910e992afe70131fd) - Repository DQL sicure: escaping output con htmlspecialchars(ENT_QUOTES) e test di regressione su Alunno/DocenteRepository
