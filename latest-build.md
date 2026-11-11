@@ -10,10 +10,23 @@ nav_order: 11
 _Le modifiche seguenti non sono ancora validate né definitive:<br>se ne sconsiglia l'installazione se non in ambiente di test_
 {: .text-center .pb-5}
 
-**Data e ora dell'ultimo aggiornamento: 10/11/2026 10:06**
+**Data e ora dell'ultimo aggiornamento: 11/11/2026 14:31**
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [62f18abd](http://github.com/iisgiua/giuaschool/commit/62f18abd1c05b182403d7f55ae7b38c81c47be79) - Fix: procedura di aggiornamento
+- [60dfc010](http://github.com/iisgiua/giuaschool/commit/60dfc0108fa4f46f9dbf5798c68474e61d9dedcf) - Fix: template di default per il verbale
+- [32e3af6f](http://github.com/iisgiua/giuaschool/commit/32e3af6f82724e4a1abdb6576e7a051a014eaeaf) - controller/entity: null guard su classe e cattedra, validazione payload API, timeout in scaricaUrl; PagelleUtil inizializza le liste e usa getArrayResult
+- [710afa84](http://github.com/iisgiua/giuaschool/commit/710afa84d64bef9fb55ae1009820fff2427fba8e) - pagelle: accesso nullable a scrutinio/presenze e fallback template verbale
+- [0df70791](http://github.com/iisgiua/giuaschool/commit/0df707913ada18acaff70b18babffd9ec3d0ba55) - Coordinatore: inizializza configErrore; DocumentiController: controllo null su alunno prima di ricostruire percorso storico
+- [659d1582](http://github.com/iisgiua/giuaschool/commit/659d1582644664cc0e82afdb7483c97b3fdb29fc) - PagelleUtil: throw su periodo non gestito; PdfManager: try/catch su writeHTML per evitare errori TCPDF opachi
+- [0e8c2534](http://github.com/iisgiua/giuaschool/commit/0e8c2534a2367cb780ecee4539fc45b402793ae9) - sicurezza: richiesta password per disattivare OTP
+- [edbefb3a](http://github.com/iisgiua/giuaschool/commit/edbefb3a25c6cc3a37ae1d408680f634fd359294) - MessageType: formattaMessaggio sicuro con htmlspecialchars e traduzioni correlate
+- [b8ec3afc](http://github.com/iisgiua/giuaschool/commit/b8ec3afcf209c571b4b37fe9cfe00b074e76f251) - SistemaController: manutenzione cache/logout/debug POST con token e aggiorna step>0 con token CSRF in query
+- [9a5fbb5d](http://github.com/iisgiua/giuaschool/commit/9a5fbb5dada983824a0571204eaf805b95dfd36e) - Fix install
+- [28cc15f2](http://github.com/iisgiua/giuaschool/commit/28cc15f284a5babbab564fade45981d16156938f) - install/updater: parametri scalari validati, escape del file .env, percorsi assoluti e file SQL verificati
+- [3c7135e0](http://github.com/iisgiua/giuaschool/commit/3c7135e0d64a4c36308362db7dbc5ef52cba1ab2) - install/updater: procedure come Closure invece di eval()
+- [7b5a6fde](http://github.com/iisgiua/giuaschool/commit/7b5a6fde4ef925d709e9b6a65522787d82c599a5) - Installer/Updater: nuovo InstallAuthException, separazione auth da errori operativi e link di ripetizione senza token prima dell'autenticazione
 - [ef227175](http://github.com/iisgiua/giuaschool/commit/ef22717524774db63438a25d89503c65bb7a99b4) - Rafforza la validazione dei dati nell'installer
 - [01e1434d](http://github.com/iisgiua/giuaschool/commit/01e1434de0a72c21d8bb1a639b9920fd16cb3d97) - Usa confronti in tempo costante e un generatore crittografico
 - [faaac2cd](http://github.com/iisgiua/giuaschool/commit/faaac2cdd361d40f9c0f1b011321b9a31983723c) - Correggeva il popolamento di listaurl nel menu
