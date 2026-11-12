@@ -10,10 +10,13 @@ nav_order: 11
 _Le modifiche seguenti non sono ancora validate né definitive:<br>se ne sconsiglia l'installazione se non in ambiente di test_
 {: .text-center .pb-5}
 
-**Data e ora dell'ultimo aggiornamento: 11/11/2026 14:31**
+**Data e ora dell'ultimo aggiornamento: 12/11/2026 16:23**
 
 Lista delle modifiche effettuate dopo il rilascio della Versione {{ site.data.version.tag }}:
 
+- [3d9d469f](http://github.com/iisgiua/giuaschool/commit/3d9d469ff1dca3f6ba433b1e106aac9808683d54) - Fix: test
+- [a46ff46a](http://github.com/iisgiua/giuaschool/commit/a46ff46ab6e0b40e01a42e9fedc77af93bac783b) - sicurezza: azioni di modifica in POST e token CSRF fuori dalla URL
+- [9acc28a1](http://github.com/iisgiua/giuaschool/commit/9acc28a15a1acbfd10073357fa8baacb64a862a6) - Richiede POST e token CSRF sulle rotte distruttive
 - [62f18abd](http://github.com/iisgiua/giuaschool/commit/62f18abd1c05b182403d7f55ae7b38c81c47be79) - Fix: procedura di aggiornamento
 - [60dfc010](http://github.com/iisgiua/giuaschool/commit/60dfc0108fa4f46f9dbf5798c68474e61d9dedcf) - Fix: template di default per il verbale
 - [32e3af6f](http://github.com/iisgiua/giuaschool/commit/32e3af6f82724e4a1abdb6576e7a051a014eaeaf) - controller/entity: null guard su classe e cattedra, validazione payload API, timeout in scaricaUrl; PagelleUtil inizializza le liste e usa getArrayResult
